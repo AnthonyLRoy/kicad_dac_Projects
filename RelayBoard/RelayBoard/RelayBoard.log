@@ -1,0 +1,155 @@
+STEP translation to Solid Edge
+Date: Tuesday,October 20,2026 06:27PM
+Source File: C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\RelayBoard\RelayBoard\RelayBoard.step
+Author: Pcbnew
+Organization: Kicad
+Source System: KiCad to STEP converter
+
+Hardware:
+Processor: Intel(R) Core(TM) i7-6700K CPU @ 4.00GHz
+Operating System: Windows 10 Professional Version:22H2 Build:19045 System Type:64-bit
+Installed Memory: 31.92 GB
+
+Software Information
+Parasolid Version: 38.0.150
+PSBodyShop Version: 38.0.111
+Step Adapter Version: 1700.0.0
+Solid Edge Version: 226.00.01.004 x64
+
+Step Import Options
+Import Faceted Bodies: On
+Import Check Bodies: Off
+Import Curves: On
+Import DoNotSave: On
+Import Multiple Bodies As Single Part File: On
+Import Optimize:Off
+Import Stitch Surfaces: On
+Import Boolean Solids: On
+Make Base Feature: On
+Simplify Geometry: On
+Import Imprint Curves: On
+Import Drive: C:
+Import Stitch Surfaces: On
+Import Surfaces: On
+Import Output Path: C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\RelayBoard\RelayBoard
+Import Enable Default Output Path: On
+Import PMI: Off
+Import As Internal Components: Off
+Import Path: 
+
+Translating to Parasolid data types...
++Begin Assembly: 1
++Created SE Assembly File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\RelayBoard\RelayBoard\RelayBoard.asm
+|--+Begin Assembly: 2
+|--+Created SE Assembly File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\RelayBoard\RelayBoard\EE2-5NU_0.asm
+|  |--+Created SE Part File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\RelayBoard\RelayBoard\IR_TEE2STD_L15W7.5H10LL1.2_0.par
+|--+Total Parts: 2
+|--+Assemblies: 0
+|--+Solid Bodies: 2
+|--+Sheet Bodies: 0
+|--+End Assembly: 2
+|--+Begin Assembly: 2
+|--+Reusing File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\RelayBoard\RelayBoard\EE2-5NU.asm
+|--+Total Parts: 0
+|--+Assemblies: 0
+|--+Solid Bodies: 0
+|--+Sheet Bodies: 0
+|--+End Assembly: 2
+|--+Begin Assembly: 2
+|--+Created SE Assembly File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\RelayBoard\RelayBoard\ULN2003ANSRE4_0.asm
+|  |--+Created SE Part File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\RelayBoard\RelayBoard\NS0016A_ASM_0.par
+|--+Total Parts: 34
+|--+Assemblies: 0
+|--+Solid Bodies: 34
+|--+Sheet Bodies: 0
+|--+End Assembly: 2
+|--+Begin Assembly: 2
+|--+Reusing File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\RelayBoard\RelayBoard\EE2-5NU.asm
+|--+Total Parts: 0
+|--+Assemblies: 0
+|--+Solid Bodies: 0
+|--+Sheet Bodies: 0
+|--+End Assembly: 2
+|--+Begin Assembly: 2
+|--+Reusing File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\RelayBoard\RelayBoard\EE2-5NU.asm
+|--+Total Parts: 0
+|--+Assemblies: 0
+|--+Solid Bodies: 0
+|--+Sheet Bodies: 0
+|--+End Assembly: 2
+|--+Begin Assembly: 2
+|--+Reusing File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\RelayBoard\RelayBoard\EE2-5NU.asm
+|--+Total Parts: 0
+|--+Assemblies: 0
+|--+Solid Bodies: 0
+|--+Sheet Bodies: 0
+|--+End Assembly: 2
+|--+Begin Assembly: 2
+|--+Created SE Assembly File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\RelayBoard\RelayBoard\PinHeader_1x06_P2.54mm_Vertical_0.asm
+|  |--+Created SE Part File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\RelayBoard\RelayBoard\PinHeader_1x06_P254mm_Vertical_0.par
+|--+Total Parts: 2
+|--+Assemblies: 0
+|--+Solid Bodies: 2
+|--+Sheet Bodies: 0
+|--+End Assembly: 2
+|--+Begin Assembly: 2
+|--+Created SE Assembly File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\RelayBoard\RelayBoard\C_0805_2012Metric_0.asm
+|  |--+Created SE Part File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\RelayBoard\RelayBoard\C_0805_2012Metric_0.par
+|--+Total Parts: 2
+|--+Assemblies: 0
+|--+Solid Bodies: 2
+|--+Sheet Bodies: 0
+|--+End Assembly: 2
+|--+Begin Assembly: 2
+|--+Created SE Assembly File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\RelayBoard\RelayBoard\LS_R976_0.asm
+|  |--+Created SE Part File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\RelayBoard\RelayBoard\LS R976-NR-1_0.par
+|--+Total Parts: 2
+|--+Assemblies: 0
+|--+Solid Bodies: 2
+|--+Sheet Bodies: 0
+|--+End Assembly: 2
+|--+Begin Assembly: 2
+|--+Created SE Assembly File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\RelayBoard\RelayBoard\PinHeader_1x03_P2.54mm_Vertical_0.asm
+|  |--+Created SE Part File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\RelayBoard\RelayBoard\PinHeader_1x03_P254mm_Vertical_0.par
+|--+Total Parts: 2
+|--+Assemblies: 0
+|--+Solid Bodies: 2
+|--+Sheet Bodies: 0
+|--+End Assembly: 2
+|--+Begin Assembly: 2
+|--+Created SE Assembly File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\RelayBoard\RelayBoard\R_0603_1608Metric_0.asm
+|  |--+Created SE Part File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\RelayBoard\RelayBoard\R_0603_1608Metric_0.par
+|--+Total Parts: 2
+|--+Assemblies: 0
+|--+Solid Bodies: 2
+|--+Sheet Bodies: 0
+|--+End Assembly: 2
+|--+Begin Assembly: 2
+|--+Reusing File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\RelayBoard\RelayBoard\EE2-5NU.asm
+|--+Total Parts: 0
+|--+Assemblies: 0
+|--+Solid Bodies: 0
+|--+Sheet Bodies: 0
+|--+End Assembly: 2
+|--+Begin Assembly: 2
+|--+Reusing File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\RelayBoard\RelayBoard\PinHeader_1x06_P2.54mm_Vertical.asm
+|--+Total Parts: 0
+|--+Assemblies: 0
+|--+Solid Bodies: 0
+|--+Sheet Bodies: 0
+|--+End Assembly: 2
+|--+Begin Assembly: 2
+|--+Reusing File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\RelayBoard\RelayBoard\PinHeader_1x06_P2.54mm_Vertical.asm
+|--+Total Parts: 0
+|--+Assemblies: 0
+|--+Solid Bodies: 0
+|--+Sheet Bodies: 0
+|--+End Assembly: 2
+|--+Created SE Part File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\RelayBoard\RelayBoard\_autosave-RelayBoard_PCB_0.par
++Total Parts: 9
++Assemblies: 7
++Solid Bodies: 2
++Sheet Bodies: 0
++End Assembly: 1
+Translation process completed
+Total time required to translate and post process:00 : 00 : 02

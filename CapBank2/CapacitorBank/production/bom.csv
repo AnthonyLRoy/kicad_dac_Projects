@@ -1,0 +1,13 @@
+﻿Designator,Footprint,Quantity,Value,LCSC Part #
+"C1, C10, C11, C12, C13, C14, C15, C16, C17, C18, C2, C20, C21, C3, C4, C5, C6, C7, C8, C9",CAPAE1030X1270N,20,875075361005,
+C19,0805,1,0.1uf,
+C22,0805,1,47u,
+D1,0603,1,LED,
+"H1, H2, H3, H4",MountingHole_3.2mm_M3,4,MountingHole,
+IC1,SON65P300X300X100-9N-D,1,TPS2556QDRBTQ1,
+"J1, J2",TerminalBlock_483132_2P_P7.62mm,2,Screw_Terminal_01x02,
+R1,0805,1,100k,
+R2,0805,1,10k,
+R3,0805,1,160k,
+R4,0805,1,1k,
+"TP1, TP2, TP3",TestPoint_Pad_1.5x1.5mm,3,TestPoint,

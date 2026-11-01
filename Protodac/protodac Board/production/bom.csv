@@ -1,0 +1,10 @@
+﻿Designator,Footprint,Quantity,Value,LCSC Part #
+"C1, C2",Clarity Cap,2,10uf,
+"C3, C4",Audio Note Kaisei POLAR,2,1000uf,
+C5,K104K20X7RK53H5G,1,0.1uf,
+"H1, H2, H3, H4",MountingHole_2.7mm_M2.5,4,MountingHole,
+"J1, J2, J3",UFLRSMT180,3,U.FL-R-SMT-1_80_,
+"J4, J5, J6",1725672,3,1725672,
+"R1, R2",Y0007400R000V0L,2,430R,
+"R3, R4, R5, R6, R7, R8",ERJH3,6,430R,
+TDA1387X8,TDA1387,1,~,

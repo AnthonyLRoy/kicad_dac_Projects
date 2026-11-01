@@ -1,0 +1,364 @@
+STEP translation to Solid Edge
+Date: Tuesday,October 20,2026 06:15PM
+Source File: C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\se_to_diff board\se_to_diff board.step
+Author: Pcbnew
+Organization: Kicad
+Source System: KiCad to STEP converter
+
+Hardware:
+Processor: Intel(R) Core(TM) i7-6700K CPU @ 4.00GHz
+Operating System: Windows 10 Professional Version:22H2 Build:19045 System Type:64-bit
+Installed Memory: 31.92 GB
+
+Software Information
+Parasolid Version: 38.0.150
+PSBodyShop Version: 38.0.111
+Step Adapter Version: 1700.0.0
+Solid Edge Version: 226.00.01.004 x64
+
+Step Import Options
+Import Faceted Bodies: On
+Import Check Bodies: Off
+Import Curves: On
+Import DoNotSave: On
+Import Multiple Bodies As Single Part File: On
+Import Optimize:Off
+Import Stitch Surfaces: On
+Import Boolean Solids: On
+Make Base Feature: On
+Simplify Geometry: On
+Import Imprint Curves: On
+Import Drive: C:
+Import Stitch Surfaces: On
+Import Surfaces: On
+Import Output Path: C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\se_to_diff board
+Import Enable Default Output Path: On
+Import PMI: Off
+Import As Internal Components: Off
+Import Path: 
+
+Translating to Parasolid data types...
++Begin Assembly: 1
++Created SE Assembly File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\se_to_diff board\se_to_diff board.asm
+|--+Begin Assembly: 2
+|--+Created SE Assembly File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\se_to_diff board\12063C106KAT2A_0.asm
+|  |--+Begin Assembly: 3
+|  |--+Created SE Assembly File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\se_to_diff board\ASSEMBLY_4.asm
+|  |  |--+Created SE Part File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\se_to_diff board\Fillet1_1.par
+|  |  |--+Created SE Part File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\se_to_diff board\Fillet2_1.par
+|  |  |--+Created SE Part File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\se_to_diff board\body2_1.par
+|  |--+Total Parts: 6
+|  |--+Assemblies: 0
+|  |--+Solid Bodies: 6
+|  |--+Sheet Bodies: 0
+|  |--+End Assembly: 3
+|--+Total Parts: 1
+|--+Assemblies: 1
+|--+Solid Bodies: 0
+|--+Sheet Bodies: 0
+|--+End Assembly: 2
+|--+Begin Assembly: 2
+|--+Created SE Assembly File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\se_to_diff board\1646S08-U_0.asm
+|  |--+Begin Assembly: 3
+|  |--+Created SE Assembly File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\se_to_diff board\ASSEMBLY_5.asm
+|  |  |--+Created SE Part File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\se_to_diff board\Body_1.par
+|  |  |--+Created SE Part File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\se_to_diff board\PinsArrayLR_0.par
+|  |--+Total Parts: 18
+|  |--+Assemblies: 0
+|  |--+Solid Bodies: 18
+|  |--+Sheet Bodies: 0
+|  |--+End Assembly: 3
+|--+Total Parts: 1
+|--+Assemblies: 1
+|--+Solid Bodies: 0
+|--+Sheet Bodies: 0
+|--+End Assembly: 2
+|--+Begin Assembly: 2
+|--+Created SE Assembly File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\se_to_diff board\1725669_0.asm
+|  |--+Begin Assembly: 3
+|  |--+Created SE Assembly File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\se_to_diff board\mpt_0.5-3-2.54_0.asm
+|  |  |--+Created SE Part File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\se_to_diff board\mpt_0.5-3-2.54_0.par
+|  |--+Total Parts: 2
+|  |--+Assemblies: 0
+|  |--+Solid Bodies: 2
+|  |--+Sheet Bodies: 0
+|  |--+End Assembly: 3
+|--+Total Parts: 1
+|--+Assemblies: 1
+|--+Solid Bodies: 0
+|--+Sheet Bodies: 0
+|--+End Assembly: 2
+|--+Begin Assembly: 2
+|--+Created SE Assembly File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\se_to_diff board\R_0603_1608Metric_0.asm
+|  |--+Created SE Part File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\se_to_diff board\R_0603_1608Metric_0.par
+|--+Total Parts: 2
+|--+Assemblies: 0
+|--+Solid Bodies: 2
+|--+Sheet Bodies: 0
+|--+End Assembly: 2
+|--+Begin Assembly: 2
+|--+Created SE Assembly File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\se_to_diff board\LS_R976_0.asm
+|  |--+Created SE Part File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\se_to_diff board\LS R976-NR-1_0.par
+|--+Total Parts: 2
+|--+Assemblies: 0
+|--+Solid Bodies: 2
+|--+Sheet Bodies: 0
+|--+End Assembly: 2
+|--+Begin Assembly: 2
+|--+Reusing File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\se_to_diff board\12063C106KAT2A.asm
+|--+Total Parts: 0
+|--+Assemblies: 0
+|--+Solid Bodies: 0
+|--+Sheet Bodies: 0
+|--+End Assembly: 2
+|--+Begin Assembly: 2
+|--+Reusing File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\se_to_diff board\LS_R976.asm
+|--+Total Parts: 0
+|--+Assemblies: 0
+|--+Solid Bodies: 0
+|--+Sheet Bodies: 0
+|--+End Assembly: 2
+|--+Begin Assembly: 2
+|--+Created SE Assembly File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\se_to_diff board\EDT476M016S9HAA_0.asm
+|  |--+Created SE Part File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\se_to_diff board\CAC_S_6.3X7.7_D6.8L8W0.75F0.3A6.8B6.8C7.8E2.8P2_0.par
+|--+Total Parts: 10
+|--+Assemblies: 0
+|--+Solid Bodies: 10
+|--+Sheet Bodies: 0
+|--+End Assembly: 2
+|--+Begin Assembly: 2
+|--+Reusing File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\se_to_diff board\12063C106KAT2A.asm
+|--+Total Parts: 0
+|--+Assemblies: 0
+|--+Solid Bodies: 0
+|--+Sheet Bodies: 0
+|--+End Assembly: 2
+|--+Begin Assembly: 2
+|--+Created SE Assembly File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\se_to_diff board\0805YC104M4T2A_0.asm
+|  |--+Begin Assembly: 3
+|  |--+Created SE Assembly File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\se_to_diff board\ASSEMBLY_6.asm
+|  |  |--+Created SE Part File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\se_to_diff board\Fillet1_2.par
+|  |  |--+Created SE Part File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\se_to_diff board\Fillet2_2.par
+|  |  |--+Created SE Part File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\se_to_diff board\body2_2.par
+|  |--+Total Parts: 6
+|  |--+Assemblies: 0
+|  |--+Solid Bodies: 6
+|  |--+Sheet Bodies: 0
+|  |--+End Assembly: 3
+|--+Total Parts: 1
+|--+Assemblies: 1
+|--+Solid Bodies: 0
+|--+Sheet Bodies: 0
+|--+End Assembly: 2
+|--+Begin Assembly: 2
+|--+Reusing File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\se_to_diff board\0805YC104M4T2A.asm
+|--+Total Parts: 0
+|--+Assemblies: 0
+|--+Solid Bodies: 0
+|--+Sheet Bodies: 0
+|--+End Assembly: 2
+|--+Begin Assembly: 2
+|--+Created SE Assembly File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\se_to_diff board\ERJ-H3EF4300V_0.asm
+|  |--+Begin Assembly: 3
+|  |--+Created SE Assembly File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\se_to_diff board\ASSEMBLY_7.asm
+|  |  |--+Created SE Part File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\se_to_diff board\solidBody_0.par
+|  |  |--+Created SE Part File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\se_to_diff board\solidLead_0.par
+|  |  |--+Created SE Part File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\se_to_diff board\solidtop_0.par
+|  |--+Total Parts: 8
+|  |--+Assemblies: 0
+|  |--+Solid Bodies: 8
+|  |--+Sheet Bodies: 0
+|  |--+End Assembly: 3
+|--+Total Parts: 1
+|--+Assemblies: 1
+|--+Solid Bodies: 0
+|--+Sheet Bodies: 0
+|--+End Assembly: 2
+|--+Begin Assembly: 2
+|--+Reusing File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\se_to_diff board\R_0603_1608Metric.asm
+|--+Total Parts: 0
+|--+Assemblies: 0
+|--+Solid Bodies: 0
+|--+Sheet Bodies: 0
+|--+End Assembly: 2
+|--+Begin Assembly: 2
+|--+Reusing File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\se_to_diff board\ERJ-H3EF4300V.asm
+|--+Total Parts: 0
+|--+Assemblies: 0
+|--+Solid Bodies: 0
+|--+Sheet Bodies: 0
+|--+End Assembly: 2
+|--+Begin Assembly: 2
+|--+Reusing File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\se_to_diff board\0805YC104M4T2A.asm
+|--+Total Parts: 0
+|--+Assemblies: 0
+|--+Solid Bodies: 0
+|--+Sheet Bodies: 0
+|--+End Assembly: 2
+|--+Begin Assembly: 2
+|--+Reusing File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\se_to_diff board\1646S08-U.asm
+|--+Total Parts: 0
+|--+Assemblies: 0
+|--+Solid Bodies: 0
+|--+Sheet Bodies: 0
+|--+End Assembly: 2
+|--+Begin Assembly: 2
+|--+Created SE Assembly File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\se_to_diff board\NFZ2MSD101SZ10L_0.asm
+|  |--+Begin Assembly: 3
+|  |--+Created SE Assembly File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\se_to_diff board\ASSEMBLY_8.asm
+|  |  |--+Created SE Part File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\se_to_diff board\term1_0.par
+|  |  |--+Created SE Part File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\se_to_diff board\term2_0.par
+|  |  |--+Created SE Part File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\se_to_diff board\body_2.par
+|  |--+Total Parts: 6
+|  |--+Assemblies: 0
+|  |--+Solid Bodies: 6
+|  |--+Sheet Bodies: 0
+|  |--+End Assembly: 3
+|--+Total Parts: 1
+|--+Assemblies: 1
+|--+Solid Bodies: 0
+|--+Sheet Bodies: 0
+|--+End Assembly: 2
+|--+Begin Assembly: 2
+|--+Reusing File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\se_to_diff board\EDT476M016S9HAA.asm
+|--+Total Parts: 0
+|--+Assemblies: 0
+|--+Solid Bodies: 0
+|--+Sheet Bodies: 0
+|--+End Assembly: 2
+|--+Begin Assembly: 2
+|--+Reusing File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\se_to_diff board\0805YC104M4T2A.asm
+|--+Total Parts: 0
+|--+Assemblies: 0
+|--+Solid Bodies: 0
+|--+Sheet Bodies: 0
+|--+End Assembly: 2
+|--+Begin Assembly: 2
+|--+Created SE Assembly File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\se_to_diff board\C_0805_2012Metric_0.asm
+|  |--+Created SE Part File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\se_to_diff board\C_0805_2012Metric_0.par
+|--+Total Parts: 2
+|--+Assemblies: 0
+|--+Solid Bodies: 2
+|--+Sheet Bodies: 0
+|--+End Assembly: 2
+|--+Begin Assembly: 2
+|--+Reusing File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\se_to_diff board\R_0603_1608Metric.asm
+|--+Total Parts: 0
+|--+Assemblies: 0
+|--+Solid Bodies: 0
+|--+Sheet Bodies: 0
+|--+End Assembly: 2
+|--+Begin Assembly: 2
+|--+Reusing File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\se_to_diff board\ERJ-H3EF4300V.asm
+|--+Total Parts: 0
+|--+Assemblies: 0
+|--+Solid Bodies: 0
+|--+Sheet Bodies: 0
+|--+End Assembly: 2
+|--+Begin Assembly: 2
+|--+Reusing File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\se_to_diff board\12063C106KAT2A.asm
+|--+Total Parts: 0
+|--+Assemblies: 0
+|--+Solid Bodies: 0
+|--+Sheet Bodies: 0
+|--+End Assembly: 2
+|--+Begin Assembly: 2
+|--+Reusing File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\se_to_diff board\C_0805_2012Metric.asm
+|--+Total Parts: 0
+|--+Assemblies: 0
+|--+Solid Bodies: 0
+|--+Sheet Bodies: 0
+|--+End Assembly: 2
+|--+Begin Assembly: 2
+|--+Reusing File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\se_to_diff board\ERJ-H3EF4300V.asm
+|--+Total Parts: 0
+|--+Assemblies: 0
+|--+Solid Bodies: 0
+|--+Sheet Bodies: 0
+|--+End Assembly: 2
+|--+Begin Assembly: 2
+|--+Reusing File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\se_to_diff board\0805YC104M4T2A.asm
+|--+Total Parts: 0
+|--+Assemblies: 0
+|--+Solid Bodies: 0
+|--+Sheet Bodies: 0
+|--+End Assembly: 2
+|--+Begin Assembly: 2
+|--+Reusing File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\se_to_diff board\1725669.asm
+|--+Total Parts: 0
+|--+Assemblies: 0
+|--+Solid Bodies: 0
+|--+Sheet Bodies: 0
+|--+End Assembly: 2
+|--+Begin Assembly: 2
+|--+Reusing File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\se_to_diff board\NFZ2MSD101SZ10L.asm
+|--+Total Parts: 0
+|--+Assemblies: 0
+|--+Solid Bodies: 0
+|--+Sheet Bodies: 0
+|--+End Assembly: 2
+|--+Begin Assembly: 2
+|--+Reusing File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\se_to_diff board\1725669.asm
+|--+Total Parts: 0
+|--+Assemblies: 0
+|--+Solid Bodies: 0
+|--+Sheet Bodies: 0
+|--+End Assembly: 2
+|--+Begin Assembly: 2
+|--+Reusing File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\se_to_diff board\NFZ2MSD101SZ10L.asm
+|--+Total Parts: 0
+|--+Assemblies: 0
+|--+Solid Bodies: 0
+|--+Sheet Bodies: 0
+|--+End Assembly: 2
+|--+Begin Assembly: 2
+|--+Reusing File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\se_to_diff board\NFZ2MSD101SZ10L.asm
+|--+Total Parts: 0
+|--+Assemblies: 0
+|--+Solid Bodies: 0
+|--+Sheet Bodies: 0
+|--+End Assembly: 2
+|--+Begin Assembly: 2
+|--+Reusing File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\se_to_diff board\R_0603_1608Metric.asm
+|--+Total Parts: 0
+|--+Assemblies: 0
+|--+Solid Bodies: 0
+|--+Sheet Bodies: 0
+|--+End Assembly: 2
+|--+Begin Assembly: 2
+|--+Reusing File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\se_to_diff board\EDT476M016S9HAA.asm
+|--+Total Parts: 0
+|--+Assemblies: 0
+|--+Solid Bodies: 0
+|--+Sheet Bodies: 0
+|--+End Assembly: 2
+|--+Begin Assembly: 2
+|--+Reusing File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\se_to_diff board\EDT476M016S9HAA.asm
+|--+Total Parts: 0
+|--+Assemblies: 0
+|--+Solid Bodies: 0
+|--+Sheet Bodies: 0
+|--+End Assembly: 2
+|--+Begin Assembly: 2
+|--+Reusing File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\se_to_diff board\1725669.asm
+|--+Total Parts: 0
+|--+Assemblies: 0
+|--+Solid Bodies: 0
+|--+Sheet Bodies: 0
+|--+End Assembly: 2
+|--+Begin Assembly: 2
+|--+Reusing File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\se_to_diff board\R_0603_1608Metric.asm
+|--+Total Parts: 0
+|--+Assemblies: 0
+|--+Solid Bodies: 0
+|--+Sheet Bodies: 0
+|--+End Assembly: 2
+|--+Created SE Part File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\se_to_diff board\se_980_silkscreen_0.par
+|--+Created SE Part File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\se_to_diff board\se_980_PCB_0.par
++Total Parts: 368
++Assemblies: 10
++Solid Bodies: 2
++Sheet Bodies: 356
++End Assembly: 1
+Translation process completed
+Total time required to translate and post process:00 : 00 : 03

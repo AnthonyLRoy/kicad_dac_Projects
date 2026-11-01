@@ -1,0 +1,363 @@
+STEP translation to Solid Edge
+Date: Monday,October 19,2026 07:19PM
+Source File: C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\Diff_to_singleEnded\Diff_to_singleEnded.step
+Author: Pcbnew
+Organization: Kicad
+Source System: KiCad to STEP converter
+
+Hardware:
+Processor: Intel(R) Core(TM) i7-6700K CPU @ 4.00GHz
+Operating System: Windows 10 Professional Version:22H2 Build:19045 System Type:64-bit
+Installed Memory: 31.92 GB
+
+Software Information
+Parasolid Version: 38.0.150
+PSBodyShop Version: 38.0.111
+Step Adapter Version: 1700.0.0
+Solid Edge Version: 226.00.01.004 x64
+
+Step Import Options
+Import Faceted Bodies: On
+Import Check Bodies: Off
+Import Curves: On
+Import DoNotSave: On
+Import Multiple Bodies As Single Part File: On
+Import Optimize:Off
+Import Stitch Surfaces: On
+Import Boolean Solids: On
+Make Base Feature: On
+Simplify Geometry: On
+Import Imprint Curves: On
+Import Drive: C:
+Import Stitch Surfaces: On
+Import Surfaces: On
+Import Output Path: C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\Diff_to_singleEnded
+Import Enable Default Output Path: On
+Import PMI: Off
+Import As Internal Components: Off
+Import Path: 
+
+Translating to Parasolid data types...
++Begin Assembly: 1
++Created SE Assembly File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\Diff_to_singleEnded\Diff_to_singleEnded.asm
+|--+Begin Assembly: 2
+|--+Created SE Assembly File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\Diff_to_singleEnded\R_0805_2012Metric_1.asm
+|  |--+Created SE Part File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\Diff_to_singleEnded\R_0805_2012Metric_1.par
+|--+Total Parts: 2
+|--+Assemblies: 0
+|--+Solid Bodies: 2
+|--+Sheet Bodies: 0
+|--+End Assembly: 2
+|--+Begin Assembly: 2
+|--+Created SE Assembly File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\Diff_to_singleEnded\C_0805_2012Metric_1.asm
+|  |--+Created SE Part File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\Diff_to_singleEnded\C_0805_2012Metric_1.par
+|--+Total Parts: 2
+|--+Assemblies: 0
+|--+Solid Bodies: 2
+|--+Sheet Bodies: 0
+|--+End Assembly: 2
+|--+Begin Assembly: 2
+|--+Created SE Assembly File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\Diff_to_singleEnded\R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal_1.asm
+|  |--+Created SE Part File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\Diff_to_singleEnded\R_Axial_DIN0309_L90mm_D32mm_P1270mm_Horizontal_1.par
+|--+Total Parts: 2
+|--+Assemblies: 0
+|--+Solid Bodies: 2
+|--+Sheet Bodies: 0
+|--+End Assembly: 2
+|--+Begin Assembly: 2
+|--+Reusing File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\Diff_to_singleEnded\C_0805_2012Metric.asm
+|--+Total Parts: 0
+|--+Assemblies: 0
+|--+Solid Bodies: 0
+|--+Sheet Bodies: 0
+|--+End Assembly: 2
+|--+Begin Assembly: 2
+|--+Reusing File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\Diff_to_singleEnded\R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal.asm
+|--+Total Parts: 0
+|--+Assemblies: 0
+|--+Solid Bodies: 0
+|--+Sheet Bodies: 0
+|--+End Assembly: 2
+|--+Begin Assembly: 2
+|--+Created SE Assembly File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\Diff_to_singleEnded\PinHeader_1x01_P1.00mm_Vertical_0.asm
+|  |--+Created SE Part File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\Diff_to_singleEnded\PinHeader_1x01_P100mm_Vertical_0.par
+|--+Total Parts: 2
+|--+Assemblies: 0
+|--+Solid Bodies: 2
+|--+Sheet Bodies: 0
+|--+End Assembly: 2
+|--+Begin Assembly: 2
+|--+Reusing File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\Diff_to_singleEnded\R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal.asm
+|--+Total Parts: 0
+|--+Assemblies: 0
+|--+Solid Bodies: 0
+|--+Sheet Bodies: 0
+|--+End Assembly: 2
+|--+Begin Assembly: 2
+|--+Reusing File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\Diff_to_singleEnded\R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal.asm
+|--+Total Parts: 0
+|--+Assemblies: 0
+|--+Solid Bodies: 0
+|--+Sheet Bodies: 0
+|--+End Assembly: 2
+|--+Begin Assembly: 2
+|--+Created SE Assembly File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\Diff_to_singleEnded\1725669_0.asm
+|  |--+Begin Assembly: 3
+|  |--+Created SE Assembly File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\Diff_to_singleEnded\mpt_0.5-3-2.54_0.asm
+|  |  |--+Created SE Part File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\Diff_to_singleEnded\mpt_0.5-3-2.54_0.par
+|  |--+Total Parts: 2
+|  |--+Assemblies: 0
+|  |--+Solid Bodies: 2
+|  |--+Sheet Bodies: 0
+|  |--+End Assembly: 3
+|--+Total Parts: 1
+|--+Assemblies: 1
+|--+Solid Bodies: 0
+|--+Sheet Bodies: 0
+|--+End Assembly: 2
+|--+Begin Assembly: 2
+|--+Reusing File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\Diff_to_singleEnded\R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal.asm
+|--+Total Parts: 0
+|--+Assemblies: 0
+|--+Solid Bodies: 0
+|--+Sheet Bodies: 0
+|--+End Assembly: 2
+|--+Begin Assembly: 2
+|--+Created SE Assembly File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\Diff_to_singleEnded\SOIC-8_3.9x4.9mm_P1.27mm_1.asm
+|  |--+Created SE Part File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\Diff_to_singleEnded\SOIC-8_3.9x4.9mm_P1.27mm_0.par
+|--+Total Parts: 2
+|--+Assemblies: 0
+|--+Solid Bodies: 2
+|--+Sheet Bodies: 0
+|--+End Assembly: 2
+|--+Begin Assembly: 2
+|--+Created SE Assembly File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\Diff_to_singleEnded\C1210C476M4PAC_1.asm
+|  |--+Created SE Part File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\Diff_to_singleEnded\CCS_CCSTDNOS_1210_L3.5W2.72T2.8B0.75_1.par
+|--+Total Parts: 8
+|--+Assemblies: 0
+|--+Solid Bodies: 8
+|--+Sheet Bodies: 0
+|--+End Assembly: 2
+|--+Begin Assembly: 2
+|--+Reusing File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\Diff_to_singleEnded\C_0805_2012Metric.asm
+|--+Total Parts: 0
+|--+Assemblies: 0
+|--+Solid Bodies: 0
+|--+Sheet Bodies: 0
+|--+End Assembly: 2
+|--+Begin Assembly: 2
+|--+Reusing File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\Diff_to_singleEnded\C_0805_2012Metric.asm
+|--+Total Parts: 0
+|--+Assemblies: 0
+|--+Solid Bodies: 0
+|--+Sheet Bodies: 0
+|--+End Assembly: 2
+|--+Begin Assembly: 2
+|--+Reusing File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\Diff_to_singleEnded\1725669.asm
+|--+Total Parts: 0
+|--+Assemblies: 0
+|--+Solid Bodies: 0
+|--+Sheet Bodies: 0
+|--+End Assembly: 2
+|--+Begin Assembly: 2
+|--+Created SE Assembly File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\Diff_to_singleEnded\PhoenixContact_MCV_1,5_3-G-3.81_1x03_P3.81mm_Vertical_0.asm
+|  |--+Created SE Part File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\Diff_to_singleEnded\MCV_01x03_G_3_81mm_0.par
+|--+Total Parts: 2
+|--+Assemblies: 0
+|--+Solid Bodies: 2
+|--+Sheet Bodies: 0
+|--+End Assembly: 2
+|--+Begin Assembly: 2
+|--+Reusing File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\Diff_to_singleEnded\R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal.asm
+|--+Total Parts: 0
+|--+Assemblies: 0
+|--+Solid Bodies: 0
+|--+Sheet Bodies: 0
+|--+End Assembly: 2
+|--+Begin Assembly: 2
+|--+Reusing File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\Diff_to_singleEnded\C_0805_2012Metric.asm
+|--+Total Parts: 0
+|--+Assemblies: 0
+|--+Solid Bodies: 0
+|--+Sheet Bodies: 0
+|--+End Assembly: 2
+|--+Begin Assembly: 2
+|--+Created SE Assembly File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\Diff_to_singleEnded\LS_R976_0.asm
+|  |--+Created SE Part File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\Diff_to_singleEnded\LS R976-NR-1_0.par
+|--+Total Parts: 2
+|--+Assemblies: 0
+|--+Solid Bodies: 2
+|--+Sheet Bodies: 0
+|--+End Assembly: 2
+|--+Begin Assembly: 2
+|--+Created SE Assembly File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\Diff_to_singleEnded\C_1206_3216Metric_1.asm
+|  |--+Created SE Part File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\Diff_to_singleEnded\C_1206_3216Metric_1.par
+|--+Total Parts: 2
+|--+Assemblies: 0
+|--+Solid Bodies: 2
+|--+Sheet Bodies: 0
+|--+End Assembly: 2
+|--+Begin Assembly: 2
+|--+Reusing File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\Diff_to_singleEnded\1725669.asm
+|--+Total Parts: 0
+|--+Assemblies: 0
+|--+Solid Bodies: 0
+|--+Sheet Bodies: 0
+|--+End Assembly: 2
+|--+Begin Assembly: 2
+|--+Reusing File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\Diff_to_singleEnded\C_0805_2012Metric.asm
+|--+Total Parts: 0
+|--+Assemblies: 0
+|--+Solid Bodies: 0
+|--+Sheet Bodies: 0
+|--+End Assembly: 2
+|--+Begin Assembly: 2
+|--+Reusing File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\Diff_to_singleEnded\R_0805_2012Metric.asm
+|--+Total Parts: 0
+|--+Assemblies: 0
+|--+Solid Bodies: 0
+|--+Sheet Bodies: 0
+|--+End Assembly: 2
+|--+Begin Assembly: 2
+|--+Reusing File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\Diff_to_singleEnded\C_0805_2012Metric.asm
+|--+Total Parts: 0
+|--+Assemblies: 0
+|--+Solid Bodies: 0
+|--+Sheet Bodies: 0
+|--+End Assembly: 2
+|--+Begin Assembly: 2
+|--+Reusing File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\Diff_to_singleEnded\C_0805_2012Metric.asm
+|--+Total Parts: 0
+|--+Assemblies: 0
+|--+Solid Bodies: 0
+|--+Sheet Bodies: 0
+|--+End Assembly: 2
+|--+Begin Assembly: 2
+|--+Reusing File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\Diff_to_singleEnded\R_0805_2012Metric.asm
+|--+Total Parts: 0
+|--+Assemblies: 0
+|--+Solid Bodies: 0
+|--+Sheet Bodies: 0
+|--+End Assembly: 2
+|--+Begin Assembly: 2
+|--+Reusing File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\Diff_to_singleEnded\R_0805_2012Metric.asm
+|--+Total Parts: 0
+|--+Assemblies: 0
+|--+Solid Bodies: 0
+|--+Sheet Bodies: 0
+|--+End Assembly: 2
+|--+Begin Assembly: 2
+|--+Reusing File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\Diff_to_singleEnded\C_0805_2012Metric.asm
+|--+Total Parts: 0
+|--+Assemblies: 0
+|--+Solid Bodies: 0
+|--+Sheet Bodies: 0
+|--+End Assembly: 2
+|--+Begin Assembly: 2
+|--+Reusing File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\Diff_to_singleEnded\R_0805_2012Metric.asm
+|--+Total Parts: 0
+|--+Assemblies: 0
+|--+Solid Bodies: 0
+|--+Sheet Bodies: 0
+|--+End Assembly: 2
+|--+Begin Assembly: 2
+|--+Reusing File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\Diff_to_singleEnded\R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal.asm
+|--+Total Parts: 0
+|--+Assemblies: 0
+|--+Solid Bodies: 0
+|--+Sheet Bodies: 0
+|--+End Assembly: 2
+|--+Begin Assembly: 2
+|--+Reusing File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\Diff_to_singleEnded\R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal.asm
+|--+Total Parts: 0
+|--+Assemblies: 0
+|--+Solid Bodies: 0
+|--+Sheet Bodies: 0
+|--+End Assembly: 2
+|--+Begin Assembly: 2
+|--+Reusing File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\Diff_to_singleEnded\C_0805_2012Metric.asm
+|--+Total Parts: 0
+|--+Assemblies: 0
+|--+Solid Bodies: 0
+|--+Sheet Bodies: 0
+|--+End Assembly: 2
+|--+Begin Assembly: 2
+|--+Reusing File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\Diff_to_singleEnded\SOIC-8_3.9x4.9mm_P1.27mm.asm
+|--+Total Parts: 0
+|--+Assemblies: 0
+|--+Solid Bodies: 0
+|--+Sheet Bodies: 0
+|--+End Assembly: 2
+|--+Begin Assembly: 2
+|--+Reusing File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\Diff_to_singleEnded\C_1206_3216Metric.asm
+|--+Total Parts: 0
+|--+Assemblies: 0
+|--+Solid Bodies: 0
+|--+Sheet Bodies: 0
+|--+End Assembly: 2
+|--+Begin Assembly: 2
+|--+Reusing File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\Diff_to_singleEnded\R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal.asm
+|--+Total Parts: 0
+|--+Assemblies: 0
+|--+Solid Bodies: 0
+|--+Sheet Bodies: 0
+|--+End Assembly: 2
+|--+Begin Assembly: 2
+|--+Reusing File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\Diff_to_singleEnded\C1210C476M4PAC.asm
+|--+Total Parts: 0
+|--+Assemblies: 0
+|--+Solid Bodies: 0
+|--+Sheet Bodies: 0
+|--+End Assembly: 2
+|--+Begin Assembly: 2
+|--+Reusing File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\Diff_to_singleEnded\C_0805_2012Metric.asm
+|--+Total Parts: 0
+|--+Assemblies: 0
+|--+Solid Bodies: 0
+|--+Sheet Bodies: 0
+|--+End Assembly: 2
+|--+Begin Assembly: 2
+|--+Reusing File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\Diff_to_singleEnded\LS_R976.asm
+|--+Total Parts: 0
+|--+Assemblies: 0
+|--+Solid Bodies: 0
+|--+Sheet Bodies: 0
+|--+End Assembly: 2
+|--+Begin Assembly: 2
+|--+Reusing File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\Diff_to_singleEnded\SOIC-8_3.9x4.9mm_P1.27mm.asm
+|--+Total Parts: 0
+|--+Assemblies: 0
+|--+Solid Bodies: 0
+|--+Sheet Bodies: 0
+|--+End Assembly: 2
+|--+Begin Assembly: 2
+|--+Created SE Assembly File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\Diff_to_singleEnded\R_0603_1608Metric_0.asm
+|  |--+Created SE Part File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\Diff_to_singleEnded\R_0603_1608Metric_0.par
+|--+Total Parts: 2
+|--+Assemblies: 0
+|--+Solid Bodies: 2
+|--+Sheet Bodies: 0
+|--+End Assembly: 2
+|--+Begin Assembly: 2
+|--+Reusing File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\Diff_to_singleEnded\R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal.asm
+|--+Total Parts: 0
+|--+Assemblies: 0
+|--+Solid Bodies: 0
+|--+Sheet Bodies: 0
+|--+End Assembly: 2
+|--+Begin Assembly: 2
+|--+Reusing File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\Diff_to_singleEnded\R_0805_2012Metric.asm
+|--+Total Parts: 0
+|--+Assemblies: 0
+|--+Solid Bodies: 0
+|--+Sheet Bodies: 0
+|--+End Assembly: 2
+|--+Created SE Part File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\Diff_to_singleEnded\DifD0E_silkscreen_0.par
+|--+Created SE Part File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\Diff_to_singleEnded\DifD0E_PCB_0.par
++Total Parts: 497
++Assemblies: 11
++Solid Bodies: 2
++Sheet Bodies: 484
++End Assembly: 1
+Translation process completed
+Total time required to translate and post process:00 : 00 : 04

@@ -1,0 +1,230 @@
+STEP translation to Solid Edge
+Date: Tuesday,October 20,2026 06:45PM
+Source File: C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\RPI4_is2Power\RPI4_is2Power.step
+Author: Pcbnew
+Organization: Kicad
+Source System: KiCad to STEP converter
+
+Hardware:
+Processor: Intel(R) Core(TM) i7-6700K CPU @ 4.00GHz
+Operating System: Windows 10 Professional Version:22H2 Build:19045 System Type:64-bit
+Installed Memory: 31.92 GB
+
+Software Information
+Parasolid Version: 38.0.150
+PSBodyShop Version: 38.0.111
+Step Adapter Version: 1700.0.0
+Solid Edge Version: 226.00.01.004 x64
+
+Step Import Options
+Import Faceted Bodies: On
+Import Check Bodies: Off
+Import Curves: On
+Import DoNotSave: On
+Import Multiple Bodies As Single Part File: On
+Import Optimize:Off
+Import Stitch Surfaces: On
+Import Boolean Solids: On
+Make Base Feature: On
+Simplify Geometry: On
+Import Imprint Curves: On
+Import Drive: C:
+Import Stitch Surfaces: On
+Import Surfaces: On
+Import Output Path: C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\RPI4_is2Power
+Import Enable Default Output Path: On
+Import PMI: Off
+Import As Internal Components: Off
+Import Path: 
+
+Translating to Parasolid data types...
++Begin Assembly: 1
++Created SE Assembly File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\RPI4_is2Power\RPI4_is2Power.asm
+|--+Begin Assembly: 2
+|--+Created SE Assembly File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\RPI4_is2Power\R_0402_1005Metric_1.asm
+|  |--+Created SE Part File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\RPI4_is2Power\R_0402_1005Metric_1.par
+|--+Total Parts: 2
+|--+Assemblies: 0
+|--+Solid Bodies: 2
+|--+Sheet Bodies: 0
+|--+End Assembly: 2
+|--+Begin Assembly: 2
+|--+Created SE Assembly File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\RPI4_is2Power\Pin_D1.2mm_L11.3mm_W3.0mm_Flat_1.asm
+|  |--+Created SE Part File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\RPI4_is2Power\Pin_d1.2mm_L11.3mm_W3.0mm_Flat_1.par
+|--+Total Parts: 2
+|--+Assemblies: 0
+|--+Solid Bodies: 2
+|--+Sheet Bodies: 0
+|--+End Assembly: 2
+|--+Begin Assembly: 2
+|--+Reusing File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\RPI4_is2Power\R_0402_1005Metric.asm
+|--+Total Parts: 0
+|--+Assemblies: 0
+|--+Solid Bodies: 0
+|--+Sheet Bodies: 0
+|--+End Assembly: 2
+|--+Begin Assembly: 2
+|--+Created SE Assembly File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\RPI4_is2Power\C_0603_1608Metric_1.asm
+|  |--+Created SE Part File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\RPI4_is2Power\C_0603_1608Metric_1.par
+|--+Total Parts: 2
+|--+Assemblies: 0
+|--+Solid Bodies: 2
+|--+Sheet Bodies: 0
+|--+End Assembly: 2
+|--+Begin Assembly: 2
+|--+Created SE Assembly File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\RPI4_is2Power\RNU1C331MDN1KX_1.asm
+|  |--+Begin Assembly: 3
+|  |--+Created SE Assembly File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\RPI4_is2Power\ASSEMBLY_1.asm
+|  |  |--+Created SE Part File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\RPI4_is2Power\SimpleBody_1.par
+|  |  |--+Created SE Part File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\RPI4_is2Power\Pin1_1.par
+|  |  |--+Created SE Part File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\RPI4_is2Power\Pin2_1.par
+|  |--+Total Parts: 6
+|  |--+Assemblies: 0
+|  |--+Solid Bodies: 6
+|  |--+Sheet Bodies: 0
+|  |--+End Assembly: 3
+|--+Total Parts: 1
+|--+Assemblies: 1
+|--+Solid Bodies: 0
+|--+Sheet Bodies: 0
+|--+End Assembly: 2
+|--+Begin Assembly: 2
+|--+Created SE Assembly File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\RPI4_is2Power\U.FL-R-SMT-1_80__1.asm
+|  |--+Created SE Part File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\RPI4_is2Power\U.FL-R-SMT-1_1.par
+|--+Total Parts: 2
+|--+Assemblies: 0
+|--+Solid Bodies: 2
+|--+Sheet Bodies: 0
+|--+End Assembly: 2
+|--+Begin Assembly: 2
+|--+Reusing File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\RPI4_is2Power\U.FL-R-SMT-1_80_.asm
+|--+Total Parts: 0
+|--+Assemblies: 0
+|--+Solid Bodies: 0
+|--+Sheet Bodies: 0
+|--+End Assembly: 2
+|--+Begin Assembly: 2
+|--+Reusing File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\RPI4_is2Power\RNU1C331MDN1KX.asm
+|--+Total Parts: 0
+|--+Assemblies: 0
+|--+Solid Bodies: 0
+|--+Sheet Bodies: 0
+|--+End Assembly: 2
+|--+Begin Assembly: 2
+|--+Reusing File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\RPI4_is2Power\R_0402_1005Metric.asm
+|--+Total Parts: 0
+|--+Assemblies: 0
+|--+Solid Bodies: 0
+|--+Sheet Bodies: 0
+|--+End Assembly: 2
+|--+Begin Assembly: 2
+|--+Created SE Assembly File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\RPI4_is2Power\LS_R976_1.asm
+|  |--+Created SE Part File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\RPI4_is2Power\LS R976-NR-1_1.par
+|--+Total Parts: 2
+|--+Assemblies: 0
+|--+Solid Bodies: 2
+|--+Sheet Bodies: 0
+|--+End Assembly: 2
+|--+Begin Assembly: 2
+|--+Reusing File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\RPI4_is2Power\R_0402_1005Metric.asm
+|--+Total Parts: 0
+|--+Assemblies: 0
+|--+Solid Bodies: 0
+|--+Sheet Bodies: 0
+|--+End Assembly: 2
+|--+Begin Assembly: 2
+|--+Reusing File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\RPI4_is2Power\RNU1C331MDN1KX.asm
+|--+Total Parts: 0
+|--+Assemblies: 0
+|--+Solid Bodies: 0
+|--+Sheet Bodies: 0
+|--+End Assembly: 2
+|--+Begin Assembly: 2
+|--+Reusing File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\RPI4_is2Power\R_0402_1005Metric.asm
+|--+Total Parts: 0
+|--+Assemblies: 0
+|--+Solid Bodies: 0
+|--+Sheet Bodies: 0
+|--+End Assembly: 2
+|--+Begin Assembly: 2
+|--+Created SE Assembly File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\RPI4_is2Power\PinSocket_2x20_P2.54mm_Vertical_1.asm
+|  |--+Created SE Part File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\RPI4_is2Power\PinSocket_2x20_P2.54mm_Vertical_1.par
+|--+Total Parts: 2
+|--+Assemblies: 0
+|--+Solid Bodies: 2
+|--+Sheet Bodies: 0
+|--+End Assembly: 2
+|--+Begin Assembly: 2
+|--+Reusing File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\RPI4_is2Power\U.FL-R-SMT-1_80_.asm
+|--+Total Parts: 0
+|--+Assemblies: 0
+|--+Solid Bodies: 0
+|--+Sheet Bodies: 0
+|--+End Assembly: 2
+|--+Begin Assembly: 2
+|--+Created SE Assembly File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\RPI4_is2Power\CP_Radial_D5.0mm_P2.00mm_1.asm
+|  |--+Created SE Part File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\RPI4_is2Power\CP_Radial_D50mm_P200mm_1.par
+|--+Total Parts: 2
+|--+Assemblies: 0
+|--+Solid Bodies: 2
+|--+Sheet Bodies: 0
+|--+End Assembly: 2
+|--+Begin Assembly: 2
+|--+Reusing File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\RPI4_is2Power\RNU1C331MDN1KX.asm
+|--+Total Parts: 0
+|--+Assemblies: 0
+|--+Solid Bodies: 0
+|--+Sheet Bodies: 0
+|--+End Assembly: 2
+|--+Begin Assembly: 2
+|--+Reusing File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\RPI4_is2Power\R_0402_1005Metric.asm
+|--+Total Parts: 0
+|--+Assemblies: 0
+|--+Solid Bodies: 0
+|--+Sheet Bodies: 0
+|--+End Assembly: 2
+|--+Begin Assembly: 2
+|--+Reusing File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\RPI4_is2Power\U.FL-R-SMT-1_80_.asm
+|--+Total Parts: 0
+|--+Assemblies: 0
+|--+Solid Bodies: 0
+|--+Sheet Bodies: 0
+|--+End Assembly: 2
+|--+Begin Assembly: 2
+|--+Reusing File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\RPI4_is2Power\U.FL-R-SMT-1_80_.asm
+|--+Total Parts: 0
+|--+Assemblies: 0
+|--+Solid Bodies: 0
+|--+Sheet Bodies: 0
+|--+End Assembly: 2
+|--+Begin Assembly: 2
+|--+Reusing File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\RPI4_is2Power\Pin_D1.2mm_L11.3mm_W3.0mm_Flat.asm
+|--+Total Parts: 0
+|--+Assemblies: 0
+|--+Solid Bodies: 0
+|--+Sheet Bodies: 0
+|--+End Assembly: 2
+|--+Begin Assembly: 2
+|--+Created SE Assembly File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\RPI4_is2Power\1725669_1.asm
+|  |--+Begin Assembly: 3
+|  |--+Created SE Assembly File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\RPI4_is2Power\mpt_0.5-3-2.54_1.asm
+|  |  |--+Created SE Part File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\RPI4_is2Power\mpt_0.5-3-2.54_1.par
+|  |--+Total Parts: 2
+|  |--+Assemblies: 0
+|  |--+Solid Bodies: 2
+|  |--+Sheet Bodies: 0
+|  |--+End Assembly: 3
+|--+Total Parts: 1
+|--+Assemblies: 1
+|--+Solid Bodies: 0
+|--+Sheet Bodies: 0
+|--+End Assembly: 2
+|--+Created SE Part File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\RPI4_is2Power\RPICC40_silkscreen_1.par
+|--+Created SE Part File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\RPI4_is2Power\RPICC40_PCB_1.par
++Total Parts: 243
++Assemblies: 9
++Solid Bodies: 2
++Sheet Bodies: 232
++End Assembly: 1
+Translation process completed
+Total time required to translate and post process:00 : 00 : 05

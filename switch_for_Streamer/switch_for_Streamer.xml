@@ -1,0 +1,1450 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\switch debounce and voltage\switch_for_Streamer\switch_for_Streamer.kicad_sch</source>
+    <date>16/12/2023 13:07:06</date>
+    <tool>Eeschema 7.0.9</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Updated Streamer Button and Service Controller</title>
+        <company>Riverbank International</company>
+        <rev>0.1</rev>
+        <date>2023-12-10</date>
+        <source>switch_for_Streamer.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="BRD101">
+      <value>~</value>
+      <footprint>SamacSys_Parts:ESP32-S3-DevKitC-1</footprint>
+      <libsource lib="ESP32Board_sym" part="Esp32S3DEVKIT-v2" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="switch_for_Streamer.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d73d1192-0cab-4b4c-b539-29033bf02cfc</tstamps>
+    </comp>
+    <comp ref="C101">
+      <value>330nF</value>
+      <footprint>SamacSys_Parts:C0603</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="switch_for_Streamer.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0f8015b8-81b7-4014-9895-8a9c468e2c78</tstamps>
+    </comp>
+    <comp ref="C102">
+      <value>100nF</value>
+      <footprint>SamacSys_Parts:C0603</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="switch_for_Streamer.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4de6ebd2-a4bc-4008-b3ad-7d86ef8f75b5</tstamps>
+    </comp>
+    <comp ref="C103">
+      <value>100nF</value>
+      <footprint>SamacSys_Parts:C0603</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="switch_for_Streamer.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>030b2f56-aa8d-4cc7-9d31-4e96abf72ade</tstamps>
+    </comp>
+    <comp ref="D101">
+      <value>Led Green</value>
+      <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="switch_for_Streamer.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9573f30b-6802-474e-a06e-6840d14b97ee</tstamps>
+    </comp>
+    <comp ref="D102">
+      <value>Led Green</value>
+      <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="switch_for_Streamer.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>eed4f630-7c0c-435a-b5a4-f1604005d6e4</tstamps>
+    </comp>
+    <comp ref="D103">
+      <value>Led Green</value>
+      <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="switch_for_Streamer.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>484a60ed-3969-482d-9e55-78e6406829d2</tstamps>
+    </comp>
+    <comp ref="D104">
+      <value>Led Green</value>
+      <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="switch_for_Streamer.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>14b2829a-ce52-42df-ad5d-b358f18bb1e9</tstamps>
+    </comp>
+    <comp ref="D105">
+      <value>Led Green</value>
+      <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="switch_for_Streamer.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c7673970-036a-47db-b52d-a5a2afd37b9e</tstamps>
+    </comp>
+    <comp ref="D106">
+      <value>blue Led</value>
+      <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="switch_for_Streamer.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5dc1416a-dd84-4e32-aaca-3b1b3875b31b</tstamps>
+    </comp>
+    <comp ref="D107">
+      <value>Led Green</value>
+      <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="switch_for_Streamer.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>22b7f7dd-c2bd-483d-80b4-897d9911c08a</tstamps>
+    </comp>
+    <comp ref="D108">
+      <value>Led Green</value>
+      <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="switch_for_Streamer.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>50cb815f-b85b-40e4-bd23-091254467dac</tstamps>
+    </comp>
+    <comp ref="D109">
+      <value>Led Green</value>
+      <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="switch_for_Streamer.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8af3ff3f-58cb-40e3-9f59-a6b85ef11c6e</tstamps>
+    </comp>
+    <comp ref="IC101">
+      <value>UA78M33IKVURG3</value>
+      <footprint>UA78M33IKVURG3</footprint>
+      <datasheet>http://www.ti.com/lit/gpn/ua78m</datasheet>
+      <fields>
+        <field name="Arrow Part Number">UA78M33IKVURG3</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/ua78m33ikvurg3/texas-instruments?region=nac</field>
+        <field name="Description">500-mA, 25-V, Linear Voltage Regulators</field>
+        <field name="Height">2.52</field>
+        <field name="Manufacturer_Name">Texas Instruments</field>
+        <field name="Manufacturer_Part_Number">UA78M33IKVURG3</field>
+        <field name="Mouser Part Number">595-UA78M33IKVURG3</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Texas-Instruments/UA78M33IKVURG3?qs=dP8SwFlKThxMmGpfgS%2FADQ%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="UA78M33IKVURG3" description="500-mA, 25-V, Linear Voltage Regulators"/>
+      <property name="Description" value="500-mA, 25-V, Linear Voltage Regulators"/>
+      <property name="Height" value="2.52"/>
+      <property name="Manufacturer_Name" value="Texas Instruments"/>
+      <property name="Manufacturer_Part_Number" value="UA78M33IKVURG3"/>
+      <property name="Mouser Part Number" value="595-UA78M33IKVURG3"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/UA78M33IKVURG3?qs=dP8SwFlKThxMmGpfgS%2FADQ%3D%3D"/>
+      <property name="Arrow Part Number" value="UA78M33IKVURG3"/>
+      <property name="Arrow Price/Stock" value="https://www.arrow.com/en/products/ua78m33ikvurg3/texas-instruments?region=nac"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="switch_for_Streamer.kicad_sch"/>
+      <property name="ki_description" value="500-mA, 25-V, Linear Voltage Regulators"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1db89e6a-2e0a-41bf-bcce-182d2448dfc8</tstamps>
+    </comp>
+    <comp ref="IC102">
+      <value>ULN2003LVDR</value>
+      <footprint>SamacSys_Parts:SOIC127P600X175-16N</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/uln2003lv.pdf</datasheet>
+      <fields>
+        <field name="Arrow Part Number">ULN2003LVDR</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/uln2003lvdr/texas-instruments?region=nac</field>
+        <field name="Description">7-Ch Relay, Inductive Sink Driver SOIC16 Texas Instruments ULN2003LVDR, 7-element NPN Darlington Transistor Array, 140 mA 8 V, 16-Pin SOIC</field>
+        <field name="Height">1.75</field>
+        <field name="Manufacturer_Name">Texas Instruments</field>
+        <field name="Manufacturer_Part_Number">ULN2003LVDR</field>
+        <field name="Mouser Part Number">595-ULN2003LVDR</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Texas-Instruments/ULN2003LVDR?qs=ACPZU2kmEKPLtcExeyaSSQ%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="ULN2003LVDR" description="7-Ch Relay, Inductive Sink Driver SOIC16 Texas Instruments ULN2003LVDR, 7-element NPN Darlington Transistor Array, 140 mA 8 V, 16-Pin SOIC"/>
+      <property name="Description" value="7-Ch Relay, Inductive Sink Driver SOIC16 Texas Instruments ULN2003LVDR, 7-element NPN Darlington Transistor Array, 140 mA 8 V, 16-Pin SOIC"/>
+      <property name="Height" value="1.75"/>
+      <property name="Manufacturer_Name" value="Texas Instruments"/>
+      <property name="Manufacturer_Part_Number" value="ULN2003LVDR"/>
+      <property name="Mouser Part Number" value="595-ULN2003LVDR"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/ULN2003LVDR?qs=ACPZU2kmEKPLtcExeyaSSQ%3D%3D"/>
+      <property name="Arrow Part Number" value="ULN2003LVDR"/>
+      <property name="Arrow Price/Stock" value="https://www.arrow.com/en/products/uln2003lvdr/texas-instruments?region=nac"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="switch_for_Streamer.kicad_sch"/>
+      <property name="ki_description" value="7-Ch Relay, Inductive Sink Driver SOIC16 Texas Instruments ULN2003LVDR, 7-element NPN Darlington Transistor Array, 140 mA 8 V, 16-Pin SOIC"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4438d6cc-ff41-496d-bc61-45976fc4ba76</tstamps>
+    </comp>
+    <comp ref="IC103">
+      <value>MCP23018T-E_SS</value>
+      <footprint>SamacSys_Parts:SOP65P780X200-24N</footprint>
+      <datasheet>http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en537442</datasheet>
+      <fields>
+        <field name="Arrow Part Number">MCP23018T-E/SS</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/mcp23018t-ess/microchip-technology?region=nac</field>
+        <field name="Description">16-bit I/O Expander I2C interface</field>
+        <field name="Height">2</field>
+        <field name="Manufacturer_Name">Microchip</field>
+        <field name="Manufacturer_Part_Number">MCP23018T-E/SS</field>
+        <field name="Mouser Part Number">579-MCP23018T-E/SS</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Microchip-Technology/MCP23018T-E-SS?qs=WqWCsLCZBkqMS5BB6s8yqA%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="MCP23018T-E_SS" description="16-bit I/O Expander I2C interface"/>
+      <property name="Description" value="16-bit I/O Expander I2C interface"/>
+      <property name="Height" value="2"/>
+      <property name="Manufacturer_Name" value="Microchip"/>
+      <property name="Manufacturer_Part_Number" value="MCP23018T-E/SS"/>
+      <property name="Mouser Part Number" value="579-MCP23018T-E/SS"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Microchip-Technology/MCP23018T-E-SS?qs=WqWCsLCZBkqMS5BB6s8yqA%3D%3D"/>
+      <property name="Arrow Part Number" value="MCP23018T-E/SS"/>
+      <property name="Arrow Price/Stock" value="https://www.arrow.com/en/products/mcp23018t-ess/microchip-technology?region=nac"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="switch_for_Streamer.kicad_sch"/>
+      <property name="ki_description" value="16-bit I/O Expander I2C interface"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3fe64693-a838-415c-a6ba-684b24a94278</tstamps>
+    </comp>
+    <comp ref="IC104">
+      <value>MAX6818EAP+T</value>
+      <footprint>SamacSys_Parts:MAX6818EAP+T</footprint>
+      <datasheet>https://mouser.componentsearchengine.com/Datasheets/2/MAX6818EAP+T.pdf</datasheet>
+      <fields>
+        <field name="Arrow Part Number">MAX6818EAP+T</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/max6818eapt/maxim-integrated?region=europe</field>
+        <field name="Description">MAXIM INTEGRATED PRODUCTS - MAX6818EAP+T. - ESD PROTE WITH SWITCH DEBOUNCER, SSOP-20</field>
+        <field name="Height">1.99</field>
+        <field name="Manufacturer_Name">Analog Devices</field>
+        <field name="Manufacturer_Part_Number">MAX6818EAP+T</field>
+        <field name="Mouser Part Number">700-MAX6818EAPT</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Analog-Devices-Maxim-Integrated/MAX6818EAP%2bT?qs=CDqwynd4ZNoKt6d34O8j%252BA%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="MAX6818EAP+T" description="MAXIM INTEGRATED PRODUCTS - MAX6818EAP+T. - ESD PROTE WITH SWITCH DEBOUNCER, SSOP-20"/>
+      <property name="Description" value="MAXIM INTEGRATED PRODUCTS - MAX6818EAP+T. - ESD PROTE WITH SWITCH DEBOUNCER, SSOP-20"/>
+      <property name="Height" value="1.99"/>
+      <property name="Manufacturer_Name" value="Analog Devices"/>
+      <property name="Manufacturer_Part_Number" value="MAX6818EAP+T"/>
+      <property name="Mouser Part Number" value="700-MAX6818EAPT"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Analog-Devices-Maxim-Integrated/MAX6818EAP%2bT?qs=CDqwynd4ZNoKt6d34O8j%252BA%3D%3D"/>
+      <property name="Arrow Part Number" value="MAX6818EAP+T"/>
+      <property name="Arrow Price/Stock" value="https://www.arrow.com/en/products/max6818eapt/maxim-integrated?region=europe"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="switch_for_Streamer.kicad_sch"/>
+      <property name="ki_description" value="MAXIM INTEGRATED PRODUCTS - MAX6818EAP+T. - ESD PROTE WITH SWITCH DEBOUNCER, SSOP-20"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e4c74713-cdfd-4a84-b5a1-f37843f48fbb</tstamps>
+    </comp>
+    <comp ref="J101">
+      <value>0022032031</value>
+      <footprint>SamacSys_Parts:molex 22-03-2031</footprint>
+      <datasheet>https://www.molex.com/pdm_docs/sd/022032031_sd.pdf</datasheet>
+      <fields>
+        <field name="Arrow Part Number">0022032031</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/0022032031/molex?region=europe</field>
+        <field name="Description">Conn Unshrouded Header HDR 3 POS 2.54mm Solder ST Thru-Hole KK Bag</field>
+        <field name="Height">11.17</field>
+        <field name="Manufacturer_Name">Molex</field>
+        <field name="Manufacturer_Part_Number">0022032031</field>
+        <field name="Mouser Part Number">N/A</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Molex/0022032031?qs=PBcRNPEHKsomDzme7UQZuQ%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="0022032031" description="Conn Unshrouded Header HDR 3 POS 2.54mm Solder ST Thru-Hole KK Bag"/>
+      <property name="Description" value="Conn Unshrouded Header HDR 3 POS 2.54mm Solder ST Thru-Hole KK Bag"/>
+      <property name="Height" value="11.17"/>
+      <property name="Manufacturer_Name" value="Molex"/>
+      <property name="Manufacturer_Part_Number" value="0022032031"/>
+      <property name="Mouser Part Number" value="N/A"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Molex/0022032031?qs=PBcRNPEHKsomDzme7UQZuQ%3D%3D"/>
+      <property name="Arrow Part Number" value="0022032031"/>
+      <property name="Arrow Price/Stock" value="https://www.arrow.com/en/products/0022032031/molex?region=europe"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="switch_for_Streamer.kicad_sch"/>
+      <property name="ki_description" value="Conn Unshrouded Header HDR 3 POS 2.54mm Solder ST Thru-Hole KK Bag"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fae473ee-3ccf-4457-ad16-61006eb0cb4f</tstamps>
+    </comp>
+    <comp ref="J102">
+      <value>67997-210HLF</value>
+      <footprint>HDRV10W67P254_2X5_1270X483X858P</footprint>
+      <datasheet>https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/67996.pdf</datasheet>
+      <fields>
+        <field name="Arrow Part Number">67997-210HLF</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/67997-210hlf/amphenol-fci?region=europe</field>
+        <field name="Description">FCI,Header 10 way unshrouded</field>
+        <field name="Height">8.58</field>
+        <field name="Manufacturer_Name">Amphenol</field>
+        <field name="Manufacturer_Part_Number">67997-210HLF</field>
+        <field name="Mouser Part Number">649-67997-210HLF</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Amphenol-FCI/67997-210HLF?qs=p7Li5uGGkAq%2F6UggRryCaA%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="67997-210HLF" description="FCI,Header 10 way unshrouded"/>
+      <property name="Description" value="FCI,Header 10 way unshrouded"/>
+      <property name="Height" value="8.58"/>
+      <property name="Manufacturer_Name" value="Amphenol"/>
+      <property name="Manufacturer_Part_Number" value="67997-210HLF"/>
+      <property name="Mouser Part Number" value="649-67997-210HLF"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Amphenol-FCI/67997-210HLF?qs=p7Li5uGGkAq%2F6UggRryCaA%3D%3D"/>
+      <property name="Arrow Part Number" value="67997-210HLF"/>
+      <property name="Arrow Price/Stock" value="https://www.arrow.com/en/products/67997-210hlf/amphenol-fci?region=europe"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="switch_for_Streamer.kicad_sch"/>
+      <property name="ki_description" value="FCI,Header 10 way unshrouded"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>efb29f91-3bec-41ab-972a-5b2290de044d</tstamps>
+    </comp>
+    <comp ref="K101">
+      <value>EF2-3NU</value>
+      <footprint>EF23NU</footprint>
+      <datasheet>https://content.kemet.com/datasheets/KEM_R7003_ED2_EF2.pdf</datasheet>
+      <fields>
+        <field name="Description">KEMET, EF2, Relays, Signal, 3 V, 220 V, 250 VAC, 1 A, 75 mOhms, 1 GOhms, 15mm, 7.5mm, 10mm</field>
+        <field name="Height">10</field>
+        <field name="Manufacturer_Name">KEMET</field>
+        <field name="Manufacturer_Part_Number">EF2-3NU</field>
+        <field name="Mouser Part Number">551-EF2-3NU</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/KEMET/EF2-3NU?qs=rjnFDYRVT0pmOzC8XUHqYQ%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="EF2-3NU" description="KEMET, EF2, Relays, Signal, 3 V, 220 V, 250 VAC, 1 A, 75 mOhms, 1 GOhms, 15mm, 7.5mm, 10mm"/>
+      <property name="Description" value="KEMET, EF2, Relays, Signal, 3 V, 220 V, 250 VAC, 1 A, 75 mOhms, 1 GOhms, 15mm, 7.5mm, 10mm"/>
+      <property name="Height" value="10"/>
+      <property name="Manufacturer_Name" value="KEMET"/>
+      <property name="Manufacturer_Part_Number" value="EF2-3NU"/>
+      <property name="Mouser Part Number" value="551-EF2-3NU"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/KEMET/EF2-3NU?qs=rjnFDYRVT0pmOzC8XUHqYQ%3D%3D"/>
+      <property name="Arrow Part Number" value=""/>
+      <property name="Arrow Price/Stock" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="switch_for_Streamer.kicad_sch"/>
+      <property name="ki_description" value="KEMET, EF2, Relays, Signal, 3 V, 220 V, 250 VAC, 1 A, 75 mOhms, 1 GOhms, 15mm, 7.5mm, 10mm"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ae27a2c8-0670-4ee4-ab92-55813692213a</tstamps>
+    </comp>
+    <comp ref="K102">
+      <value>EF2-3NU</value>
+      <footprint>SamacSys_Parts:EF23NU</footprint>
+      <datasheet>https://content.kemet.com/datasheets/KEM_R7003_ED2_EF2.pdf</datasheet>
+      <fields>
+        <field name="Description">KEMET, EF2, Relays, Signal, 3 V, 220 V, 250 VAC, 1 A, 75 mOhms, 1 GOhms, 15mm, 7.5mm, 10mm</field>
+        <field name="Height">10</field>
+        <field name="Manufacturer_Name">KEMET</field>
+        <field name="Manufacturer_Part_Number">EF2-3NU</field>
+        <field name="Mouser Part Number">551-EF2-3NU</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/KEMET/EF2-3NU?qs=rjnFDYRVT0pmOzC8XUHqYQ%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="EF2-3NU" description="KEMET, EF2, Relays, Signal, 3 V, 220 V, 250 VAC, 1 A, 75 mOhms, 1 GOhms, 15mm, 7.5mm, 10mm"/>
+      <property name="Description" value="KEMET, EF2, Relays, Signal, 3 V, 220 V, 250 VAC, 1 A, 75 mOhms, 1 GOhms, 15mm, 7.5mm, 10mm"/>
+      <property name="Height" value="10"/>
+      <property name="Manufacturer_Name" value="KEMET"/>
+      <property name="Manufacturer_Part_Number" value="EF2-3NU"/>
+      <property name="Mouser Part Number" value="551-EF2-3NU"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/KEMET/EF2-3NU?qs=rjnFDYRVT0pmOzC8XUHqYQ%3D%3D"/>
+      <property name="Arrow Part Number" value=""/>
+      <property name="Arrow Price/Stock" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="switch_for_Streamer.kicad_sch"/>
+      <property name="ki_description" value="KEMET, EF2, Relays, Signal, 3 V, 220 V, 250 VAC, 1 A, 75 mOhms, 1 GOhms, 15mm, 7.5mm, 10mm"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d7f6bb45-fc68-47b0-a630-5e6fc68a1da5</tstamps>
+    </comp>
+    <comp ref="K103">
+      <value>EF2-3NU</value>
+      <footprint>EF23NU</footprint>
+      <datasheet>https://content.kemet.com/datasheets/KEM_R7003_ED2_EF2.pdf</datasheet>
+      <fields>
+        <field name="Description">KEMET, EF2, Relays, Signal, 3 V, 220 V, 250 VAC, 1 A, 75 mOhms, 1 GOhms, 15mm, 7.5mm, 10mm</field>
+        <field name="Height">10</field>
+        <field name="Manufacturer_Name">KEMET</field>
+        <field name="Manufacturer_Part_Number">EF2-3NU</field>
+        <field name="Mouser Part Number">551-EF2-3NU</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/KEMET/EF2-3NU?qs=rjnFDYRVT0pmOzC8XUHqYQ%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="EF2-3NU" description="KEMET, EF2, Relays, Signal, 3 V, 220 V, 250 VAC, 1 A, 75 mOhms, 1 GOhms, 15mm, 7.5mm, 10mm"/>
+      <property name="Description" value="KEMET, EF2, Relays, Signal, 3 V, 220 V, 250 VAC, 1 A, 75 mOhms, 1 GOhms, 15mm, 7.5mm, 10mm"/>
+      <property name="Height" value="10"/>
+      <property name="Manufacturer_Name" value="KEMET"/>
+      <property name="Manufacturer_Part_Number" value="EF2-3NU"/>
+      <property name="Mouser Part Number" value="551-EF2-3NU"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/KEMET/EF2-3NU?qs=rjnFDYRVT0pmOzC8XUHqYQ%3D%3D"/>
+      <property name="Arrow Part Number" value=""/>
+      <property name="Arrow Price/Stock" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="switch_for_Streamer.kicad_sch"/>
+      <property name="ki_description" value="KEMET, EF2, Relays, Signal, 3 V, 220 V, 250 VAC, 1 A, 75 mOhms, 1 GOhms, 15mm, 7.5mm, 10mm"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d57ae348-7a1f-437a-811c-af4e703ad65a</tstamps>
+    </comp>
+    <comp ref="K104">
+      <value>EF2-3NU</value>
+      <footprint>EF23NU</footprint>
+      <datasheet>https://content.kemet.com/datasheets/KEM_R7003_ED2_EF2.pdf</datasheet>
+      <fields>
+        <field name="Description">KEMET, EF2, Relays, Signal, 3 V, 220 V, 250 VAC, 1 A, 75 mOhms, 1 GOhms, 15mm, 7.5mm, 10mm</field>
+        <field name="Height">10</field>
+        <field name="Manufacturer_Name">KEMET</field>
+        <field name="Manufacturer_Part_Number">EF2-3NU</field>
+        <field name="Mouser Part Number">551-EF2-3NU</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/KEMET/EF2-3NU?qs=rjnFDYRVT0pmOzC8XUHqYQ%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="EF2-3NU" description="KEMET, EF2, Relays, Signal, 3 V, 220 V, 250 VAC, 1 A, 75 mOhms, 1 GOhms, 15mm, 7.5mm, 10mm"/>
+      <property name="Description" value="KEMET, EF2, Relays, Signal, 3 V, 220 V, 250 VAC, 1 A, 75 mOhms, 1 GOhms, 15mm, 7.5mm, 10mm"/>
+      <property name="Height" value="10"/>
+      <property name="Manufacturer_Name" value="KEMET"/>
+      <property name="Manufacturer_Part_Number" value="EF2-3NU"/>
+      <property name="Mouser Part Number" value="551-EF2-3NU"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/KEMET/EF2-3NU?qs=rjnFDYRVT0pmOzC8XUHqYQ%3D%3D"/>
+      <property name="Arrow Part Number" value=""/>
+      <property name="Arrow Price/Stock" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="switch_for_Streamer.kicad_sch"/>
+      <property name="ki_description" value="KEMET, EF2, Relays, Signal, 3 V, 220 V, 250 VAC, 1 A, 75 mOhms, 1 GOhms, 15mm, 7.5mm, 10mm"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0c6bcb2d-6dc8-4311-9788-f611b35a01cb</tstamps>
+    </comp>
+    <comp ref="K105">
+      <value>EF2-3NU</value>
+      <footprint>EF23NU</footprint>
+      <datasheet>https://content.kemet.com/datasheets/KEM_R7003_ED2_EF2.pdf</datasheet>
+      <fields>
+        <field name="Description">KEMET, EF2, Relays, Signal, 3 V, 220 V, 250 VAC, 1 A, 75 mOhms, 1 GOhms, 15mm, 7.5mm, 10mm</field>
+        <field name="Height">10</field>
+        <field name="Manufacturer_Name">KEMET</field>
+        <field name="Manufacturer_Part_Number">EF2-3NU</field>
+        <field name="Mouser Part Number">551-EF2-3NU</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/KEMET/EF2-3NU?qs=rjnFDYRVT0pmOzC8XUHqYQ%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="EF2-3NU" description="KEMET, EF2, Relays, Signal, 3 V, 220 V, 250 VAC, 1 A, 75 mOhms, 1 GOhms, 15mm, 7.5mm, 10mm"/>
+      <property name="Description" value="KEMET, EF2, Relays, Signal, 3 V, 220 V, 250 VAC, 1 A, 75 mOhms, 1 GOhms, 15mm, 7.5mm, 10mm"/>
+      <property name="Height" value="10"/>
+      <property name="Manufacturer_Name" value="KEMET"/>
+      <property name="Manufacturer_Part_Number" value="EF2-3NU"/>
+      <property name="Mouser Part Number" value="551-EF2-3NU"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/KEMET/EF2-3NU?qs=rjnFDYRVT0pmOzC8XUHqYQ%3D%3D"/>
+      <property name="Arrow Part Number" value=""/>
+      <property name="Arrow Price/Stock" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="switch_for_Streamer.kicad_sch"/>
+      <property name="ki_description" value="KEMET, EF2, Relays, Signal, 3 V, 220 V, 250 VAC, 1 A, 75 mOhms, 1 GOhms, 15mm, 7.5mm, 10mm"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1c927f55-bf38-4e0f-8f6b-68a32683e58f</tstamps>
+    </comp>
+    <comp ref="K106">
+      <value>EF2-3NU</value>
+      <footprint>EF23NU</footprint>
+      <datasheet>https://content.kemet.com/datasheets/KEM_R7003_ED2_EF2.pdf</datasheet>
+      <fields>
+        <field name="Description">KEMET, EF2, Relays, Signal, 3 V, 220 V, 250 VAC, 1 A, 75 mOhms, 1 GOhms, 15mm, 7.5mm, 10mm</field>
+        <field name="Height">10</field>
+        <field name="Manufacturer_Name">KEMET</field>
+        <field name="Manufacturer_Part_Number">EF2-3NU</field>
+        <field name="Mouser Part Number">551-EF2-3NU</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/KEMET/EF2-3NU?qs=rjnFDYRVT0pmOzC8XUHqYQ%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="EF2-3NU" description="KEMET, EF2, Relays, Signal, 3 V, 220 V, 250 VAC, 1 A, 75 mOhms, 1 GOhms, 15mm, 7.5mm, 10mm"/>
+      <property name="Description" value="KEMET, EF2, Relays, Signal, 3 V, 220 V, 250 VAC, 1 A, 75 mOhms, 1 GOhms, 15mm, 7.5mm, 10mm"/>
+      <property name="Height" value="10"/>
+      <property name="Manufacturer_Name" value="KEMET"/>
+      <property name="Manufacturer_Part_Number" value="EF2-3NU"/>
+      <property name="Mouser Part Number" value="551-EF2-3NU"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/KEMET/EF2-3NU?qs=rjnFDYRVT0pmOzC8XUHqYQ%3D%3D"/>
+      <property name="Arrow Part Number" value=""/>
+      <property name="Arrow Price/Stock" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="switch_for_Streamer.kicad_sch"/>
+      <property name="ki_description" value="KEMET, EF2, Relays, Signal, 3 V, 220 V, 250 VAC, 1 A, 75 mOhms, 1 GOhms, 15mm, 7.5mm, 10mm"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8885ac4d-bd5c-48b9-b9dd-f12dea7a4c02</tstamps>
+    </comp>
+    <comp ref="R101">
+      <value>R1k0</value>
+      <footprint>SamacSys_Parts:RESC1608X55N</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="switch_for_Streamer.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>245f6dfa-1cc3-4c7e-902f-feae82dd04c9</tstamps>
+    </comp>
+    <comp ref="R102">
+      <value>R1k0</value>
+      <footprint>SamacSys_Parts:RESC1608X55N</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="switch_for_Streamer.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7201ea81-8bbe-4c9c-b7f6-dd9345da6886</tstamps>
+    </comp>
+    <comp ref="R103">
+      <value>R1k0</value>
+      <footprint>SamacSys_Parts:RESC1608X55N</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="switch_for_Streamer.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d98d49cc-c181-4c79-8c84-71a686639f4c</tstamps>
+    </comp>
+    <comp ref="R104">
+      <value>R1k0</value>
+      <footprint>SamacSys_Parts:RESC1608X55N</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="switch_for_Streamer.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5076c8f7-0e4f-4a66-b9c8-4d338d6777e5</tstamps>
+    </comp>
+    <comp ref="R105">
+      <value>R1k0</value>
+      <footprint>SamacSys_Parts:RESC1608X55N</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="switch_for_Streamer.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>63e259ca-33b4-4286-99fa-f4adb87db79e</tstamps>
+    </comp>
+    <comp ref="R106">
+      <value>R1k0</value>
+      <footprint>SamacSys_Parts:RESC1608X55N</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="switch_for_Streamer.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>734603c7-c449-4fe9-9c45-5afb94b1f53d</tstamps>
+    </comp>
+    <comp ref="R107">
+      <value>R1k0</value>
+      <footprint>SamacSys_Parts:RESC1608X55N</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="switch_for_Streamer.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ac77220f-5a4f-4c69-b8d8-a7997f28c837</tstamps>
+    </comp>
+    <comp ref="R108">
+      <value>R1k0</value>
+      <footprint>SamacSys_Parts:RESC1608X55N</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="switch_for_Streamer.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9928bce0-812d-4087-80df-43b41d90b1eb</tstamps>
+    </comp>
+    <comp ref="R109">
+      <value>R1k0</value>
+      <footprint>SamacSys_Parts:RESC1608X55N</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="switch_for_Streamer.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4132be7f-5304-45a1-b79e-a2f28570acf5</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ESP32Board_sym" part="Esp32S3DEVKIT-v2">
+      <fields>
+        <field name="Reference">BRD</field>
+      </fields>
+      <pins>
+        <pin num="1" name="3V3" type="power_out"/>
+        <pin num="2" name="3V3" type="power_out"/>
+        <pin num="3" name="RST" type="bidirectional"/>
+        <pin num="4" name="GPIO4" type="bidirectional"/>
+        <pin num="5" name="GPIO5" type="bidirectional"/>
+        <pin num="6" name="GPIO6" type="bidirectional"/>
+        <pin num="7" name="GPIO7" type="bidirectional"/>
+        <pin num="8" name="GPIO15" type="bidirectional"/>
+        <pin num="9" name="GPIO16" type="bidirectional"/>
+        <pin num="10" name="GPIO17" type="bidirectional"/>
+        <pin num="11" name="GPIO18" type="bidirectional"/>
+        <pin num="12" name="GPIO8" type="bidirectional"/>
+        <pin num="13" name="GPIO3" type="bidirectional"/>
+        <pin num="14" name="GPIO46" type="bidirectional"/>
+        <pin num="15" name="GPIO9" type="bidirectional"/>
+        <pin num="16" name="GPIO10" type="bidirectional"/>
+        <pin num="17" name="GPIO11" type="bidirectional"/>
+        <pin num="18" name="GPIO12" type="bidirectional"/>
+        <pin num="19" name="GPIO13" type="bidirectional"/>
+        <pin num="20" name="GPIO14" type="bidirectional"/>
+        <pin num="21" name="5v0" type="power_in"/>
+        <pin num="22" name="GND" type="passive"/>
+        <pin num="23" name="GND" type="passive"/>
+        <pin num="24" name="GND" type="passive"/>
+        <pin num="25" name="USB_D-" type="bidirectional"/>
+        <pin num="26" name="USB_d+" type="bidirectional"/>
+        <pin num="27" name="GPIO21" type="bidirectional"/>
+        <pin num="28" name="GPIO47" type="bidirectional"/>
+        <pin num="29" name="GPIO48" type="bidirectional"/>
+        <pin num="30" name="GPIO45" type="bidirectional"/>
+        <pin num="31" name="GPIO0" type="bidirectional"/>
+        <pin num="32" name="GPIO35" type="input"/>
+        <pin num="33" name="GPIO36" type="bidirectional"/>
+        <pin num="34" name="GPIO37" type="bidirectional"/>
+        <pin num="35" name="GPIO38" type="bidirectional"/>
+        <pin num="36" name="GPIO39" type="bidirectional"/>
+        <pin num="37" name="GPIO40" type="bidirectional"/>
+        <pin num="38" name="GPIO41" type="bidirectional"/>
+        <pin num="39" name="GPIO42" type="bidirectional"/>
+        <pin num="40" name="GPIO2" type="bidirectional"/>
+        <pin num="41" name="GPIO1" type="bidirectional"/>
+        <pin num="42" name="U0RXD" type="input"/>
+        <pin num="43" name="UOTXD" type="output"/>
+        <pin num="44" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SamacSys_Parts" part="0022032031">
+      <description>Conn Unshrouded Header HDR 3 POS 2.54mm Solder ST Thru-Hole KK Bag</description>
+      <docs>https://www.molex.com/pdm_docs/sd/022032031_sd.pdf</docs>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">0022032031</field>
+        <field name="Footprint">HDRV3W67P0X254_1X3_737X236X1117P</field>
+        <field name="Datasheet">https://www.molex.com/pdm_docs/sd/022032031_sd.pdf</field>
+        <field name="Description">Conn Unshrouded Header HDR 3 POS 2.54mm Solder ST Thru-Hole KK Bag</field>
+        <field name="Height">11.17</field>
+        <field name="Manufacturer_Name">Molex</field>
+        <field name="Manufacturer_Part_Number">0022032031</field>
+        <field name="Mouser Part Number">N/A</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Molex/0022032031?qs=PBcRNPEHKsomDzme7UQZuQ%3D%3D</field>
+        <field name="Arrow Part Number">0022032031</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/0022032031/molex?region=europe</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SamacSys_Parts" part="67997-210HLF">
+      <description>FCI,Header 10 way unshrouded</description>
+      <docs>https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/67996.pdf</docs>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">67997-210HLF</field>
+        <field name="Footprint">HDRV10W67P254_2X5_1270X483X858P</field>
+        <field name="Datasheet">https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/67996.pdf</field>
+        <field name="Description">FCI,Header 10 way unshrouded</field>
+        <field name="Height">8.58</field>
+        <field name="Manufacturer_Name">Amphenol</field>
+        <field name="Manufacturer_Part_Number">67997-210HLF</field>
+        <field name="Mouser Part Number">649-67997-210HLF</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Amphenol-FCI/67997-210HLF?qs=p7Li5uGGkAq%2F6UggRryCaA%3D%3D</field>
+        <field name="Arrow Part Number">67997-210HLF</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/67997-210hlf/amphenol-fci?region=europe</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+        <pin num="7" name="7" type="passive"/>
+        <pin num="8" name="8" type="passive"/>
+        <pin num="9" name="9" type="passive"/>
+        <pin num="10" name="10" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SamacSys_Parts" part="EF2-3NU">
+      <description>KEMET, EF2, Relays, Signal, 3 V, 220 V, 250 VAC, 1 A, 75 mOhms, 1 GOhms, 15mm, 7.5mm, 10mm</description>
+      <docs>https://content.kemet.com/datasheets/KEM_R7003_ED2_EF2.pdf</docs>
+      <fields>
+        <field name="Reference">K</field>
+        <field name="Value">EF2-3NU</field>
+        <field name="Footprint">EF23NU</field>
+        <field name="Datasheet">https://content.kemet.com/datasheets/KEM_R7003_ED2_EF2.pdf</field>
+        <field name="Description">KEMET, EF2, Relays, Signal, 3 V, 220 V, 250 VAC, 1 A, 75 mOhms, 1 GOhms, 15mm, 7.5mm, 10mm</field>
+        <field name="Height">10</field>
+        <field name="Manufacturer_Name">KEMET</field>
+        <field name="Manufacturer_Part_Number">EF2-3NU</field>
+        <field name="Mouser Part Number">551-EF2-3NU</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/KEMET/EF2-3NU?qs=rjnFDYRVT0pmOzC8XUHqYQ%3D%3D</field>
+      </fields>
+      <pins>
+        <pin num="1" name="COIL+" type="passive"/>
+        <pin num="3" name="NC_1" type="passive"/>
+        <pin num="4" name="COM_1" type="passive"/>
+        <pin num="5" name="NO_1" type="passive"/>
+        <pin num="8" name="NO_2" type="passive"/>
+        <pin num="9" name="COM_2" type="passive"/>
+        <pin num="10" name="NC_2" type="passive"/>
+        <pin num="12" name="COIL-" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SamacSys_Parts" part="MAX6818EAP+T">
+      <description>MAXIM INTEGRATED PRODUCTS - MAX6818EAP+T. - ESD PROTE WITH SWITCH DEBOUNCER, SSOP-20</description>
+      <docs>https://mouser.componentsearchengine.com/Datasheets/2/MAX6818EAP+T.pdf</docs>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">MAX6818EAP+T</field>
+        <field name="Footprint">SOP65P778X199-20N</field>
+        <field name="Datasheet">https://mouser.componentsearchengine.com/Datasheets/2/MAX6818EAP+T.pdf</field>
+        <field name="Description">MAXIM INTEGRATED PRODUCTS - MAX6818EAP+T. - ESD PROTE WITH SWITCH DEBOUNCER, SSOP-20</field>
+        <field name="Height">1.99</field>
+        <field name="Manufacturer_Name">Analog Devices</field>
+        <field name="Manufacturer_Part_Number">MAX6818EAP+T</field>
+        <field name="Mouser Part Number">700-MAX6818EAPT</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Analog-Devices-Maxim-Integrated/MAX6818EAP%2bT?qs=CDqwynd4ZNoKt6d34O8j%252BA%3D%3D</field>
+        <field name="Arrow Part Number">MAX6818EAP+T</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/max6818eapt/maxim-integrated?region=europe</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~{EN}" type="input"/>
+        <pin num="2" name="IN1" type="input"/>
+        <pin num="3" name="IN2" type="input"/>
+        <pin num="4" name="IN3" type="input"/>
+        <pin num="5" name="IN4" type="input"/>
+        <pin num="6" name="IN5" type="input"/>
+        <pin num="7" name="IN6" type="input"/>
+        <pin num="8" name="IN7" type="input"/>
+        <pin num="9" name="IN8" type="input"/>
+        <pin num="10" name="GND" type="power_in"/>
+        <pin num="11" name="~{CH}" type="output"/>
+        <pin num="12" name="OUT8" type="output"/>
+        <pin num="13" name="OUT7" type="output"/>
+        <pin num="14" name="OUT6" type="output"/>
+        <pin num="15" name="OUT5" type="output"/>
+        <pin num="16" name="OUT4" type="output"/>
+        <pin num="17" name="OUT3" type="output"/>
+        <pin num="18" name="OUT2" type="output"/>
+        <pin num="19" name="OUT1" type="output"/>
+        <pin num="20" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="SamacSys_Parts" part="MCP23018T-E_SS">
+      <description>16-bit I/O Expander I2C interface</description>
+      <docs>http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en537442</docs>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">MCP23018T-E_SS</field>
+        <field name="Footprint">SOP65P780X200-24N</field>
+        <field name="Datasheet">http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en537442</field>
+        <field name="Description">16-bit I/O Expander I2C interface</field>
+        <field name="Height">2</field>
+        <field name="Manufacturer_Name">Microchip</field>
+        <field name="Manufacturer_Part_Number">MCP23018T-E/SS</field>
+        <field name="Mouser Part Number">579-MCP23018T-E/SS</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Microchip-Technology/MCP23018T-E-SS?qs=WqWCsLCZBkqMS5BB6s8yqA%3D%3D</field>
+        <field name="Arrow Part Number">MCP23018T-E/SS</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/mcp23018t-ess/microchip-technology?region=nac</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VSS" type="passive"/>
+        <pin num="2" name="GPB0" type="passive"/>
+        <pin num="3" name="GPB1" type="passive"/>
+        <pin num="4" name="GPB2" type="passive"/>
+        <pin num="5" name="GPB3" type="passive"/>
+        <pin num="6" name="GPB4" type="passive"/>
+        <pin num="7" name="GPB5" type="passive"/>
+        <pin num="8" name="GPB6" type="passive"/>
+        <pin num="9" name="GPB7" type="passive"/>
+        <pin num="10" name="VDD" type="passive"/>
+        <pin num="11" name="SCL" type="passive"/>
+        <pin num="12" name="SDA" type="passive"/>
+        <pin num="13" name="ADDR" type="passive"/>
+        <pin num="14" name="~{RESET}" type="passive"/>
+        <pin num="15" name="INTB" type="passive"/>
+        <pin num="16" name="INTA" type="passive"/>
+        <pin num="17" name="GPA0" type="passive"/>
+        <pin num="18" name="GPA1" type="passive"/>
+        <pin num="19" name="GPA2" type="passive"/>
+        <pin num="20" name="GPA3" type="passive"/>
+        <pin num="21" name="GPA4" type="passive"/>
+        <pin num="22" name="GPA5" type="passive"/>
+        <pin num="23" name="GPA6" type="passive"/>
+        <pin num="24" name="GPA7" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SamacSys_Parts" part="UA78M33IKVURG3">
+      <description>500-mA, 25-V, Linear Voltage Regulators</description>
+      <docs>http://www.ti.com/lit/gpn/ua78m</docs>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">UA78M33IKVURG3</field>
+        <field name="Footprint">UA78M33IKVURG3</field>
+        <field name="Datasheet">http://www.ti.com/lit/gpn/ua78m</field>
+        <field name="Description">500-mA, 25-V, Linear Voltage Regulators</field>
+        <field name="Height">2.52</field>
+        <field name="Manufacturer_Name">Texas Instruments</field>
+        <field name="Manufacturer_Part_Number">UA78M33IKVURG3</field>
+        <field name="Mouser Part Number">595-UA78M33IKVURG3</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Texas-Instruments/UA78M33IKVURG3?qs=dP8SwFlKThxMmGpfgS%2FADQ%3D%3D</field>
+        <field name="Arrow Part Number">UA78M33IKVURG3</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/ua78m33ikvurg3/texas-instruments?region=nac</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IN" type="passive"/>
+        <pin num="3" name="COMMON" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SamacSys_Parts" part="ULN2003LVDR">
+      <description>7-Ch Relay, Inductive Sink Driver SOIC16 Texas Instruments ULN2003LVDR, 7-element NPN Darlington Transistor Array, 140 mA 8 V, 16-Pin SOIC</description>
+      <docs>http://www.ti.com/lit/ds/symlink/uln2003lv.pdf</docs>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">ULN2003LVDR</field>
+        <field name="Footprint">SOIC127P600X175-16N</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/uln2003lv.pdf</field>
+        <field name="Description">7-Ch Relay, Inductive Sink Driver SOIC16 Texas Instruments ULN2003LVDR, 7-element NPN Darlington Transistor Array, 140 mA 8 V, 16-Pin SOIC</field>
+        <field name="Height">1.75</field>
+        <field name="Manufacturer_Name">Texas Instruments</field>
+        <field name="Manufacturer_Part_Number">ULN2003LVDR</field>
+        <field name="Mouser Part Number">595-ULN2003LVDR</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Texas-Instruments/ULN2003LVDR?qs=ACPZU2kmEKPLtcExeyaSSQ%3D%3D</field>
+        <field name="Arrow Part Number">ULN2003LVDR</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/uln2003lvdr/texas-instruments?region=nac</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IN1" type="passive"/>
+        <pin num="2" name="IN2" type="passive"/>
+        <pin num="3" name="IN3" type="passive"/>
+        <pin num="4" name="IN4" type="passive"/>
+        <pin num="5" name="IN5" type="passive"/>
+        <pin num="6" name="IN6" type="passive"/>
+        <pin num="7" name="IN7" type="passive"/>
+        <pin num="8" name="GND" type="passive"/>
+        <pin num="9" name="COM" type="passive"/>
+        <pin num="10" name="OUT7" type="passive"/>
+        <pin num="11" name="OUT6" type="passive"/>
+        <pin num="12" name="OUT5" type="passive"/>
+        <pin num="13" name="OUT4" type="passive"/>
+        <pin num="14" name="OUT3" type="passive"/>
+        <pin num="15" name="OUT2" type="passive"/>
+        <pin num="16" name="OUT1" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="ESP32Board_sym">
+      <uri>C:/Users/antho/Documents/Preamp design/kicad/lib/ESP32Board_sym.kicad_sym</uri>
+    </library>
+    <library logical="SamacSys_Parts">
+      <uri>C:/Users/antho/Documents/KiCad/7.0/sam/SamacSys_Parts.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+5V">
+      <node ref="C101" pin="1" pintype="passive"/>
+      <node ref="C103" pin="1" pintype="passive"/>
+      <node ref="IC101" pin="1" pinfunction="IN" pintype="passive"/>
+      <node ref="IC102" pin="9" pinfunction="COM" pintype="passive"/>
+      <node ref="J101" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="K101" pin="1" pinfunction="COIL+" pintype="passive"/>
+      <node ref="K101" pin="9" pinfunction="COM_2" pintype="passive"/>
+      <node ref="K102" pin="1" pinfunction="COIL+" pintype="passive"/>
+      <node ref="K102" pin="9" pinfunction="COM_2" pintype="passive"/>
+      <node ref="K103" pin="1" pinfunction="COIL+" pintype="passive"/>
+      <node ref="K103" pin="9" pinfunction="COM_2" pintype="passive"/>
+      <node ref="K104" pin="1" pinfunction="COIL+" pintype="passive"/>
+      <node ref="K104" pin="9" pinfunction="COM_2" pintype="passive"/>
+      <node ref="K105" pin="1" pinfunction="COIL+" pintype="passive"/>
+      <node ref="K105" pin="9" pinfunction="COM_2" pintype="passive"/>
+      <node ref="K106" pin="1" pinfunction="COIL+" pintype="passive"/>
+      <node ref="K106" pin="9" pinfunction="COM_2" pintype="passive"/>
+      <node ref="R106" pin="1" pintype="passive"/>
+    </net>
+    <net code="2" name="/3v3">
+      <node ref="C102" pin="1" pintype="passive"/>
+      <node ref="IC101" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="R104" pin="1" pintype="passive"/>
+    </net>
+    <net code="3" name="/DAC Power +">
+      <node ref="J102" pin="6" pinfunction="6" pintype="passive"/>
+      <node ref="K101" pin="5" pinfunction="NO_1" pintype="passive"/>
+    </net>
+    <net code="4" name="/DAC Relay">
+      <node ref="IC102" pin="15" pinfunction="OUT2" pintype="passive"/>
+      <node ref="K101" pin="12" pinfunction="COIL-" pintype="passive"/>
+    </net>
+    <net code="5" name="/DAC Relay On">
+      <node ref="IC102" pin="2" pinfunction="IN2" pintype="passive"/>
+    </net>
+    <net code="6" name="/Dac Power -">
+      <node ref="J102" pin="5" pinfunction="5" pintype="passive"/>
+      <node ref="K101" pin="4" pinfunction="COM_1" pintype="passive"/>
+    </net>
+    <net code="7" name="/Dac Pwr On">
+      <node ref="R105" pin="1" pintype="passive"/>
+    </net>
+    <net code="8" name="/Dac Pwr On led">
+      <node ref="K101" pin="8" pinfunction="NO_2" pintype="passive"/>
+    </net>
+    <net code="9" name="/Dac Type a{slash}b">
+      <node ref="IC102" pin="13" pinfunction="OUT4" pintype="passive"/>
+      <node ref="K104" pin="12" pinfunction="COIL-" pintype="passive"/>
+    </net>
+    <net code="10" name="/Dac Type a{slash}b +">
+      <node ref="J102" pin="8" pinfunction="8" pintype="passive"/>
+      <node ref="K104" pin="5" pinfunction="NO_1" pintype="passive"/>
+    </net>
+    <net code="11" name="/Dac Type a{slash}b -">
+      <node ref="J102" pin="7" pinfunction="7" pintype="passive"/>
+    </net>
+    <net code="12" name="/Dac Type a{slash}b - ">
+      <node ref="K104" pin="4" pinfunction="COM_1" pintype="passive"/>
+    </net>
+    <net code="13" name="/Dac Type a{slash}b Led">
+      <node ref="K104" pin="8" pinfunction="NO_2" pintype="passive"/>
+      <node ref="R107" pin="1" pintype="passive"/>
+    </net>
+    <net code="14" name="/Dac Type a{slash}b on">
+      <node ref="IC102" pin="4" pinfunction="IN4" pintype="passive"/>
+    </net>
+    <net code="15" name="/Monitor Power +">
+      <node ref="J102" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="K102" pin="5" pinfunction="NO_1" pintype="passive"/>
+    </net>
+    <net code="16" name="/Monitor Power -">
+      <node ref="J102" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="K102" pin="4" pinfunction="COM_1" pintype="passive"/>
+    </net>
+    <net code="17" name="/Monitor Pwr On">
+      <node ref="R102" pin="1" pintype="passive"/>
+    </net>
+    <net code="18" name="/Monitor Pwr On led">
+      <node ref="K102" pin="8" pinfunction="NO_2" pintype="passive"/>
+    </net>
+    <net code="19" name="/Monitor Relay">
+      <node ref="IC102" pin="14" pinfunction="OUT3" pintype="passive"/>
+      <node ref="K102" pin="12" pinfunction="COIL-" pintype="passive"/>
+    </net>
+    <net code="20" name="/Monitor Relay On">
+      <node ref="IC102" pin="3" pinfunction="IN3" pintype="passive"/>
+    </net>
+    <net code="21" name="/RPI pwr On">
+      <node ref="R103" pin="1" pintype="passive"/>
+    </net>
+    <net code="22" name="/RPI pwr On led">
+      <node ref="K103" pin="8" pinfunction="NO_2" pintype="passive"/>
+    </net>
+    <net code="23" name="/RPI4 Power -">
+      <node ref="J102" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="K103" pin="4" pinfunction="COM_1" pintype="passive"/>
+    </net>
+    <net code="24" name="/RPI4 Relay">
+      <node ref="IC102" pin="16" pinfunction="OUT1" pintype="passive"/>
+      <node ref="K103" pin="12" pinfunction="COIL-" pintype="passive"/>
+    </net>
+    <net code="25" name="/RPI4 Relay On">
+      <node ref="IC102" pin="1" pinfunction="IN1" pintype="passive"/>
+    </net>
+    <net code="26" name="/RPI4 power +">
+      <node ref="J102" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="K103" pin="5" pinfunction="NO_1" pintype="passive"/>
+    </net>
+    <net code="27" name="/Service Running">
+      <node ref="R101" pin="1" pintype="passive"/>
+    </net>
+    <net code="28" name="/Spare Relay">
+      <node ref="IC102" pin="12" pinfunction="OUT5" pintype="passive"/>
+      <node ref="K105" pin="12" pinfunction="COIL-" pintype="passive"/>
+    </net>
+    <net code="29" name="/Spare Relay +">
+      <node ref="J102" pin="10" pinfunction="10" pintype="passive"/>
+      <node ref="K105" pin="5" pinfunction="NO_1" pintype="passive"/>
+    </net>
+    <net code="30" name="/Spare Relay -">
+      <node ref="J102" pin="9" pinfunction="9" pintype="passive"/>
+      <node ref="K105" pin="4" pinfunction="COM_1" pintype="passive"/>
+    </net>
+    <net code="31" name="/Spare Relay 2">
+      <node ref="IC102" pin="11" pinfunction="OUT6" pintype="passive"/>
+      <node ref="K106" pin="12" pinfunction="COIL-" pintype="passive"/>
+    </net>
+    <net code="32" name="/Spare Relay 2 +">
+      <node ref="K106" pin="5" pinfunction="NO_1" pintype="passive"/>
+    </net>
+    <net code="33" name="/Spare Relay 2 -">
+      <node ref="K106" pin="4" pinfunction="COM_1" pintype="passive"/>
+    </net>
+    <net code="34" name="/Spare Relay 2 On">
+      <node ref="IC102" pin="6" pinfunction="IN6" pintype="passive"/>
+    </net>
+    <net code="35" name="/Spare Relay 2 led">
+      <node ref="K106" pin="8" pinfunction="NO_2" pintype="passive"/>
+      <node ref="R109" pin="1" pintype="passive"/>
+    </net>
+    <net code="36" name="/Spare Relay On">
+      <node ref="IC102" pin="5" pinfunction="IN5" pintype="passive"/>
+    </net>
+    <net code="37" name="/Spare Relay led">
+      <node ref="K105" pin="8" pinfunction="NO_2" pintype="passive"/>
+      <node ref="R108" pin="1" pintype="passive"/>
+    </net>
+    <net code="38" name="GND">
+      <node ref="C101" pin="2" pintype="passive"/>
+      <node ref="C102" pin="2" pintype="passive"/>
+      <node ref="C103" pin="2" pintype="passive"/>
+      <node ref="D101" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D102" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D103" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D104" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D105" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D106" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D107" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D108" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D109" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="IC101" pin="3" pinfunction="COMMON" pintype="passive"/>
+      <node ref="IC102" pin="7" pinfunction="IN7" pintype="passive"/>
+      <node ref="IC102" pin="8" pinfunction="GND" pintype="passive"/>
+      <node ref="J101" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="39" name="Net-(D101-A)">
+      <node ref="D101" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R101" pin="2" pintype="passive"/>
+    </net>
+    <net code="40" name="Net-(D102-A)">
+      <node ref="D102" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R102" pin="2" pintype="passive"/>
+    </net>
+    <net code="41" name="Net-(D103-A)">
+      <node ref="D103" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R103" pin="2" pintype="passive"/>
+    </net>
+    <net code="42" name="Net-(D104-A)">
+      <node ref="D104" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R104" pin="2" pintype="passive"/>
+    </net>
+    <net code="43" name="Net-(D105-A)">
+      <node ref="D105" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R105" pin="2" pintype="passive"/>
+    </net>
+    <net code="44" name="Net-(D106-A)">
+      <node ref="D106" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R106" pin="2" pintype="passive"/>
+    </net>
+    <net code="45" name="Net-(D107-A)">
+      <node ref="D107" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R107" pin="2" pintype="passive"/>
+    </net>
+    <net code="46" name="Net-(D108-A)">
+      <node ref="D108" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R108" pin="2" pintype="passive"/>
+    </net>
+    <net code="47" name="Net-(D109-A)">
+      <node ref="D109" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R109" pin="2" pintype="passive"/>
+    </net>
+    <net code="48" name="unconnected-(BRD101-3V3-Pad1)">
+      <node ref="BRD101" pin="1" pinfunction="3V3" pintype="power_out"/>
+    </net>
+    <net code="49" name="unconnected-(BRD101-3V3-Pad2)">
+      <node ref="BRD101" pin="2" pinfunction="3V3" pintype="power_out"/>
+    </net>
+    <net code="50" name="unconnected-(BRD101-5v0-Pad21)">
+      <node ref="BRD101" pin="21" pinfunction="5v0" pintype="power_in"/>
+    </net>
+    <net code="51" name="unconnected-(BRD101-GND-Pad22)">
+      <node ref="BRD101" pin="22" pinfunction="GND" pintype="passive"/>
+    </net>
+    <net code="52" name="unconnected-(BRD101-GND-Pad23)">
+      <node ref="BRD101" pin="23" pinfunction="GND" pintype="passive"/>
+    </net>
+    <net code="53" name="unconnected-(BRD101-GND-Pad24)">
+      <node ref="BRD101" pin="24" pinfunction="GND" pintype="passive"/>
+    </net>
+    <net code="54" name="unconnected-(BRD101-GND-Pad44)">
+      <node ref="BRD101" pin="44" pinfunction="GND" pintype="passive"/>
+    </net>
+    <net code="55" name="unconnected-(BRD101-GPIO0-Pad31)">
+      <node ref="BRD101" pin="31" pinfunction="GPIO0" pintype="bidirectional"/>
+    </net>
+    <net code="56" name="unconnected-(BRD101-GPIO1-Pad41)">
+      <node ref="BRD101" pin="41" pinfunction="GPIO1" pintype="bidirectional"/>
+    </net>
+    <net code="57" name="unconnected-(BRD101-GPIO2-Pad40)">
+      <node ref="BRD101" pin="40" pinfunction="GPIO2" pintype="bidirectional"/>
+    </net>
+    <net code="58" name="unconnected-(BRD101-GPIO3-Pad13)">
+      <node ref="BRD101" pin="13" pinfunction="GPIO3" pintype="bidirectional"/>
+    </net>
+    <net code="59" name="unconnected-(BRD101-GPIO4-Pad4)">
+      <node ref="BRD101" pin="4" pinfunction="GPIO4" pintype="bidirectional"/>
+    </net>
+    <net code="60" name="unconnected-(BRD101-GPIO5-Pad5)">
+      <node ref="BRD101" pin="5" pinfunction="GPIO5" pintype="bidirectional"/>
+    </net>
+    <net code="61" name="unconnected-(BRD101-GPIO6-Pad6)">
+      <node ref="BRD101" pin="6" pinfunction="GPIO6" pintype="bidirectional"/>
+    </net>
+    <net code="62" name="unconnected-(BRD101-GPIO7-Pad7)">
+      <node ref="BRD101" pin="7" pinfunction="GPIO7" pintype="bidirectional"/>
+    </net>
+    <net code="63" name="unconnected-(BRD101-GPIO8-Pad12)">
+      <node ref="BRD101" pin="12" pinfunction="GPIO8" pintype="bidirectional"/>
+    </net>
+    <net code="64" name="unconnected-(BRD101-GPIO9-Pad15)">
+      <node ref="BRD101" pin="15" pinfunction="GPIO9" pintype="bidirectional"/>
+    </net>
+    <net code="65" name="unconnected-(BRD101-GPIO10-Pad16)">
+      <node ref="BRD101" pin="16" pinfunction="GPIO10" pintype="bidirectional"/>
+    </net>
+    <net code="66" name="unconnected-(BRD101-GPIO11-Pad17)">
+      <node ref="BRD101" pin="17" pinfunction="GPIO11" pintype="bidirectional"/>
+    </net>
+    <net code="67" name="unconnected-(BRD101-GPIO12-Pad18)">
+      <node ref="BRD101" pin="18" pinfunction="GPIO12" pintype="bidirectional"/>
+    </net>
+    <net code="68" name="unconnected-(BRD101-GPIO13-Pad19)">
+      <node ref="BRD101" pin="19" pinfunction="GPIO13" pintype="bidirectional"/>
+    </net>
+    <net code="69" name="unconnected-(BRD101-GPIO14-Pad20)">
+      <node ref="BRD101" pin="20" pinfunction="GPIO14" pintype="bidirectional"/>
+    </net>
+    <net code="70" name="unconnected-(BRD101-GPIO15-Pad8)">
+      <node ref="BRD101" pin="8" pinfunction="GPIO15" pintype="bidirectional"/>
+    </net>
+    <net code="71" name="unconnected-(BRD101-GPIO16-Pad9)">
+      <node ref="BRD101" pin="9" pinfunction="GPIO16" pintype="bidirectional"/>
+    </net>
+    <net code="72" name="unconnected-(BRD101-GPIO17-Pad10)">
+      <node ref="BRD101" pin="10" pinfunction="GPIO17" pintype="bidirectional"/>
+    </net>
+    <net code="73" name="unconnected-(BRD101-GPIO18-Pad11)">
+      <node ref="BRD101" pin="11" pinfunction="GPIO18" pintype="bidirectional"/>
+    </net>
+    <net code="74" name="unconnected-(BRD101-GPIO21-Pad27)">
+      <node ref="BRD101" pin="27" pinfunction="GPIO21" pintype="bidirectional"/>
+    </net>
+    <net code="75" name="unconnected-(BRD101-GPIO35-Pad32)">
+      <node ref="BRD101" pin="32" pinfunction="GPIO35" pintype="input"/>
+    </net>
+    <net code="76" name="unconnected-(BRD101-GPIO36-Pad33)">
+      <node ref="BRD101" pin="33" pinfunction="GPIO36" pintype="bidirectional"/>
+    </net>
+    <net code="77" name="unconnected-(BRD101-GPIO37-Pad34)">
+      <node ref="BRD101" pin="34" pinfunction="GPIO37" pintype="bidirectional"/>
+    </net>
+    <net code="78" name="unconnected-(BRD101-GPIO38-Pad35)">
+      <node ref="BRD101" pin="35" pinfunction="GPIO38" pintype="bidirectional"/>
+    </net>
+    <net code="79" name="unconnected-(BRD101-GPIO39-Pad36)">
+      <node ref="BRD101" pin="36" pinfunction="GPIO39" pintype="bidirectional"/>
+    </net>
+    <net code="80" name="unconnected-(BRD101-GPIO40-Pad37)">
+      <node ref="BRD101" pin="37" pinfunction="GPIO40" pintype="bidirectional"/>
+    </net>
+    <net code="81" name="unconnected-(BRD101-GPIO41-Pad38)">
+      <node ref="BRD101" pin="38" pinfunction="GPIO41" pintype="bidirectional"/>
+    </net>
+    <net code="82" name="unconnected-(BRD101-GPIO42-Pad39)">
+      <node ref="BRD101" pin="39" pinfunction="GPIO42" pintype="bidirectional"/>
+    </net>
+    <net code="83" name="unconnected-(BRD101-GPIO45-Pad30)">
+      <node ref="BRD101" pin="30" pinfunction="GPIO45" pintype="bidirectional"/>
+    </net>
+    <net code="84" name="unconnected-(BRD101-GPIO46-Pad14)">
+      <node ref="BRD101" pin="14" pinfunction="GPIO46" pintype="bidirectional"/>
+    </net>
+    <net code="85" name="unconnected-(BRD101-GPIO47-Pad28)">
+      <node ref="BRD101" pin="28" pinfunction="GPIO47" pintype="bidirectional"/>
+    </net>
+    <net code="86" name="unconnected-(BRD101-GPIO48-Pad29)">
+      <node ref="BRD101" pin="29" pinfunction="GPIO48" pintype="bidirectional"/>
+    </net>
+    <net code="87" name="unconnected-(BRD101-RST-Pad3)">
+      <node ref="BRD101" pin="3" pinfunction="RST" pintype="bidirectional"/>
+    </net>
+    <net code="88" name="unconnected-(BRD101-U0RXD-Pad42)">
+      <node ref="BRD101" pin="42" pinfunction="U0RXD" pintype="input"/>
+    </net>
+    <net code="89" name="unconnected-(BRD101-UOTXD-Pad43)">
+      <node ref="BRD101" pin="43" pinfunction="UOTXD" pintype="output"/>
+    </net>
+    <net code="90" name="unconnected-(BRD101-USB_D--Pad25)">
+      <node ref="BRD101" pin="25" pinfunction="USB_D-" pintype="bidirectional"/>
+    </net>
+    <net code="91" name="unconnected-(BRD101-USB_d+-Pad26)">
+      <node ref="BRD101" pin="26" pinfunction="USB_d+" pintype="bidirectional"/>
+    </net>
+    <net code="92" name="unconnected-(IC102-OUT7-Pad10)">
+      <node ref="IC102" pin="10" pinfunction="OUT7" pintype="passive+no_connect"/>
+    </net>
+    <net code="93" name="unconnected-(IC103-ADDR-Pad13)">
+      <node ref="IC103" pin="13" pinfunction="ADDR" pintype="passive"/>
+    </net>
+    <net code="94" name="unconnected-(IC103-GPA0-Pad17)">
+      <node ref="IC103" pin="17" pinfunction="GPA0" pintype="passive"/>
+    </net>
+    <net code="95" name="unconnected-(IC103-GPA1-Pad18)">
+      <node ref="IC103" pin="18" pinfunction="GPA1" pintype="passive"/>
+    </net>
+    <net code="96" name="unconnected-(IC103-GPA2-Pad19)">
+      <node ref="IC103" pin="19" pinfunction="GPA2" pintype="passive"/>
+    </net>
+    <net code="97" name="unconnected-(IC103-GPA3-Pad20)">
+      <node ref="IC103" pin="20" pinfunction="GPA3" pintype="passive"/>
+    </net>
+    <net code="98" name="unconnected-(IC103-GPA4-Pad21)">
+      <node ref="IC103" pin="21" pinfunction="GPA4" pintype="passive"/>
+    </net>
+    <net code="99" name="unconnected-(IC103-GPA5-Pad22)">
+      <node ref="IC103" pin="22" pinfunction="GPA5" pintype="passive"/>
+    </net>
+    <net code="100" name="unconnected-(IC103-GPA6-Pad23)">
+      <node ref="IC103" pin="23" pinfunction="GPA6" pintype="passive"/>
+    </net>
+    <net code="101" name="unconnected-(IC103-GPA7-Pad24)">
+      <node ref="IC103" pin="24" pinfunction="GPA7" pintype="passive"/>
+    </net>
+    <net code="102" name="unconnected-(IC103-GPB0-Pad2)">
+      <node ref="IC103" pin="2" pinfunction="GPB0" pintype="passive"/>
+    </net>
+    <net code="103" name="unconnected-(IC103-GPB1-Pad3)">
+      <node ref="IC103" pin="3" pinfunction="GPB1" pintype="passive"/>
+    </net>
+    <net code="104" name="unconnected-(IC103-GPB2-Pad4)">
+      <node ref="IC103" pin="4" pinfunction="GPB2" pintype="passive"/>
+    </net>
+    <net code="105" name="unconnected-(IC103-GPB3-Pad5)">
+      <node ref="IC103" pin="5" pinfunction="GPB3" pintype="passive"/>
+    </net>
+    <net code="106" name="unconnected-(IC103-GPB4-Pad6)">
+      <node ref="IC103" pin="6" pinfunction="GPB4" pintype="passive"/>
+    </net>
+    <net code="107" name="unconnected-(IC103-GPB5-Pad7)">
+      <node ref="IC103" pin="7" pinfunction="GPB5" pintype="passive"/>
+    </net>
+    <net code="108" name="unconnected-(IC103-GPB6-Pad8)">
+      <node ref="IC103" pin="8" pinfunction="GPB6" pintype="passive"/>
+    </net>
+    <net code="109" name="unconnected-(IC103-GPB7-Pad9)">
+      <node ref="IC103" pin="9" pinfunction="GPB7" pintype="passive"/>
+    </net>
+    <net code="110" name="unconnected-(IC103-INTA-Pad16)">
+      <node ref="IC103" pin="16" pinfunction="INTA" pintype="passive"/>
+    </net>
+    <net code="111" name="unconnected-(IC103-INTB-Pad15)">
+      <node ref="IC103" pin="15" pinfunction="INTB" pintype="passive"/>
+    </net>
+    <net code="112" name="unconnected-(IC103-SCL-Pad11)">
+      <node ref="IC103" pin="11" pinfunction="SCL" pintype="passive"/>
+    </net>
+    <net code="113" name="unconnected-(IC103-SDA-Pad12)">
+      <node ref="IC103" pin="12" pinfunction="SDA" pintype="passive"/>
+    </net>
+    <net code="114" name="unconnected-(IC103-VDD-Pad10)">
+      <node ref="IC103" pin="10" pinfunction="VDD" pintype="passive"/>
+    </net>
+    <net code="115" name="unconnected-(IC103-VSS-Pad1)">
+      <node ref="IC103" pin="1" pinfunction="VSS" pintype="passive"/>
+    </net>
+    <net code="116" name="unconnected-(IC103-~{RESET}-Pad14)">
+      <node ref="IC103" pin="14" pinfunction="~{RESET}" pintype="passive"/>
+    </net>
+    <net code="117" name="unconnected-(IC104-GND-Pad10)">
+      <node ref="IC104" pin="10" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="118" name="unconnected-(IC104-IN1-Pad2)">
+      <node ref="IC104" pin="2" pinfunction="IN1" pintype="input"/>
+    </net>
+    <net code="119" name="unconnected-(IC104-IN2-Pad3)">
+      <node ref="IC104" pin="3" pinfunction="IN2" pintype="input"/>
+    </net>
+    <net code="120" name="unconnected-(IC104-IN3-Pad4)">
+      <node ref="IC104" pin="4" pinfunction="IN3" pintype="input"/>
+    </net>
+    <net code="121" name="unconnected-(IC104-IN4-Pad5)">
+      <node ref="IC104" pin="5" pinfunction="IN4" pintype="input"/>
+    </net>
+    <net code="122" name="unconnected-(IC104-IN5-Pad6)">
+      <node ref="IC104" pin="6" pinfunction="IN5" pintype="input"/>
+    </net>
+    <net code="123" name="unconnected-(IC104-IN6-Pad7)">
+      <node ref="IC104" pin="7" pinfunction="IN6" pintype="input"/>
+    </net>
+    <net code="124" name="unconnected-(IC104-IN7-Pad8)">
+      <node ref="IC104" pin="8" pinfunction="IN7" pintype="input"/>
+    </net>
+    <net code="125" name="unconnected-(IC104-IN8-Pad9)">
+      <node ref="IC104" pin="9" pinfunction="IN8" pintype="input"/>
+    </net>
+    <net code="126" name="unconnected-(IC104-OUT1-Pad19)">
+      <node ref="IC104" pin="19" pinfunction="OUT1" pintype="output"/>
+    </net>
+    <net code="127" name="unconnected-(IC104-OUT2-Pad18)">
+      <node ref="IC104" pin="18" pinfunction="OUT2" pintype="output"/>
+    </net>
+    <net code="128" name="unconnected-(IC104-OUT3-Pad17)">
+      <node ref="IC104" pin="17" pinfunction="OUT3" pintype="output"/>
+    </net>
+    <net code="129" name="unconnected-(IC104-OUT4-Pad16)">
+      <node ref="IC104" pin="16" pinfunction="OUT4" pintype="output"/>
+    </net>
+    <net code="130" name="unconnected-(IC104-OUT5-Pad15)">
+      <node ref="IC104" pin="15" pinfunction="OUT5" pintype="output"/>
+    </net>
+    <net code="131" name="unconnected-(IC104-OUT6-Pad14)">
+      <node ref="IC104" pin="14" pinfunction="OUT6" pintype="output"/>
+    </net>
+    <net code="132" name="unconnected-(IC104-OUT7-Pad13)">
+      <node ref="IC104" pin="13" pinfunction="OUT7" pintype="output"/>
+    </net>
+    <net code="133" name="unconnected-(IC104-OUT8-Pad12)">
+      <node ref="IC104" pin="12" pinfunction="OUT8" pintype="output"/>
+    </net>
+    <net code="134" name="unconnected-(IC104-VCC-Pad20)">
+      <node ref="IC104" pin="20" pinfunction="VCC" pintype="power_in"/>
+    </net>
+    <net code="135" name="unconnected-(IC104-~{CH}-Pad11)">
+      <node ref="IC104" pin="11" pinfunction="~{CH}" pintype="output"/>
+    </net>
+    <net code="136" name="unconnected-(IC104-~{EN}-Pad1)">
+      <node ref="IC104" pin="1" pinfunction="~{EN}" pintype="input"/>
+    </net>
+    <net code="137" name="unconnected-(J101-Pad2)">
+      <node ref="J101" pin="2" pinfunction="2" pintype="passive+no_connect"/>
+    </net>
+    <net code="138" name="unconnected-(K101-NC_1-Pad3)">
+      <node ref="K101" pin="3" pinfunction="NC_1" pintype="passive+no_connect"/>
+    </net>
+    <net code="139" name="unconnected-(K101-NC_2-Pad10)">
+      <node ref="K101" pin="10" pinfunction="NC_2" pintype="passive+no_connect"/>
+    </net>
+    <net code="140" name="unconnected-(K102-NC_1-Pad3)">
+      <node ref="K102" pin="3" pinfunction="NC_1" pintype="passive+no_connect"/>
+    </net>
+    <net code="141" name="unconnected-(K102-NC_2-Pad10)">
+      <node ref="K102" pin="10" pinfunction="NC_2" pintype="passive+no_connect"/>
+    </net>
+    <net code="142" name="unconnected-(K103-NC_1-Pad3)">
+      <node ref="K103" pin="3" pinfunction="NC_1" pintype="passive+no_connect"/>
+    </net>
+    <net code="143" name="unconnected-(K103-NC_2-Pad10)">
+      <node ref="K103" pin="10" pinfunction="NC_2" pintype="passive+no_connect"/>
+    </net>
+    <net code="144" name="unconnected-(K104-NC_1-Pad3)">
+      <node ref="K104" pin="3" pinfunction="NC_1" pintype="passive+no_connect"/>
+    </net>
+    <net code="145" name="unconnected-(K104-NC_2-Pad10)">
+      <node ref="K104" pin="10" pinfunction="NC_2" pintype="passive+no_connect"/>
+    </net>
+    <net code="146" name="unconnected-(K105-NC_1-Pad3)">
+      <node ref="K105" pin="3" pinfunction="NC_1" pintype="passive+no_connect"/>
+    </net>
+    <net code="147" name="unconnected-(K105-NC_2-Pad10)">
+      <node ref="K105" pin="10" pinfunction="NC_2" pintype="passive+no_connect"/>
+    </net>
+    <net code="148" name="unconnected-(K106-NC_1-Pad3)">
+      <node ref="K106" pin="3" pinfunction="NC_1" pintype="passive+no_connect"/>
+    </net>
+    <net code="149" name="unconnected-(K106-NC_2-Pad10)">
+      <node ref="K106" pin="10" pinfunction="NC_2" pintype="passive+no_connect"/>
+    </net>
+  </nets>
+</export>
