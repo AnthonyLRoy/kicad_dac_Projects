@@ -1,0 +1,469 @@
+STEP translation to Solid Edge
+Date: Tuesday,October 20,2026 06:32PM
+Source File: C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\tinyControlBoard\tinyControlBoard.step
+Author: Pcbnew
+Organization: Kicad
+Source System: KiCad to STEP converter
+
+Hardware:
+Processor: Intel(R) Core(TM) i7-6700K CPU @ 4.00GHz
+Operating System: Windows 10 Professional Version:22H2 Build:19045 System Type:64-bit
+Installed Memory: 31.92 GB
+
+Software Information
+Parasolid Version: 38.0.150
+PSBodyShop Version: 38.0.111
+Step Adapter Version: 1700.0.0
+Solid Edge Version: 226.00.01.004 x64
+
+Step Import Options
+Import Faceted Bodies: On
+Import Check Bodies: Off
+Import Curves: On
+Import DoNotSave: On
+Import Multiple Bodies As Single Part File: On
+Import Optimize:Off
+Import Stitch Surfaces: On
+Import Boolean Solids: On
+Make Base Feature: On
+Simplify Geometry: On
+Import Imprint Curves: On
+Import Drive: C:
+Import Stitch Surfaces: On
+Import Surfaces: On
+Import Output Path: C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\tinyControlBoard
+Import Enable Default Output Path: On
+Import PMI: Off
+Import As Internal Components: Off
+Import Path: 
+
+Translating to Parasolid data types...
+Warn: PSF_INVALID_COLORS
+Warn: PSF_INVALID_COLORS
+Warn: PSF_INVALID_COLORS
+Warn: PSF_INVALID_COLORS
+Warn: PSF_INVALID_COLORS
+Warn: PSF_INVALID_COLORS
+Warn: PSF_INVALID_COLORS
+Warn: PSF_INVALID_COLORS
+Warn: PSF_INVALID_COLORS
+Warn: PSF_INVALID_COLORS
+Warn: PSF_INVALID_COLORS
+Warn: PSF_INVALID_COLORS
+Warn: PSF_INVALID_COLORS
+Warn: PSF_INVALID_COLORS
+Warn: PSF_INVALID_COLORS
+Warn: PSF_INVALID_COLORS
+Warn: PSF_INVALID_COLORS
+Warn: PSF_INVALID_COLORS
+Warn: PSF_INVALID_COLORS
+Warn: PSF_INVALID_COLORS
+Warn: PSF_INVALID_COLORS
+Warn: PSF_INVALID_COLORS
+Warn: PSF_INVALID_COLORS
+Warn: PSF_INVALID_COLORS
+Warn: PSF_INVALID_COLORS
+Warn: PSF_INVALID_COLORS
+Warn: PSF_INVALID_COLORS
+Warn: PSF_INVALID_COLORS
+Warn: PSF_INVALID_COLORS
+Warn: PSF_INVALID_COLORS
+Warn: PSF_INVALID_COLORS
+Warn: PSF_INVALID_COLORS
+Warn: PSF_INVALID_COLORS
+Warn: PSF_INVALID_COLORS
+Warn: PSF_INVALID_COLORS
+Warn: PSF_INVALID_COLORS
+Warn: PSF_INVALID_COLORS
+Warn: PSF_INVALID_COLORS
+Warn: PSF_INVALID_COLORS
+Warn: PSF_INVALID_COLORS
+Warn: PSF_INVALID_COLORS
+Warn: PSF_INVALID_COLORS
+Warn: PSF_INVALID_COLORS
+Warn: PSF_INVALID_COLORS
+Warn: PSF_INVALID_COLORS
+Warn: PSF_INVALID_COLORS
+Warn: PSF_INVALID_COLORS
+Warn: PSF_INVALID_COLORS
+Warn: PSF_INVALID_COLORS
+Warn: PSF_INVALID_COLORS
+Warn: PSF_INVALID_COLORS
+Warn: PSF_INVALID_COLORS
+Warn: PSF_INVALID_COLORS
+Warn: PSF_INVALID_COLORS
+Warn: PSF_INVALID_COLORS
+Warn: PSF_INVALID_COLORS
+Warn: PSF_INVALID_COLORS
+Warn: PSF_INVALID_COLORS
+Warn: PSF_INVALID_COLORS
+Warn: PSF_INVALID_COLORS
+Warn: PSF_INVALID_COLORS
+Warn: PSF_INVALID_COLORS
+Warn: PSF_INVALID_COLORS
+Warn: PSF_INVALID_COLORS
+Warn: PSF_INVALID_COLORS
+Warn: PSF_INVALID_COLORS
+Warn: PSF_INVALID_COLORS
+Warn: PSF_INVALID_COLORS
+Warn: PSF_INVALID_COLORS
+Warn: PSF_INVALID_COLORS
+Warn: PSF_INVALID_COLORS
+Warn: PSF_INVALID_COLORS
+Warn: PSF_INVALID_COLORS
+Warn: PSF_INVALID_COLORS
+Warn: PSF_INVALID_COLORS
+Warn: PSF_INVALID_COLORS
+Warn: PSF_INVALID_COLORS
+Warn: PSF_INVALID_COLORS
+Warn: PSF_INVALID_COLORS
+Warn: PSF_INVALID_COLORS
++Begin Assembly: 1
++Created SE Assembly File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\tinyControlBoard\tinyControlBoard.asm
+|--+Begin Assembly: 2
+|--+Created SE Assembly File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\tinyControlBoard\R_0603_1608Metric_1.asm
+|  |--+Created SE Part File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\tinyControlBoard\R_0603_1608Metric_1.par
+|--+Total Parts: 2
+|--+Assemblies: 0
+|--+Solid Bodies: 2
+|--+Sheet Bodies: 0
+|--+End Assembly: 2
+|--+Begin Assembly: 2
+|--+Reusing File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\tinyControlBoard\R_0603_1608Metric.asm
+|--+Total Parts: 0
+|--+Assemblies: 0
+|--+Solid Bodies: 0
+|--+Sheet Bodies: 0
+|--+End Assembly: 2
+|--+Begin Assembly: 2
+|--+Created SE Assembly File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\tinyControlBoard\LED_0805_2012Metric_1.asm
+|  |--+Created SE Part File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\tinyControlBoard\LED_0805_2012Metric_1.par
+|--+Total Parts: 2
+|--+Assemblies: 0
+|--+Solid Bodies: 2
+|--+Sheet Bodies: 0
+|--+End Assembly: 2
+|--+Begin Assembly: 2
+|--+Created SE Assembly File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\tinyControlBoard\C_0603_1608Metric_1.asm
+|  |--+Created SE Part File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\tinyControlBoard\C_0603_1608Metric_1.par
+|--+Total Parts: 2
+|--+Assemblies: 0
+|--+Solid Bodies: 2
+|--+Sheet Bodies: 0
+|--+End Assembly: 2
+|--+Begin Assembly: 2
+|--+Reusing File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\tinyControlBoard\C_0603_1608Metric.asm
+|--+Total Parts: 0
+|--+Assemblies: 0
+|--+Solid Bodies: 0
+|--+Sheet Bodies: 0
+|--+End Assembly: 2
+|--+Begin Assembly: 2
+|--+Reusing File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\tinyControlBoard\C_0603_1608Metric.asm
+|--+Total Parts: 0
+|--+Assemblies: 0
+|--+Solid Bodies: 0
+|--+Sheet Bodies: 0
+|--+End Assembly: 2
+|--+Begin Assembly: 2
+|--+Created SE Assembly File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\tinyControlBoard\R_0402_1005Metric_1.asm
+|  |--+Created SE Part File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\tinyControlBoard\R_0402_1005Metric_1.par
+|--+Total Parts: 2
+|--+Assemblies: 0
+|--+Solid Bodies: 2
+|--+Sheet Bodies: 0
+|--+End Assembly: 2
+|--+Begin Assembly: 2
+|--+Created SE Assembly File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\tinyControlBoard\SGM2212-3.3XKC3G_TR_1.asm
+|  |--+Created SE Part File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\tinyControlBoard\ASSEMBLY_8.par
+|--+Total Parts: 10
+|--+Assemblies: 0
+|--+Solid Bodies: 10
+|--+Sheet Bodies: 0
+|--+End Assembly: 2
+|--+Begin Assembly: 2
+|--+Reusing File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\tinyControlBoard\R_0603_1608Metric.asm
+|--+Total Parts: 0
+|--+Assemblies: 0
+|--+Solid Bodies: 0
+|--+Sheet Bodies: 0
+|--+End Assembly: 2
+|--+Begin Assembly: 2
+|--+Created SE Assembly File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\tinyControlBoard\MAX3001EAUP+_1.asm
+|  |--+Created SE Part File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\tinyControlBoard\ASSEMBLY_9.par
+|--+Total Parts: 42
+|--+Assemblies: 0
+|--+Solid Bodies: 42
+|--+Sheet Bodies: 0
+|--+End Assembly: 2
+|--+Begin Assembly: 2
+|--+Reusing File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\tinyControlBoard\R_0603_1608Metric.asm
+|--+Total Parts: 0
+|--+Assemblies: 0
+|--+Solid Bodies: 0
+|--+Sheet Bodies: 0
+|--+End Assembly: 2
+|--+Begin Assembly: 2
+|--+Created SE Assembly File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\tinyControlBoard\1725672_1.asm
+|  |--+Created SE Part File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\tinyControlBoard\1725672_1.par
+|--+Total Parts: 2
+|--+Assemblies: 0
+|--+Solid Bodies: 2
+|--+Sheet Bodies: 0
+|--+End Assembly: 2
+|--+Begin Assembly: 2
+|--+Reusing File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\tinyControlBoard\R_0603_1608Metric.asm
+|--+Total Parts: 0
+|--+Assemblies: 0
+|--+Solid Bodies: 0
+|--+Sheet Bodies: 0
+|--+End Assembly: 2
+|--+Begin Assembly: 2
+|--+Created SE Assembly File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\tinyControlBoard\EG1206A_1.asm
+|  |--+Created SE Part File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\tinyControlBoard\EG1206A_1.par
+|--+Total Parts: 12
+|--+Assemblies: 0
+|--+Solid Bodies: 12
+|--+Sheet Bodies: 0
+|--+End Assembly: 2
+|--+Begin Assembly: 2
+|--+Reusing File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\tinyControlBoard\R_0603_1608Metric.asm
+|--+Total Parts: 0
+|--+Assemblies: 0
+|--+Solid Bodies: 0
+|--+Sheet Bodies: 0
+|--+End Assembly: 2
+|--+Begin Assembly: 2
+|--+Reusing File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\tinyControlBoard\R_0603_1608Metric.asm
+|--+Total Parts: 0
+|--+Assemblies: 0
+|--+Solid Bodies: 0
+|--+Sheet Bodies: 0
+|--+End Assembly: 2
+|--+Begin Assembly: 2
+|--+Reusing File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\tinyControlBoard\LED_0805_2012Metric.asm
+|--+Total Parts: 0
+|--+Assemblies: 0
+|--+Solid Bodies: 0
+|--+Sheet Bodies: 0
+|--+End Assembly: 2
+|--+Begin Assembly: 2
+|--+Reusing File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\tinyControlBoard\C_0603_1608Metric.asm
+|--+Total Parts: 0
+|--+Assemblies: 0
+|--+Solid Bodies: 0
+|--+Sheet Bodies: 0
+|--+End Assembly: 2
+|--+Begin Assembly: 2
+|--+Reusing File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\tinyControlBoard\MAX3001EAUP+.asm
+|--+Total Parts: 0
+|--+Assemblies: 0
+|--+Solid Bodies: 0
+|--+Sheet Bodies: 0
+|--+End Assembly: 2
+|--+Begin Assembly: 2
+|--+Reusing File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\tinyControlBoard\C_0603_1608Metric.asm
+|--+Total Parts: 0
+|--+Assemblies: 0
+|--+Solid Bodies: 0
+|--+Sheet Bodies: 0
+|--+End Assembly: 2
+|--+Begin Assembly: 2
+|--+Reusing File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\tinyControlBoard\C_0603_1608Metric.asm
+|--+Total Parts: 0
+|--+Assemblies: 0
+|--+Solid Bodies: 0
+|--+Sheet Bodies: 0
+|--+End Assembly: 2
+|--+Begin Assembly: 2
+|--+Reusing File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\tinyControlBoard\R_0402_1005Metric.asm
+|--+Total Parts: 0
+|--+Assemblies: 0
+|--+Solid Bodies: 0
+|--+Sheet Bodies: 0
+|--+End Assembly: 2
+|--+Begin Assembly: 2
+|--+Reusing File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\tinyControlBoard\C_0603_1608Metric.asm
+|--+Total Parts: 0
+|--+Assemblies: 0
+|--+Solid Bodies: 0
+|--+Sheet Bodies: 0
+|--+End Assembly: 2
+|--+Begin Assembly: 2
+|--+Created SE Assembly File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\tinyControlBoard\TC33X-2-502G_1.asm
+|  |--+Created SE Part File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\tinyControlBoard\TC33X-2-103E_1.par
+|--+Total Parts: 16
+|--+Assemblies: 0
+|--+Solid Bodies: 16
+|--+Sheet Bodies: 0
+|--+End Assembly: 2
+|--+Begin Assembly: 2
+|--+Created SE Assembly File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\tinyControlBoard\SOT-23-6_1.asm
+|  |--+Created SE Part File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\tinyControlBoard\SOT_23_6_1.par
+|--+Total Parts: 2
+|--+Assemblies: 0
+|--+Solid Bodies: 2
+|--+Sheet Bodies: 0
+|--+End Assembly: 2
+|--+Begin Assembly: 2
+|--+Reusing File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\tinyControlBoard\1725672.asm
+|--+Total Parts: 0
+|--+Assemblies: 0
+|--+Solid Bodies: 0
+|--+Sheet Bodies: 0
+|--+End Assembly: 2
+|--+Begin Assembly: 2
+|--+Created SE Assembly File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\tinyControlBoard\ESP32-S3-WROOM-1U-N4_0.asm
+|  |--+Created SE Part File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\tinyControlBoard\ESP32-S3-WROOM-1U-N16R8_0.par
+|--+Total Parts: 112
+|--+Assemblies: 0
+|--+Solid Bodies: 112
+|--+Sheet Bodies: 0
+|--+End Assembly: 2
+|--+Begin Assembly: 2
+|--+Reusing File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\tinyControlBoard\R_0603_1608Metric.asm
+|--+Total Parts: 0
+|--+Assemblies: 0
+|--+Solid Bodies: 0
+|--+Sheet Bodies: 0
+|--+End Assembly: 2
+|--+Begin Assembly: 2
+|--+Created SE Assembly File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\tinyControlBoard\MCP23018-E_SO_1.asm
+|  |--+Created SE Part File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\tinyControlBoard\ASSEMBLY_10.par
+|--+Total Parts: 58
+|--+Assemblies: 0
+|--+Solid Bodies: 58
+|--+Sheet Bodies: 0
+|--+End Assembly: 2
+|--+Begin Assembly: 2
+|--+Reusing File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\tinyControlBoard\R_0603_1608Metric.asm
+|--+Total Parts: 0
+|--+Assemblies: 0
+|--+Solid Bodies: 0
+|--+Sheet Bodies: 0
+|--+End Assembly: 2
+|--+Begin Assembly: 2
+|--+Created SE Assembly File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\tinyControlBoard\70246-4001_1.asm
+|  |--+Created SE Part File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\tinyControlBoard\702464001_1.par
+|--+Total Parts: 2
+|--+Assemblies: 0
+|--+Solid Bodies: 2
+|--+Sheet Bodies: 0
+|--+End Assembly: 2
+|--+Begin Assembly: 2
+|--+Created SE Assembly File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\tinyControlBoard\430182043816_1.asm
+|  |--+Created SE Part File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\tinyControlBoard\430182043816 (rev1)_1.par
+|--+Total Parts: 2
+|--+Assemblies: 0
+|--+Solid Bodies: 2
+|--+Sheet Bodies: 0
+|--+End Assembly: 2
+|--+Begin Assembly: 2
+|--+Reusing File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\tinyControlBoard\C_0603_1608Metric.asm
+|--+Total Parts: 0
+|--+Assemblies: 0
+|--+Solid Bodies: 0
+|--+Sheet Bodies: 0
+|--+End Assembly: 2
+|--+Begin Assembly: 2
+|--+Reusing File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\tinyControlBoard\C_0603_1608Metric.asm
+|--+Total Parts: 0
+|--+Assemblies: 0
+|--+Solid Bodies: 0
+|--+Sheet Bodies: 0
+|--+End Assembly: 2
+|--+Begin Assembly: 2
+|--+Reusing File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\tinyControlBoard\430182043816.asm
+|--+Total Parts: 0
+|--+Assemblies: 0
+|--+Solid Bodies: 0
+|--+Sheet Bodies: 0
+|--+End Assembly: 2
+|--+Begin Assembly: 2
+|--+Created SE Assembly File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\tinyControlBoard\ULN2003ANSRE4_1.asm
+|  |--+Created SE Part File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\tinyControlBoard\NS0016A_ASM_1.par
+|--+Total Parts: 34
+|--+Assemblies: 0
+|--+Solid Bodies: 34
+|--+Sheet Bodies: 0
+|--+End Assembly: 2
+|--+Begin Assembly: 2
+|--+Reusing File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\tinyControlBoard\R_0603_1608Metric.asm
+|--+Total Parts: 0
+|--+Assemblies: 0
+|--+Solid Bodies: 0
+|--+Sheet Bodies: 0
+|--+End Assembly: 2
+|--+Begin Assembly: 2
+|--+Reusing File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\tinyControlBoard\R_0603_1608Metric.asm
+|--+Total Parts: 0
+|--+Assemblies: 0
+|--+Solid Bodies: 0
+|--+Sheet Bodies: 0
+|--+End Assembly: 2
+|--+Begin Assembly: 2
+|--+Reusing File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\tinyControlBoard\R_0603_1608Metric.asm
+|--+Total Parts: 0
+|--+Assemblies: 0
+|--+Solid Bodies: 0
+|--+Sheet Bodies: 0
+|--+End Assembly: 2
+|--+Begin Assembly: 2
+|--+Reusing File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\tinyControlBoard\LED_0805_2012Metric.asm
+|--+Total Parts: 0
+|--+Assemblies: 0
+|--+Solid Bodies: 0
+|--+Sheet Bodies: 0
+|--+End Assembly: 2
+|--+Begin Assembly: 2
+|--+Created SE Assembly File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\tinyControlBoard\STP16CPC26MTR_1.asm
+|  |--+Created SE Part File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\tinyControlBoard\ASSEMBLY_11.par
+|--+Total Parts: 50
+|--+Assemblies: 0
+|--+Solid Bodies: 50
+|--+Sheet Bodies: 0
+|--+End Assembly: 2
+|--+Begin Assembly: 2
+|--+Reusing File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\tinyControlBoard\70246-4001.asm
+|--+Total Parts: 0
+|--+Assemblies: 0
+|--+Solid Bodies: 0
+|--+Sheet Bodies: 0
+|--+End Assembly: 2
+|--+Begin Assembly: 2
+|--+Reusing File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\tinyControlBoard\TC33X-2-502G.asm
+|--+Total Parts: 0
+|--+Assemblies: 0
+|--+Solid Bodies: 0
+|--+Sheet Bodies: 0
+|--+End Assembly: 2
+|--+Begin Assembly: 2
+|--+Reusing File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\tinyControlBoard\TC33X-2-502G.asm
+|--+Total Parts: 0
+|--+Assemblies: 0
+|--+Solid Bodies: 0
+|--+Sheet Bodies: 0
+|--+End Assembly: 2
+|--+Begin Assembly: 2
+|--+Reusing File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\tinyControlBoard\C_0603_1608Metric.asm
+|--+Total Parts: 0
+|--+Assemblies: 0
+|--+Solid Bodies: 0
+|--+Sheet Bodies: 0
+|--+End Assembly: 2
+|--+Begin Assembly: 2
+|--+Created SE Assembly File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\tinyControlBoard\USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal_1.asm
+|  |--+Created SE Part File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\tinyControlBoard\USB_C_Receptacle_16P_TopMnt_Horizontal_GCT_USB4105-xx-A_1.par
+|--+Total Parts: 72
+|--+Assemblies: 0
+|--+Solid Bodies: 72
+|--+Sheet Bodies: 0
+|--+End Assembly: 2
+|--+Created SE Part File C:\Users\antho\Documents\StreamerDac Project\Documents\kicad\Projects\tinyControlBoard\tinyControlBoard_PCB_1.par
++Total Parts: 19
++Assemblies: 17
++Solid Bodies: 2
++Sheet Bodies: 0
++End Assembly: 1
+Translation process completed
+Total time required to translate and post process:00 : 00 : 09
