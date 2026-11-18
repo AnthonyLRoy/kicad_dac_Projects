@@ -8172,7 +8172,7 @@
 	)
 	(text "Mounting Holes"
 		(exclude_from_sim no)
-		(at 125.73 205.74 0)
+		(at 113.03 215.9 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8535,7 +8535,7 @@
 	)
 	(text_box "Relays for remove control for power to Dacs and other external boards\n"
 		(exclude_from_sim no)
-		(at 209.55 245.11 0)
+		(at 213.36 208.28 0)
 		(size 27.94 8.89)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -8671,7 +8671,7 @@
 		(uuid "10c29d25-c6f6-431f-87e8-5c046c8a9cdf")
 	)
 	(junction
-		(at 254 213.36)
+		(at 260.35 233.68)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "13fb0000-c890-49c2-ad9e-50a0695e7447")
@@ -8851,13 +8851,13 @@
 		(uuid "50ff2a97-fa3b-4912-9ed2-ba59c6013e8b")
 	)
 	(junction
-		(at 181.61 213.36)
+		(at 187.96 233.68)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "52f5284f-5fc6-4d36-b857-11c02ccd2869")
 	)
 	(junction
-		(at 186.69 213.36)
+		(at 193.04 233.68)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "544e7508-5220-4d8e-9d5a-51ed3695dd01")
@@ -9031,7 +9031,7 @@
 		(uuid "c5abe819-a38a-4e6c-856e-fa172ee475d2")
 	)
 	(junction
-		(at 200.66 233.68)
+		(at 207.01 254)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c6cce6fc-e5ae-4c65-8e78-6df569b5dd68")
@@ -9065,6 +9065,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dfaf5d5b-81ce-4311-a310-233ba04f2fe3")
+	)
+	(junction
+		(at 153.67 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e234e0e8-555a-4ca4-a561-ab1fb05f0e19")
 	)
 	(junction
 		(at 318.77 109.22)
@@ -9472,7 +9478,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 228.6) (xy 207.01 228.6)
+			(xy 203.2 248.92) (xy 213.36 248.92)
 		)
 		(stroke
 			(width 0)
@@ -9542,7 +9548,7 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 233.68) (xy 234.95 236.22)
+			(xy 241.3 254) (xy 241.3 256.54)
 		)
 		(stroke
 			(width 0)
@@ -9662,6 +9668,16 @@
 	)
 	(wire
 		(pts
+			(xy 157.48 162.56) (xy 157.48 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08d29591-c624-42a7-9368-2ff8e96b6574")
+	)
+	(wire
+		(pts
 			(xy 38.1 53.34) (xy 41.91 53.34)
 		)
 		(stroke
@@ -9739,6 +9755,16 @@
 			(type default)
 		)
 		(uuid "0d2071f6-9c98-4928-87ee-d9bde9422ac5")
+	)
+	(wire
+		(pts
+			(xy 149.86 153.67) (xy 153.67 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0dbb8f3f-9481-452b-9b6e-faa89a1bdf8d")
 	)
 	(wire
 		(pts
@@ -9902,7 +9928,7 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 220.98) (xy 248.92 220.98)
+			(xy 241.3 241.3) (xy 255.27 241.3)
 		)
 		(stroke
 			(width 0)
@@ -10272,7 +10298,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 220.98) (xy 207.01 220.98)
+			(xy 203.2 241.3) (xy 213.36 241.3)
 		)
 		(stroke
 			(width 0)
@@ -10302,7 +10328,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 223.52) (xy 207.01 223.52)
+			(xy 203.2 243.84) (xy 213.36 243.84)
 		)
 		(stroke
 			(width 0)
@@ -10462,7 +10488,7 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 226.06) (xy 248.92 226.06)
+			(xy 241.3 246.38) (xy 255.27 246.38)
 		)
 		(stroke
 			(width 0)
@@ -10762,7 +10788,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 210.82) (xy 234.95 210.82)
+			(xy 255.27 231.14) (xy 241.3 231.14)
 		)
 		(stroke
 			(width 0)
@@ -10942,7 +10968,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 233.68) (xy 200.66 233.68)
+			(xy 203.2 254) (xy 207.01 254)
 		)
 		(stroke
 			(width 0)
@@ -11022,7 +11048,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 226.06) (xy 207.01 226.06)
+			(xy 203.2 246.38) (xy 213.36 246.38)
 		)
 		(stroke
 			(width 0)
@@ -11219,6 +11245,16 @@
 			(type default)
 		)
 		(uuid "4f9a31f5-1f53-4ca4-8b4b-ff6bcdd7c4ab")
+	)
+	(wire
+		(pts
+			(xy 157.48 154.94) (xy 157.48 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4fa5cfa2-6d41-4634-aed3-c9d390718610")
 	)
 	(wire
 		(pts
@@ -11602,7 +11638,17 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 233.68) (xy 207.01 233.68)
+			(xy 149.86 162.56) (xy 149.86 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6469ba8e-2e5f-4825-87fb-838113f794e9")
+	)
+	(wire
+		(pts
+			(xy 207.01 254) (xy 213.36 254)
 		)
 		(stroke
 			(width 0)
@@ -11732,7 +11778,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 234.95) (xy 200.66 233.68)
+			(xy 207.01 255.27) (xy 207.01 254)
 		)
 		(stroke
 			(width 0)
@@ -11912,7 +11958,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 215.9) (xy 207.01 215.9)
+			(xy 203.2 236.22) (xy 213.36 236.22)
 		)
 		(stroke
 			(width 0)
@@ -11992,7 +12038,7 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 218.44) (xy 248.92 218.44)
+			(xy 241.3 238.76) (xy 255.27 238.76)
 		)
 		(stroke
 			(width 0)
@@ -12092,7 +12138,7 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 213.36) (xy 254 213.36)
+			(xy 241.3 233.68) (xy 260.35 233.68)
 		)
 		(stroke
 			(width 0)
@@ -12492,7 +12538,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 231.14) (xy 207.01 231.14)
+			(xy 203.2 251.46) (xy 213.36 251.46)
 		)
 		(stroke
 			(width 0)
@@ -12652,7 +12698,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 213.36) (xy 181.61 228.6)
+			(xy 187.96 233.68) (xy 187.96 248.92)
 		)
 		(stroke
 			(width 0)
@@ -12722,7 +12768,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 213.36) (xy 207.01 213.36)
+			(xy 193.04 233.68) (xy 213.36 233.68)
 		)
 		(stroke
 			(width 0)
@@ -12832,7 +12878,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 218.44) (xy 207.01 218.44)
+			(xy 203.2 238.76) (xy 213.36 238.76)
 		)
 		(stroke
 			(width 0)
@@ -12939,6 +12985,16 @@
 			(type default)
 		)
 		(uuid "ad9c7de9-e4cb-48be-8d5d-0f9fe4d6b3e9")
+	)
+	(wire
+		(pts
+			(xy 157.48 153.67) (xy 153.67 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad9e3edd-ebaf-4568-9fcf-173649211afa")
 	)
 	(wire
 		(pts
@@ -13172,7 +13228,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 243.84) (xy 200.66 240.03)
+			(xy 207.01 264.16) (xy 207.01 260.35)
 		)
 		(stroke
 			(width 0)
@@ -13262,7 +13318,7 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 231.14) (xy 248.92 231.14)
+			(xy 241.3 251.46) (xy 255.27 251.46)
 		)
 		(stroke
 			(width 0)
@@ -13482,7 +13538,7 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 215.9) (xy 248.92 215.9)
+			(xy 241.3 236.22) (xy 255.27 236.22)
 		)
 		(stroke
 			(width 0)
@@ -13592,7 +13648,7 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 228.6) (xy 248.92 228.6)
+			(xy 241.3 248.92) (xy 255.27 248.92)
 		)
 		(stroke
 			(width 0)
@@ -13672,7 +13728,7 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 223.52) (xy 248.92 223.52)
+			(xy 241.3 243.84) (xy 255.27 243.84)
 		)
 		(stroke
 			(width 0)
@@ -13729,6 +13785,16 @@
 			(type default)
 		)
 		(uuid "df6339a4-975d-4181-9ea2-323affacf9fa")
+	)
+	(wire
+		(pts
+			(xy 149.86 154.94) (xy 149.86 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0a23ce7-f282-4054-9d4d-21fa50e1f376")
 	)
 	(wire
 		(pts
@@ -13922,7 +13988,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 210.82) (xy 207.01 210.82)
+			(xy 203.2 231.14) (xy 213.36 231.14)
 		)
 		(stroke
 			(width 0)
@@ -14123,7 +14189,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 213.36) (xy 186.69 213.36)
+			(xy 187.96 233.68) (xy 193.04 233.68)
 		)
 		(stroke
 			(width 0)
@@ -14263,7 +14329,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 238.76) (xy 181.61 243.84)
+			(xy 187.96 259.08) (xy 187.96 264.16)
 		)
 		(stroke
 			(width 0)
@@ -14323,7 +14389,7 @@
 	)
 	(wire
 		(pts
-			(xy 254 213.36) (xy 257.81 213.36)
+			(xy 260.35 233.68) (xy 264.16 233.68)
 		)
 		(stroke
 			(width 0)
@@ -14482,7 +14548,7 @@
 		(uuid "03c5402a-78b1-4eba-be9d-9301f2b3945e")
 	)
 	(label "relay_gen_2"
-		(at 196.85 210.82 0)
+		(at 203.2 231.14 0)
 		(effects
 			(font
 				(size 1 1)
@@ -14562,7 +14628,7 @@
 		(uuid "0a56a6a1-183e-49cd-8d2a-70052040066b")
 	)
 	(label "gen_relay_1_out"
-		(at 248.92 210.82 180)
+		(at 255.27 231.14 180)
 		(effects
 			(font
 				(size 1 1)
@@ -14762,7 +14828,7 @@
 		(uuid "2b29ab5b-99dc-436c-a889-11a78080c32e")
 	)
 	(label "protodac_en_out"
-		(at 248.92 228.6 180)
+		(at 255.27 248.92 180)
 		(effects
 			(font
 				(size 1 1)
@@ -14852,7 +14918,7 @@
 		(uuid "383ee8ef-167a-449a-9fca-e5ecdbf610b7")
 	)
 	(label "screen_on"
-		(at 196.85 220.98 0)
+		(at 203.2 241.3 0)
 		(effects
 			(font
 				(size 1 1)
@@ -14922,7 +14988,7 @@
 		(uuid "3f1151c4-d939-4a39-9ae4-8d317a58159c")
 	)
 	(label "rpi_power"
-		(at 196.85 226.06 0)
+		(at 203.2 246.38 0)
 		(effects
 			(font
 				(size 1 1)
@@ -14942,7 +15008,7 @@
 		(uuid "41e995e2-72ee-4e84-98bc-299f9ff75dba")
 	)
 	(label "protodac_en"
-		(at 196.85 228.6 0)
+		(at 203.2 248.92 0)
 		(effects
 			(font
 				(size 1 1)
@@ -15132,7 +15198,7 @@
 		(uuid "55e88e35-8e0a-4684-bb96-8017de3dd3ef")
 	)
 	(label "dac_on"
-		(at 196.85 218.44 0)
+		(at 203.2 238.76 0)
 		(effects
 			(font
 				(size 1 1)
@@ -15182,7 +15248,7 @@
 		(uuid "5e0787e0-121b-40cf-8207-a9fc0a65e029")
 	)
 	(label "rpi_power_out"
-		(at 248.92 226.06 180)
+		(at 255.27 246.38 180)
 		(effects
 			(font
 				(size 1 1)
@@ -15232,7 +15298,7 @@
 		(uuid "638cb27f-95b1-4e3e-a66a-2403d9f54212")
 	)
 	(label "dac_on_out"
-		(at 248.92 218.44 180)
+		(at 255.27 238.76 180)
 		(effects
 			(font
 				(size 1 1)
@@ -15282,7 +15348,7 @@
 		(uuid "67de4ab5-15d0-498e-b8e4-f6f30ae3b49a")
 	)
 	(label "output_stage"
-		(at 196.85 231.14 0)
+		(at 203.2 251.46 0)
 		(effects
 			(font
 				(size 1 1)
@@ -15752,7 +15818,7 @@
 		(uuid "9814eea9-63a8-4003-8f29-a2df632d44e0")
 	)
 	(label "relay_enable"
-		(at 196.85 233.68 0)
+		(at 203.2 254 0)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -15782,7 +15848,7 @@
 		(uuid "9ae5bcf3-0ab5-45a7-8450-38e020b2a7ff")
 	)
 	(label "dac_power_out"
-		(at 248.92 223.52 180)
+		(at 255.27 243.84 180)
 		(effects
 			(font
 				(size 1 1)
@@ -16032,7 +16098,7 @@
 		(uuid "bef1881f-c0c3-4a5b-883b-a3c843d0733e")
 	)
 	(label "output_stage_out"
-		(at 248.92 231.14 180)
+		(at 255.27 251.46 180)
 		(effects
 			(font
 				(size 1 1)
@@ -16040,6 +16106,16 @@
 			(justify right bottom)
 		)
 		(uuid "bfa67ffe-30c5-47d9-8a32-e5882a975082")
+	)
+	(label "i2c_clk"
+		(at 149.86 162.56 180)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right bottom)
+		)
+		(uuid "bfdad3a3-7963-4d71-8cc5-5049b9f5f681")
 	)
 	(label "btn_l_15"
 		(at 71.12 96.52 0)
@@ -16062,7 +16138,7 @@
 		(uuid "c0d57a9d-9231-4774-bd4c-2be29562fbf1")
 	)
 	(label "relay_gen_1_out"
-		(at 248.92 215.9 180)
+		(at 255.27 236.22 180)
 		(effects
 			(font
 				(size 1 1)
@@ -16122,7 +16198,7 @@
 		(uuid "cafdea1f-0a8f-4b59-9b21-f483d01052d7")
 	)
 	(label "relay_gen_1"
-		(at 196.85 215.9 0)
+		(at 203.2 236.22 0)
 		(effects
 			(font
 				(size 1 1)
@@ -16212,7 +16288,7 @@
 		(uuid "d1d69828-2d36-4030-b166-731749f55ab5")
 	)
 	(label "screen_on_out"
-		(at 248.92 220.98 180)
+		(at 255.27 241.3 180)
 		(effects
 			(font
 				(size 1 1)
@@ -16242,7 +16318,7 @@
 		(uuid "d2c3daf7-5cef-4a8b-8f50-dedbcc076388")
 	)
 	(label "dac_power"
-		(at 196.85 223.52 0)
+		(at 203.2 243.84 0)
 		(effects
 			(font
 				(size 1 1)
@@ -16340,6 +16416,16 @@
 			(justify left bottom)
 		)
 		(uuid "e707a9eb-d826-4644-af96-a5b516c18dad")
+	)
+	(label "i2c_sda"
+		(at 157.48 162.56 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "e76e31e1-c90c-4f4c-ad04-0f5b68b0d5d7")
 	)
 	(label "mcp_reset"
 		(at 105.41 274.32 0)
@@ -16797,7 +16883,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 186.69 218.44 0)
+		(at 193.04 238.76 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16808,7 +16894,7 @@
 		(fields_autoplaced yes)
 		(uuid "03fa792b-a924-4a56-acc2-4e631c6122f6")
 		(property "Reference" "#PWR052"
-			(at 186.69 224.79 0)
+			(at 193.04 245.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16819,7 +16905,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 186.69 223.52 0)
+			(at 193.04 243.84 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16829,7 +16915,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 186.69 218.44 0)
+			(at 193.04 238.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16840,7 +16926,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 186.69 218.44 0)
+			(at 193.04 238.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16851,7 +16937,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 186.69 218.44 0)
+			(at 193.04 238.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17042,7 +17128,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 200.66 243.84 0)
+		(at 207.01 264.16 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17053,7 +17139,7 @@
 		(fields_autoplaced yes)
 		(uuid "0ed609e9-65db-45b2-99d4-a2c66b8e1c8e")
 		(property "Reference" "#PWR054"
-			(at 200.66 250.19 0)
+			(at 207.01 270.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17064,7 +17150,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 200.66 248.92 0)
+			(at 207.01 269.24 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17074,7 +17160,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 200.66 243.84 0)
+			(at 207.01 264.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17085,7 +17171,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 200.66 243.84 0)
+			(at 207.01 264.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17096,7 +17182,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 200.66 243.84 0)
+			(at 207.01 264.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17120,7 +17206,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 254 218.44 0)
+		(at 260.35 238.76 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17131,7 +17217,7 @@
 		(fields_autoplaced yes)
 		(uuid "0efc98f5-bc72-454f-a330-3ff58e2cd63d")
 		(property "Reference" "#PWR053"
-			(at 254 224.79 0)
+			(at 260.35 245.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17142,7 +17228,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 254 223.52 0)
+			(at 260.35 243.84 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17152,7 +17238,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 254 218.44 0)
+			(at 260.35 238.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17163,7 +17249,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 254 218.44 0)
+			(at 260.35 238.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17174,7 +17260,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 254 218.44 0)
+			(at 260.35 238.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17795,7 +17881,7 @@
 	)
 	(symbol
 		(lib_id "NewSamsys:TXS0108EPWRG4")
-		(at 207.01 210.82 0)
+		(at 213.36 231.14 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17806,7 +17892,7 @@
 		(fields_autoplaced yes)
 		(uuid "2141db98-19ea-4dcb-8b7d-3f0efdd38f6c")
 		(property "Reference" "IC7"
-			(at 220.98 203.2 0)
+			(at 227.33 223.52 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17816,7 +17902,7 @@
 			)
 		)
 		(property "Value" "TXS0108EPWRG4"
-			(at 220.98 205.74 0)
+			(at 227.33 226.06 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17826,7 +17912,7 @@
 			)
 		)
 		(property "Footprint" "SOP65P640X120-20N"
-			(at 231.14 305.74 0)
+			(at 237.49 326.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17838,7 +17924,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/txs0108e.pdf?ts=1617786399489&ref_url=https%253A%252F%252Fyellow-search.com%252F"
-			(at 231.14 405.74 0)
+			(at 237.49 426.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17850,7 +17936,7 @@
 			)
 		)
 		(property "Description" "Translation - Voltage Levels 8B Bidir Vltg-Level Translator"
-			(at 207.01 210.82 0)
+			(at 213.36 231.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17861,7 +17947,7 @@
 			)
 		)
 		(property "Height" "1.2"
-			(at 231.14 605.74 0)
+			(at 237.49 626.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17873,7 +17959,7 @@
 			)
 		)
 		(property "Mouser Part Number" "595-TXS0108EPWRG4"
-			(at 231.14 705.74 0)
+			(at 237.49 726.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17885,7 +17971,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TXS0108EPWRG4?qs=wkx8pu8tL7LKCwSiM1j4%252Bw%3D%3D"
-			(at 231.14 805.74 0)
+			(at 237.49 826.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17897,7 +17983,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Texas Instruments"
-			(at 231.14 905.74 0)
+			(at 237.49 926.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17909,7 +17995,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "TXS0108EPWRG4"
-			(at 231.14 1005.74 0)
+			(at 237.49 1026.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18210,7 +18296,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 200.66 237.49 0)
+		(at 207.01 257.81 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18221,7 +18307,7 @@
 		(fields_autoplaced yes)
 		(uuid "2875f20b-4c0a-4087-aeb2-8cc37d78fa5a")
 		(property "Reference" "R15"
-			(at 203.2 236.2199 0)
+			(at 209.55 256.5399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18232,7 +18318,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 203.2 238.7599 0)
+			(at 209.55 259.0799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18243,7 +18329,7 @@
 			)
 		)
 		(property "Footprint" "samsys:RESC1608X50N"
-			(at 214.63 333.68 0)
+			(at 220.98 354 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18255,7 +18341,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.vishay.com/docs/20035/dcrcwe3.pdf"
-			(at 214.63 433.68 0)
+			(at 220.98 454 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18267,7 +18353,7 @@
 			)
 		)
 		(property "Description" "Standard Thick Film Chip Resistors value 10K0 ohm."
-			(at 200.66 237.49 0)
+			(at 207.01 257.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18278,7 +18364,7 @@
 			)
 		)
 		(property "Height" "0.5"
-			(at 214.63 633.68 0)
+			(at 220.98 654 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18290,7 +18376,7 @@
 			)
 		)
 		(property "Mouser Part Number" "71-CRCW060310K0FKEI"
-			(at 214.63 733.68 0)
+			(at 220.98 754 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18302,7 +18388,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Dale/CRCW060310K0FKEI?qs=3qWEzBg5KnKofE%252B8acPBRA%3D%3D"
-			(at 214.63 833.68 0)
+			(at 220.98 854 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18314,7 +18400,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Vishay"
-			(at 214.63 933.68 0)
+			(at 220.98 954 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18326,7 +18412,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "CRCW060310K0FKEI"
-			(at 214.63 1033.68 0)
+			(at 220.98 1054 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18338,7 +18424,7 @@
 			)
 		)
 		(property "Mfr" ""
-			(at 200.66 237.49 0)
+			(at 207.01 257.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18349,7 +18435,7 @@
 			)
 		)
 		(property "mouser" ""
-			(at 200.66 237.49 0)
+			(at 207.01 257.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18376,7 +18462,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 234.95 236.22 0)
+		(at 241.3 256.54 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18387,7 +18473,7 @@
 		(fields_autoplaced yes)
 		(uuid "291caf29-3db5-4ace-8f5d-3b63fa87fb02")
 		(property "Reference" "#PWR039"
-			(at 234.95 242.57 0)
+			(at 241.3 262.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18398,7 +18484,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 234.95 241.3 0)
+			(at 241.3 261.62 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18408,7 +18494,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 234.95 236.22 0)
+			(at 241.3 256.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18419,7 +18505,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 234.95 236.22 0)
+			(at 241.3 256.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18430,7 +18516,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 234.95 236.22 0)
+			(at 241.3 256.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21726,7 +21812,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 181.61 231.14 0)
+		(at 187.96 251.46 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -21737,7 +21823,7 @@
 		(fields_autoplaced yes)
 		(uuid "57589ce4-1014-4cbe-b0a6-d62d79e780d0")
 		(property "Reference" "R14"
-			(at 184.15 229.8699 0)
+			(at 190.5 250.1899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21748,7 +21834,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 184.15 232.4099 0)
+			(at 190.5 252.7299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21759,7 +21845,7 @@
 			)
 		)
 		(property "Footprint" "samsys:RESC1608X50N"
-			(at 195.58 327.33 0)
+			(at 201.93 347.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21771,7 +21857,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.vishay.com/docs/20035/dcrcwe3.pdf"
-			(at 195.58 427.33 0)
+			(at 201.93 447.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21783,7 +21869,7 @@
 			)
 		)
 		(property "Description" "Standard Thick Film Chip Resistors value 10K0 ohm."
-			(at 181.61 231.14 0)
+			(at 187.96 251.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21794,7 +21880,7 @@
 			)
 		)
 		(property "Height" "0.5"
-			(at 195.58 627.33 0)
+			(at 201.93 647.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21806,7 +21892,7 @@
 			)
 		)
 		(property "Mouser Part Number" "71-CRCW060310K0FKEI"
-			(at 195.58 727.33 0)
+			(at 201.93 747.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21818,7 +21904,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Dale/CRCW060310K0FKEI?qs=3qWEzBg5KnKofE%252B8acPBRA%3D%3D"
-			(at 195.58 827.33 0)
+			(at 201.93 847.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21830,7 +21916,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Vishay"
-			(at 195.58 927.33 0)
+			(at 201.93 947.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21842,7 +21928,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "CRCW060310K0FKEI"
-			(at 195.58 1027.33 0)
+			(at 201.93 1047.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21854,7 +21940,7 @@
 			)
 		)
 		(property "Mfr" ""
-			(at 181.61 231.14 0)
+			(at 187.96 251.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21865,7 +21951,7 @@
 			)
 		)
 		(property "mouser" ""
-			(at 181.61 231.14 0)
+			(at 187.96 251.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23608,10 +23694,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "75e0d519-bb9b-48ac-9df3-556fa8ad3e22")
 		(property "Reference" "R4"
-			(at 43.18 251.4599 0)
+			(at 33.02 251.46 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23622,7 +23707,7 @@
 			)
 		)
 		(property "Value" "300R"
-			(at 43.18 253.9999 0)
+			(at 33.02 254 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24011,7 +24096,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 137.16 205.74 0)
+		(at 124.46 215.9 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -24022,7 +24107,7 @@
 		(fields_autoplaced yes)
 		(uuid "7d651ee5-e53e-4b01-96c1-d461d3cf276f")
 		(property "Reference" "H1"
-			(at 139.7 204.4699 0)
+			(at 127 214.6299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24033,7 +24118,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 139.7 207.0099 0)
+			(at 127 217.1699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24044,7 +24129,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.5mm"
-			(at 137.16 205.74 0)
+			(at 124.46 215.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24055,7 +24140,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 137.16 205.74 0)
+			(at 124.46 215.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24066,7 +24151,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 137.16 205.74 0)
+			(at 124.46 215.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24077,7 +24162,7 @@
 			)
 		)
 		(property "Mfr" ""
-			(at 137.16 205.74 0)
+			(at 124.46 215.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24088,7 +24173,7 @@
 			)
 		)
 		(property "mouser" ""
-			(at 137.16 205.74 0)
+			(at 124.46 215.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24378,7 +24463,7 @@
 		(dnp no)
 		(uuid "821715e9-150c-4202-986b-055d6e4721df")
 		(property "Reference" "R2"
-			(at 21.59 248.92 0)
+			(at 25.4 251.46 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24389,7 +24474,7 @@
 			)
 		)
 		(property "Value" "100R"
-			(at 21.59 251.46 0)
+			(at 25.4 254 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25205,7 +25290,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 156.21 205.74 0)
+		(at 143.51 215.9 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -25216,7 +25301,7 @@
 		(fields_autoplaced yes)
 		(uuid "8b8fad29-54ef-43cf-aaa1-e2717b31c0ef")
 		(property "Reference" "H2"
-			(at 158.75 204.4699 0)
+			(at 146.05 214.6299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25227,7 +25312,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 158.75 207.0099 0)
+			(at 146.05 217.1699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25238,7 +25323,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.5mm"
-			(at 156.21 205.74 0)
+			(at 143.51 215.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25249,7 +25334,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 156.21 205.74 0)
+			(at 143.51 215.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25260,7 +25345,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 156.21 205.74 0)
+			(at 143.51 215.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25271,7 +25356,7 @@
 			)
 		)
 		(property "Mfr" ""
-			(at 156.21 205.74 0)
+			(at 143.51 215.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25282,7 +25367,7 @@
 			)
 		)
 		(property "mouser" ""
-			(at 156.21 205.74 0)
+			(at 143.51 215.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26268,7 +26353,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 156.21 212.09 0)
+		(at 143.51 222.25 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -26279,7 +26364,7 @@
 		(fields_autoplaced yes)
 		(uuid "95252abd-670e-4e32-ab44-af89bada8c16")
 		(property "Reference" "H4"
-			(at 158.75 210.8199 0)
+			(at 146.05 220.9799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26290,7 +26375,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 158.75 213.3599 0)
+			(at 146.05 223.5199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26301,7 +26386,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.5mm"
-			(at 156.21 212.09 0)
+			(at 143.51 222.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26312,7 +26397,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 156.21 212.09 0)
+			(at 143.51 222.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26323,7 +26408,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 156.21 212.09 0)
+			(at 143.51 222.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26334,7 +26419,7 @@
 			)
 		)
 		(property "Mfr" ""
-			(at 156.21 212.09 0)
+			(at 143.51 222.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26345,7 +26430,7 @@
 			)
 		)
 		(property "mouser" ""
-			(at 156.21 212.09 0)
+			(at 143.51 222.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26469,6 +26554,169 @@
 			(project "tinyControlBoard_v2"
 				(path "/17b3aa38-6ef4-4dc4-8927-0b68076a78f2"
 					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 157.48 157.48 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9b1123d0-3651-4231-a2b4-364640edc878")
+		(property "Reference" "R24"
+			(at 156.21 157.48 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.6 0.6)
+				)
+			)
+		)
+		(property "Value" "4k7"
+			(at 157.48 157.48 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.6 0.6)
+				)
+			)
+		)
+		(property "Footprint" "samsys:RESC1609X55N"
+			(at 143.51 61.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "http://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C102.pdf"
+			(at 143.51 -38.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "Thick Film Resistors - SMD 0603 22ohms 0.2W 1% AEC-Q200"
+			(at 157.48 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "0.55"
+			(at 143.51 -238.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "667-ERJ-P03F22R0V"
+			(at 143.51 -338.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Panasonic/ERJ-P03F22R0V?qs=18kBAoNi3c%2FpQYnLQLM%252BPw%3D%3D"
+			(at 143.51 -438.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Panasonic"
+			(at 143.51 -538.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ERJ-P03F22R0V"
+			(at 143.51 -638.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mfr" ""
+			(at 157.48 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mouser" ""
+			(at 157.48 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "557f8db1-c7bf-412c-801b-695f40361b82")
+		)
+		(pin "2"
+			(uuid "46ba4fcd-4da7-488d-915a-3554e2df1d26")
+		)
+		(instances
+			(project "tinyControlBoard_v2"
+				(path "/17b3aa38-6ef4-4dc4-8927-0b68076a78f2"
+					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -27008,7 +27256,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 254 215.9 0)
+		(at 260.35 236.22 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -27019,7 +27267,7 @@
 		(fields_autoplaced yes)
 		(uuid "a4c4e04d-8975-4e65-afbe-189503468b85")
 		(property "Reference" "C13"
-			(at 256.54 214.6362 0)
+			(at 262.89 234.9562 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -27030,7 +27278,7 @@
 			)
 		)
 		(property "Value" "0u1"
-			(at 256.54 217.1762 0)
+			(at 262.89 237.4962 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -27041,7 +27289,7 @@
 			)
 		)
 		(property "Footprint" "samsys:CAPC1608X87N"
-			(at 262.89 312.09 0)
+			(at 269.24 332.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27053,7 +27301,7 @@
 			)
 		)
 		(property "Datasheet" "https://connect.kemet.com:7667/gateway/IntelliData-ComponentDocumentation/1.0/download/specsheet/C0603C104K4RAC3190"
-			(at 262.89 412.09 0)
+			(at 269.24 432.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27065,7 +27313,7 @@
 			)
 		)
 		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 50volts 100pF 10% X7R"
-			(at 254 215.9 0)
+			(at 260.35 236.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27076,7 +27324,7 @@
 			)
 		)
 		(property "Height" "0.87"
-			(at 262.89 612.09 0)
+			(at 269.24 632.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27088,7 +27336,7 @@
 			)
 		)
 		(property "Mouser Part Number" "80-C0603C104K4R3190"
-			(at 262.89 712.09 0)
+			(at 269.24 732.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27100,7 +27348,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KEMET/C0603C104K4RAC3190?qs=OycAS1CGnlh3XBnNUtoEnw%3D%3D"
-			(at 262.89 812.09 0)
+			(at 269.24 832.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27112,7 +27360,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "KEMET"
-			(at 262.89 912.09 0)
+			(at 269.24 932.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27124,7 +27372,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "C0603C104K4RAC3190"
-			(at 262.89 1012.09 0)
+			(at 269.24 1032.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27136,7 +27384,7 @@
 			)
 		)
 		(property "Mfr" ""
-			(at 254 215.9 0)
+			(at 260.35 236.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27147,7 +27395,7 @@
 			)
 		)
 		(property "mouser" ""
-			(at 254 215.9 0)
+			(at 260.35 236.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27258,7 +27506,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 181.61 236.22 0)
+		(at 187.96 256.54 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -27269,7 +27517,7 @@
 		(fields_autoplaced yes)
 		(uuid "a9b799a0-5f1a-4b57-9dea-0b7627c67514")
 		(property "Reference" "C2"
-			(at 184.15 234.9562 0)
+			(at 190.5 255.2762 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -27280,7 +27528,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 184.15 237.4962 0)
+			(at 190.5 257.8162 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -27291,7 +27539,7 @@
 			)
 		)
 		(property "Footprint" "samsys:CAPC1608X90N"
-			(at 190.5 332.41 0)
+			(at 196.85 352.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27303,7 +27551,7 @@
 			)
 		)
 		(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/06031A100FAT2A.pdf"
-			(at 190.5 432.41 0)
+			(at 196.85 452.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27315,7 +27563,7 @@
 			)
 		)
 		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT NEW GLOBAL PN KGM15CR51C106MT"
-			(at 181.61 236.22 0)
+			(at 187.96 256.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27326,7 +27574,7 @@
 			)
 		)
 		(property "Height" "0.9"
-			(at 190.5 632.41 0)
+			(at 196.85 652.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27338,7 +27586,7 @@
 			)
 		)
 		(property "Mouser Part Number" "581-0603YD106MAT2A"
-			(at 190.5 732.41 0)
+			(at 196.85 752.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27350,7 +27598,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KYOCERA-AVX/0603YD106MAT2A?qs=%252BdQmOuGyFcGTGabFXpuZrg%3D%3D"
-			(at 190.5 832.41 0)
+			(at 196.85 852.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27362,7 +27610,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Kyocera AVX"
-			(at 190.5 932.41 0)
+			(at 196.85 952.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27374,7 +27622,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "0603YD106MAT2A"
-			(at 190.5 1032.41 0)
+			(at 196.85 1052.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27386,7 +27634,7 @@
 			)
 		)
 		(property "Mfr" ""
-			(at 181.61 236.22 0)
+			(at 187.96 256.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27397,7 +27645,7 @@
 			)
 		)
 		(property "mouser" ""
-			(at 181.61 236.22 0)
+			(at 187.96 256.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27575,7 +27823,7 @@
 		(dnp no)
 		(uuid "abd5a5a5-9133-4562-b2b1-bd24ddc53663")
 		(property "Reference" "D3"
-			(at 41.91 257.81 90)
+			(at 41.91 260.35 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -27741,7 +27989,7 @@
 		(dnp no)
 		(uuid "ae8b6040-86ff-4755-8364-402eed36ded0")
 		(property "Reference" "D2"
-			(at 24.13 257.81 90)
+			(at 25.4 260.35 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -30330,6 +30578,83 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 153.67 153.67 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ce413808-c6ad-4c71-9ad0-932cb443228a")
+		(property "Reference" "#PWR058"
+			(at 153.67 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 153.67 149.86 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 153.67 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 153.67 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 153.67 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e3e85f67-b926-4af7-b730-75b389b889ec")
+		)
+		(instances
+			(project "tinyControlBoard_v2"
+				(path "/17b3aa38-6ef4-4dc4-8927-0b68076a78f2"
+					(reference "#PWR058")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 318.77 120.65 0)
 		(unit 1)
@@ -30409,7 +30734,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 181.61 213.36 0)
+		(at 187.96 233.68 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -30420,7 +30745,7 @@
 		(fields_autoplaced yes)
 		(uuid "d329adc5-7d2d-45a0-b1c3-ade2c94ffbd4")
 		(property "Reference" "#PWR027"
-			(at 181.61 217.17 0)
+			(at 187.96 237.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30431,7 +30756,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 181.61 208.28 0)
+			(at 187.96 228.6 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -30441,7 +30766,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 181.61 213.36 0)
+			(at 187.96 233.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30452,7 +30777,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 181.61 213.36 0)
+			(at 187.96 233.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30463,7 +30788,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 181.61 213.36 0)
+			(at 187.96 233.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30564,6 +30889,169 @@
 			(project "Control Board esp32N16"
 				(path "/97f8d20e-571d-48fd-bf76-203624eef264"
 					(reference "#PWR033")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 149.86 157.48 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d386b5ed-5f15-4f84-8973-be8edac4c56a")
+		(property "Reference" "R23"
+			(at 148.59 157.48 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.6 0.6)
+				)
+			)
+		)
+		(property "Value" "4k7"
+			(at 149.86 157.48 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.6 0.6)
+				)
+			)
+		)
+		(property "Footprint" "samsys:RESC1609X55N"
+			(at 135.89 61.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "http://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C102.pdf"
+			(at 135.89 -38.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "Thick Film Resistors - SMD 0603 22ohms 0.2W 1% AEC-Q200"
+			(at 149.86 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "0.55"
+			(at 135.89 -238.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "667-ERJ-P03F22R0V"
+			(at 135.89 -338.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Panasonic/ERJ-P03F22R0V?qs=18kBAoNi3c%2FpQYnLQLM%252BPw%3D%3D"
+			(at 135.89 -438.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Panasonic"
+			(at 135.89 -538.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ERJ-P03F22R0V"
+			(at 135.89 -638.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mfr" ""
+			(at 149.86 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mouser" ""
+			(at 149.86 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6e40df65-2b97-4fe7-aa05-c039e5487d76")
+		)
+		(pin "2"
+			(uuid "e917953a-2fd5-4f08-9529-6033722d1e5f")
+		)
+		(instances
+			(project "tinyControlBoard_v2"
+				(path "/17b3aa38-6ef4-4dc4-8927-0b68076a78f2"
+					(reference "R23")
 					(unit 1)
 				)
 			)
@@ -31737,7 +32225,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 186.69 215.9 0)
+		(at 193.04 236.22 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -31748,7 +32236,7 @@
 		(fields_autoplaced yes)
 		(uuid "e103304c-99b6-4ca0-a9c3-f5aa1de35279")
 		(property "Reference" "C12"
-			(at 189.23 214.6362 0)
+			(at 195.58 234.9562 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -31759,7 +32247,7 @@
 			)
 		)
 		(property "Value" "0u1"
-			(at 189.23 217.1762 0)
+			(at 195.58 237.4962 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -31770,7 +32258,7 @@
 			)
 		)
 		(property "Footprint" "samsys:CAPC1608X87N"
-			(at 195.58 312.09 0)
+			(at 201.93 332.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31782,7 +32270,7 @@
 			)
 		)
 		(property "Datasheet" "https://connect.kemet.com:7667/gateway/IntelliData-ComponentDocumentation/1.0/download/specsheet/C0603C104K4RAC3190"
-			(at 195.58 412.09 0)
+			(at 201.93 432.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31794,7 +32282,7 @@
 			)
 		)
 		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 50volts 100pF 10% X7R"
-			(at 186.69 215.9 0)
+			(at 193.04 236.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31805,7 +32293,7 @@
 			)
 		)
 		(property "Height" "0.87"
-			(at 195.58 612.09 0)
+			(at 201.93 632.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31817,7 +32305,7 @@
 			)
 		)
 		(property "Mouser Part Number" "80-C0603C104K4R3190"
-			(at 195.58 712.09 0)
+			(at 201.93 732.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31829,7 +32317,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KEMET/C0603C104K4RAC3190?qs=OycAS1CGnlh3XBnNUtoEnw%3D%3D"
-			(at 195.58 812.09 0)
+			(at 201.93 832.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31841,7 +32329,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "KEMET"
-			(at 195.58 912.09 0)
+			(at 201.93 932.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31853,7 +32341,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "C0603C104K4RAC3190"
-			(at 195.58 1012.09 0)
+			(at 201.93 1032.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31865,7 +32353,7 @@
 			)
 		)
 		(property "Mfr" ""
-			(at 186.69 215.9 0)
+			(at 193.04 236.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31876,7 +32364,7 @@
 			)
 		)
 		(property "mouser" ""
-			(at 186.69 215.9 0)
+			(at 193.04 236.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32630,7 +33118,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 257.81 213.36 0)
+		(at 264.16 233.68 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -32641,7 +33129,7 @@
 		(fields_autoplaced yes)
 		(uuid "f2237156-a07b-40a7-8f14-de88c25faeb5")
 		(property "Reference" "#PWR044"
-			(at 257.81 217.17 0)
+			(at 264.16 237.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32652,7 +33140,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 257.81 208.28 0)
+			(at 264.16 228.6 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -32662,7 +33150,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 257.81 213.36 0)
+			(at 264.16 233.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32673,7 +33161,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 257.81 213.36 0)
+			(at 264.16 233.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32684,7 +33172,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 257.81 213.36 0)
+			(at 264.16 233.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32791,7 +33279,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 181.61 243.84 0)
+		(at 187.96 264.16 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -32802,7 +33290,7 @@
 		(fields_autoplaced yes)
 		(uuid "f3de9271-688d-4834-aea9-86988a250299")
 		(property "Reference" "#PWR046"
-			(at 181.61 250.19 0)
+			(at 187.96 270.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32813,7 +33301,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 181.61 248.92 0)
+			(at 187.96 269.24 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -32823,7 +33311,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 181.61 243.84 0)
+			(at 187.96 264.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32834,7 +33322,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 181.61 243.84 0)
+			(at 187.96 264.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32845,7 +33333,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 181.61 243.84 0)
+			(at 187.96 264.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32953,7 +33441,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 137.16 210.82 0)
+		(at 124.46 220.98 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -32964,7 +33452,7 @@
 		(fields_autoplaced yes)
 		(uuid "f9d9b66b-9617-4ee3-a335-7b9088fb3cfd")
 		(property "Reference" "H3"
-			(at 139.7 209.5499 0)
+			(at 127 219.7099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -32975,7 +33463,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 139.7 212.0899 0)
+			(at 127 222.2499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -32986,7 +33474,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.5mm"
-			(at 137.16 210.82 0)
+			(at 124.46 220.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32997,7 +33485,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 137.16 210.82 0)
+			(at 124.46 220.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33008,7 +33496,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 137.16 210.82 0)
+			(at 124.46 220.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33019,7 +33507,7 @@
 			)
 		)
 		(property "Mfr" ""
-			(at 137.16 210.82 0)
+			(at 124.46 220.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33030,7 +33518,7 @@
 			)
 		)
 		(property "mouser" ""
-			(at 137.16 210.82 0)
+			(at 124.46 220.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33176,6 +33664,7 @@
 		)
 		(property "Value" "3214G-1-103E"
 			(at 87.63 142.2399 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
