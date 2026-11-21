@@ -532,7 +532,6 @@
         "bus_width": 20,
         "clearance": 0.1,
         "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
@@ -551,7 +550,6 @@
         "bus_width": 24,
         "clearance": 0.1,
         "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
@@ -570,7 +568,6 @@
         "bus_width": 24,
         "clearance": 0.2,
         "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
@@ -589,7 +586,6 @@
         "bus_width": 12,
         "clearance": 0.1,
         "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.164,
         "line_style": 0,
         "microvia_diameter": 0.3,
@@ -608,7 +604,6 @@
         "bus_width": 24,
         "clearance": 0.2,
         "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
@@ -849,7 +844,7 @@
         "uuid": "17b3aa38-6ef4-4dc4-8927-0b68076a78f2"
       }
     ],
-    "used_designators": "#FLG5-7,R15,R18,R20-26,C1,C14-16,#PWR12,#PWR54-59,U2",
+    "used_designators": "IC8,R15,R18,R20-38,#FLG2,#FLG5-7,K1-12,C1,C14-17,D4-10,#PWR12,#PWR14,#PWR16,#PWR19,#PWR54-59,U2,J2,J4-7,J9,SW1-14",
     "variants": []
   },
   "sheets": [
