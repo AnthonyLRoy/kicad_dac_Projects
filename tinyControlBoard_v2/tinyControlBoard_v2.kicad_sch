@@ -149,7 +149,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:Conn_01x02_Pin"
+		(symbol "Connector:Conn_01x03_Pin"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -160,7 +160,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "J"
-				(at 0 2.54 0)
+				(at 0 5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -169,7 +169,7 @@
 					)
 				)
 			)
-			(property "Value" "Conn_01x02_Pin"
+			(property "Value" "Conn_01x03_Pin"
 				(at 0 -5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -201,7 +201,7 @@
 					)
 				)
 			)
-			(property "Description" "Generic connector, single row, 01x02, script generated"
+			(property "Description" "Generic connector, single row, 01x03, script generated"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -244,7 +244,18 @@
 					)
 				)
 			)
-			(symbol "Conn_01x02_Pin_1_1"
+			(symbol "Conn_01x03_Pin_1_1"
+				(rectangle
+					(start 0.8636 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
 				(rectangle
 					(start 0.8636 0.127)
 					(end 0 -0.127)
@@ -265,6 +276,18 @@
 					)
 					(fill
 						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 2.54) (xy 0.8636 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
 				(polyline
@@ -292,7 +315,7 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 0 180)
+					(at 5.08 2.54 180)
 					(length 3.81)
 					(name "Pin_1"
 						(effects
@@ -310,7 +333,7 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 -2.54 180)
+					(at 5.08 0 180)
 					(length 3.81)
 					(name "Pin_2"
 						(effects
@@ -320,6 +343,24 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2210,146 +2251,6 @@
 					(at 2.54 0 180)
 					(length 1.778)
 					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Device:R"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "R"
-				(at 2.032 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "R"
-				(at 0 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at -1.778 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Resistor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "R res resistor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "R_0_1"
-				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -11412,7 +11313,7 @@
 	)
 	(text_box "Relays to control power application to seperate boards "
 		(exclude_from_sim no)
-		(at 306.07 35.56 0)
+		(at 325.12 34.29 0)
 		(size 74.93 8.89)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -11763,12 +11664,6 @@
 		(uuid "13fb0000-c890-49c2-ad9e-50a0695e7447")
 	)
 	(junction
-		(at 322.58 228.6)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1439810e-ee87-451a-b4cf-d4a009fc4f20")
-	)
-	(junction
 		(at 49.53 325.12)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11857,6 +11752,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "36b14878-ead2-48aa-a589-8a713fdee877")
+	)
+	(junction
+		(at 322.58 205.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3a6c9612-695e-400e-bd5a-19c972179054")
 	)
 	(junction
 		(at 31.75 229.87)
@@ -12770,16 +12671,6 @@
 	)
 	(wire
 		(pts
-			(xy 525.78 215.9) (xy 537.21 215.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "08738ea6-784c-4f25-aaa8-34e98b4ad8a4")
-	)
-	(wire
-		(pts
 			(xy 505.46 123.19) (xy 494.03 123.19)
 		)
 		(stroke
@@ -13170,6 +13061,16 @@
 	)
 	(wire
 		(pts
+			(xy 529.59 218.44) (xy 539.75 218.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17c1f092-cd8e-4cbd-a857-b333a92ca82b")
+	)
+	(wire
+		(pts
 			(xy 486.41 87.63) (xy 494.03 87.63)
 		)
 		(stroke
@@ -13457,16 +13358,6 @@
 			(type default)
 		)
 		(uuid "27c7e4bb-9bb1-4892-892c-e00f97a00384")
-	)
-	(wire
-		(pts
-			(xy 322.58 222.25) (xy 322.58 228.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "27c87aa7-3d01-44f0-9ba4-d7a216b0f8e9")
 	)
 	(wire
 		(pts
@@ -15430,16 +15321,6 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 299.72) (xy 256.54 299.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7f96067e-ec6d-438e-851b-1ba0fa29025b")
-	)
-	(wire
-		(pts
 			(xy 241.3 238.76) (xy 255.27 238.76)
 		)
 		(stroke
@@ -15477,16 +15358,6 @@
 			(type default)
 		)
 		(uuid "8010cbf7-8527-4e8c-9baa-6b51b9fdd2fa")
-	)
-	(wire
-		(pts
-			(xy 290.83 300.99) (xy 295.91 300.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "80d89dee-3b21-482c-b4d3-88364c335017")
 	)
 	(bus
 		(pts
@@ -15890,17 +15761,7 @@
 	)
 	(wire
 		(pts
-			(xy 525.78 213.36) (xy 537.21 213.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9804add7-d840-41f9-b07b-945a2de777f9")
-	)
-	(wire
-		(pts
-			(xy 322.58 153.67) (xy 322.58 222.25)
+			(xy 322.58 153.67) (xy 322.58 205.74)
 		)
 		(stroke
 			(width 0)
@@ -16007,16 +15868,6 @@
 			(type default)
 		)
 		(uuid "9da6f64e-0e00-44c9-9569-24c531fb2617")
-	)
-	(wire
-		(pts
-			(xy 322.58 246.38) (xy 322.58 252.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9db964b2-cbc2-4175-b854-a2469b897b76")
 	)
 	(wire
 		(pts
@@ -16350,16 +16201,6 @@
 	)
 	(wire
 		(pts
-			(xy 322.58 228.6) (xy 322.58 233.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ab93746d-9f4d-4e76-bc1e-5d4177b04c2e")
-	)
-	(wire
-		(pts
 			(xy 173.99 111.76) (xy 173.99 114.3)
 		)
 		(stroke
@@ -16367,16 +16208,6 @@
 			(type default)
 		)
 		(uuid "abbebe07-0fa3-429f-a764-8e810de7917c")
-	)
-	(wire
-		(pts
-			(xy 217.17 299.72) (xy 220.98 299.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "abeeeb17-d442-4fe0-9820-795c0a24d6a6")
 	)
 	(wire
 		(pts
@@ -16740,6 +16571,16 @@
 	)
 	(wire
 		(pts
+			(xy 529.59 220.98) (xy 539.75 220.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba57e5d2-41d6-461c-a549-6d22599ea434")
+	)
+	(wire
+		(pts
 			(xy 345.44 91.44) (xy 345.44 116.84)
 		)
 		(stroke
@@ -16930,16 +16771,6 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 307.34) (xy 256.54 307.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c87aa5cd-dc37-4d21-9b18-f555a618cf1d")
-	)
-	(wire
-		(pts
 			(xy 138.43 147.32) (xy 138.43 154.94)
 		)
 		(stroke
@@ -17048,6 +16879,16 @@
 		)
 		(uuid "ce2c6c82-2faa-40a5-b368-03f1e9e64449")
 	)
+	(wire
+		(pts
+			(xy 322.58 205.74) (xy 322.58 222.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce2f3f97-3906-4d6d-b699-efe5697e93b0")
+	)
 	(bus
 		(pts
 			(xy 151.13 62.23) (xy 151.13 64.77)
@@ -17107,6 +16948,16 @@
 			(type default)
 		)
 		(uuid "d10958c4-f780-48ef-a628-9baae6f1b63e")
+	)
+	(wire
+		(pts
+			(xy 529.59 223.52) (xy 539.75 223.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3a95b1d-9a0b-4956-9739-6d9fe3d33792")
 	)
 	(wire
 		(pts
@@ -18031,16 +17882,6 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 306.07) (xy 220.98 306.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fa5fb444-39e0-4c43-8feb-73f42cd84750")
-	)
-	(wire
-		(pts
 			(xy 364.49 207.01) (xy 349.25 207.01)
 		)
 		(stroke
@@ -18419,7 +18260,7 @@
 		)
 		(uuid "185d8969-e228-405e-8bd3-cbf6044fa2b5")
 	)
-	(label "relay_gen_1_on_b"
+	(label "gen2__a"
 		(at 351.79 232.41 0)
 		(effects
 			(font
@@ -18539,16 +18380,6 @@
 		)
 		(uuid "2b29ab5b-99dc-436c-a889-11a78080c32e")
 	)
-	(label "i2c_clk_ext"
-		(at 525.78 213.36 0)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify left bottom)
-		)
-		(uuid "2bdd0909-aa6e-4c5f-bd98-ecd768db41a3")
-	)
 	(label "protodac_en_out"
 		(at 255.27 248.92 180)
 		(effects
@@ -18619,16 +18450,6 @@
 		)
 		(uuid "316f33fc-690e-40a1-b427-0e841548d699")
 	)
-	(label "relay_gen_1_on_b"
-		(at 525.78 196.85 0)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify left bottom)
-		)
-		(uuid "31e8ede7-1d18-41fb-9b5e-c8982c59226c")
-	)
 	(label "gen_1_a"
 		(at 525.78 152.4 0)
 		(effects
@@ -18658,6 +18479,16 @@
 			(justify left bottom)
 		)
 		(uuid "3799e262-19e6-4591-8838-183a98fb0f5e")
+	)
+	(label "gen2__a"
+		(at 525.78 194.31 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "396bdf02-09f1-4364-89cc-4e68eccfd9b6")
 	)
 	(label "screen_on"
 		(at 203.2 241.3 0)
@@ -18888,16 +18719,6 @@
 			(justify left bottom)
 		)
 		(uuid "4ac8812b-6d53-492c-bd68-cdb5dace294b")
-	)
-	(label "TXDO"
-		(at 217.17 306.07 0)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify left bottom)
-		)
-		(uuid "4b16a678-c449-471e-858d-2800f25ec55c")
 	)
 	(label "i2c_sda_int"
 		(at 102.87 77.47 0)
@@ -19309,7 +19130,7 @@
 		)
 		(uuid "78675b6d-0bd6-4bdb-ba4b-06b73442be8a")
 	)
-	(label "relay_gen_1_on_a"
+	(label "gen2b"
 		(at 396.24 232.41 180)
 		(effects
 			(font
@@ -19429,16 +19250,6 @@
 		)
 		(uuid "83221100-0584-43c6-85b4-260647f3e160")
 	)
-	(label "RXDO"
-		(at 217.17 299.72 0)
-		(effects
-			(font
-				(size 1 1)
-			)
-			(justify left bottom)
-		)
-		(uuid "865e6191-f7a1-4101-9efd-90c616ce38f5")
-	)
 	(label "dac_power"
 		(at 166.37 170.18 0)
 		(effects
@@ -19528,16 +19339,6 @@
 			(justify right bottom)
 		)
 		(uuid "8e334cd4-3ede-44b8-b721-4a4f5764bdbe")
-	)
-	(label "mcp_clk"
-		(at 290.83 300.99 0)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify left bottom)
-		)
-		(uuid "8ecb8edd-d51b-4d0b-93c1-dab0658169cd")
 	)
 	(label "addr_exp"
 		(at 148.59 80.01 180)
@@ -19749,7 +19550,7 @@
 		)
 		(uuid "a2c63030-96d0-4343-8bdf-d4054f51f387")
 	)
-	(label "relay_gen_1_on"
+	(label "Gen2_on"
 		(at 381 213.36 0)
 		(effects
 			(font
@@ -19829,6 +19630,16 @@
 		)
 		(uuid "ab36e697-9ec0-443f-9ae0-6430810a1770")
 	)
+	(label "I2c_sda_ext"
+		(at 529.59 220.98 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "ab5d94b6-c375-42b7-80cc-065f2cf1a797")
+	)
 	(label "btn_l_5"
 		(at 102.87 62.23 0)
 		(effects
@@ -19838,16 +19649,6 @@
 			(justify left bottom)
 		)
 		(uuid "ac9b58c4-0e92-40f7-b3fd-31b8fc1333e9")
-	)
-	(label "relay_gen_1_on_a"
-		(at 525.78 194.31 0)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify left bottom)
-		)
-		(uuid "ade20abb-0162-44f3-b726-3ae3316df516")
 	)
 	(label "led_o_2"
 		(at 486.41 90.17 0)
@@ -20199,6 +20000,16 @@
 		)
 		(uuid "cf66c43f-de9a-4ccf-a543-c6dd5cd59a2d")
 	)
+	(label "ground_return"
+		(at 529.59 223.52 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "cfd086e2-2615-44b7-b2c9-54c1041afba8")
+	)
 	(label "btn_in_15"
 		(at 486.41 82.55 0)
 		(effects
@@ -20299,6 +20110,16 @@
 		)
 		(uuid "d71a2db7-02bf-4d61-be38-a3e8766e977f")
 	)
+	(label "gen2__b"
+		(at 525.78 196.85 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "d73bf4c9-a9a3-4876-8e46-41ac5e090ff5")
+	)
 	(label "dac_power_on_a"
 		(at 525.78 162.56 0)
 		(effects
@@ -20308,6 +20129,16 @@
 			(justify left bottom)
 		)
 		(uuid "d949cf0d-507a-4656-b4d6-5a0741865be6")
+	)
+	(label "i2c_clk_ext"
+		(at 529.59 218.44 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "da86cb33-cdd2-410a-a433-7e58a6b66bc4")
 	)
 	(label "btn_l_13"
 		(at 148.59 57.15 180)
@@ -20349,16 +20180,6 @@
 		)
 		(uuid "e132d7a9-4f05-4c6b-bbd6-6c8dcb807d52")
 	)
-	(label "I2c_sda_ext"
-		(at 525.78 215.9 0)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify left bottom)
-		)
-		(uuid "e1aac993-5bcf-4138-826b-caeafa189b30")
-	)
 	(label "led_o_12"
 		(at 523.24 95.25 180)
 		(effects
@@ -20398,16 +20219,6 @@
 			(justify left bottom)
 		)
 		(uuid "e76e31e1-c90c-4f4c-ad04-0f5b68b0d5d7")
-	)
-	(label "mcp_reset"
-		(at 251.46 307.34 0)
-		(effects
-			(font
-				(size 1 1)
-			)
-			(justify left bottom)
-		)
-		(uuid "e7e52256-f4f8-4729-92da-5d64c168b2be")
 	)
 	(label "i2c_clk"
 		(at 166.37 139.7 0)
@@ -20578,16 +20389,6 @@
 			(justify right bottom)
 		)
 		(uuid "f9efbaf4-9423-4ae2-bc82-2afae60b0876")
-	)
-	(label "mcp_sda"
-		(at 251.46 299.72 0)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify left bottom)
-		)
-		(uuid "fb53b0cf-7246-4aa1-959f-d956d5ea76ec")
 	)
 	(label "USB_N"
 		(at 251.46 55.88 180)
@@ -20811,7 +20612,7 @@
 				)
 			)
 		)
-		(property "Footprint" "samsys:ERJH3"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 623.24 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -21353,85 +21154,6 @@
 			(project "tinyControlBoard_v2"
 				(path "/17b3aa38-6ef4-4dc4-8927-0b68076a78f2"
 					(reference "K8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 322.58 228.6 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0c72f486-7205-439c-ba1b-aaaa791720c2")
-		(property "Reference" "#FLG02"
-			(at 320.675 228.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 318.77 228.5999 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 322.58 228.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 322.58 228.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 322.58 228.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "10a37273-1368-4dc6-bb00-8406a42222ec")
-		)
-		(instances
-			(project "tinyControlBoard_v2"
-				(path "/17b3aa38-6ef4-4dc4-8927-0b68076a78f2"
-					(reference "#FLG02")
 					(unit 1)
 				)
 			)
@@ -22941,6 +22663,92 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x03_Pin")
+		(at 544.83 220.98 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1df283f4-daff-4f2b-b626-ba578181927f")
+		(property "Reference" "J10"
+			(at 546.1 219.7099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Conn_01x03_Pin"
+			(at 546.1 222.2499 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+			(at 544.83 220.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 544.83 220.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated"
+			(at 544.83 220.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "816013b5-3c4b-494b-b7f0-46ea29ebd5a4")
+		)
+		(pin "3"
+			(uuid "fa2fa318-bf1b-4c85-93cc-e17efc6836be")
+		)
+		(pin "1"
+			(uuid "b03c4505-9515-4b6a-a908-8965e7ec9351")
+		)
+		(instances
+			(project "tinyControlBoard_v2"
+				(path "/17b3aa38-6ef4-4dc4-8927-0b68076a78f2"
+					(reference "J10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 381 257.81 0)
 		(unit 1)
@@ -24031,89 +23839,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x02_Pin")
-		(at 542.29 215.9 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2de731f3-4c5f-4980-a9a6-70b4e4970f24")
-		(property "Reference" "J2"
-			(at 543.56 213.3599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Conn_01x02_Pin"
-			(at 543.56 215.8999 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 542.29 215.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 542.29 215.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 542.29 215.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "770f3521-3ad1-41b1-bde3-2ab5ee8f7f25")
-		)
-		(pin "1"
-			(uuid "cc21fbb7-8170-402c-9835-255731f8e033")
-		)
-		(instances
-			(project "tinyControlBoard_v2"
-				(path "/17b3aa38-6ef4-4dc4-8927-0b68076a78f2"
-					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 87.63 50.8 0)
 		(unit 1)
@@ -24618,6 +24343,85 @@
 			(project "tinyControlBoard_v2"
 				(path "/17b3aa38-6ef4-4dc4-8927-0b68076a78f2"
 					(reference "R18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 322.58 205.74 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3866769a-d63f-4794-8c14-3013e67c5fcf")
+		(property "Reference" "#FLG02"
+			(at 320.675 205.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 318.77 205.7399 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 322.58 205.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 322.58 205.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 322.58 205.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "60eb6c6e-753c-4dd9-9429-5eb3b67ee8f8")
+		)
+		(instances
+			(project "tinyControlBoard_v2"
+				(path "/17b3aa38-6ef4-4dc4-8927-0b68076a78f2"
+					(reference "#FLG02")
 					(unit 1)
 				)
 			)
@@ -26455,147 +26259,6 @@
 		)
 	)
 	(symbol
-		(lib_id "NewSamsys:S2761-46R")
-		(at 256.54 299.72 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "479782d3-4e1f-44ee-9412-4761ae4ca6db")
-		(property "Reference" "TP4"
-			(at 273.05 298.4499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "S2761-46R"
-			(at 273.05 300.9899 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 273.05 394.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.fr/ProductDetail/Harwin/S2761-46R?qs=DaxoyN%2FvrebHvZaagZ7Fog%3D%3D"
-			(at 273.05 494.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "Circuit Board Hardware - PCB SMT Mini Test Terminal, Reel"
-			(at 256.54 299.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" "1.15"
-			(at 273.05 694.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Part Number" "855-S2761-46R"
-			(at 273.05 794.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Harwin/S2761-46R?qs=DaxoyN%2FvrebHvZaagZ7Fog%3D%3D"
-			(at 273.05 894.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Name" "Harwin"
-			(at 273.05 994.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Part_Number" "S2761-46R"
-			(at 273.05 1094.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "1"
-			(uuid "400226c8-d99e-4153-b38b-944fb72bdcba")
-		)
-		(instances
-			(project "tinyControlBoard_v2"
-				(path "/17b3aa38-6ef4-4dc4-8927-0b68076a78f2"
-					(reference "TP4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 38.1 278.13 0)
 		(unit 1)
@@ -26755,288 +26418,6 @@
 			(project "tinyControlBoard_v2"
 				(path "/17b3aa38-6ef4-4dc4-8927-0b68076a78f2"
 					(reference "C15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "NewSamsys:S2761-46R")
-		(at 220.98 299.72 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "483d0239-7728-4cba-b743-e329dfc4dcbb")
-		(property "Reference" "TP7"
-			(at 237.49 298.4499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "S2761-46R"
-			(at 237.49 300.9899 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 237.49 394.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.fr/ProductDetail/Harwin/S2761-46R?qs=DaxoyN%2FvrebHvZaagZ7Fog%3D%3D"
-			(at 237.49 494.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "Circuit Board Hardware - PCB SMT Mini Test Terminal, Reel"
-			(at 220.98 299.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" "1.15"
-			(at 237.49 694.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Part Number" "855-S2761-46R"
-			(at 237.49 794.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Harwin/S2761-46R?qs=DaxoyN%2FvrebHvZaagZ7Fog%3D%3D"
-			(at 237.49 894.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Name" "Harwin"
-			(at 237.49 994.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Part_Number" "S2761-46R"
-			(at 237.49 1094.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "1"
-			(uuid "f71bd6b1-4996-4de0-8190-55f50ba58043")
-		)
-		(instances
-			(project "tinyControlBoard_v2"
-				(path "/17b3aa38-6ef4-4dc4-8927-0b68076a78f2"
-					(reference "TP7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "NewSamsys:S2761-46R")
-		(at 295.91 300.99 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4a4242f5-be08-4c89-9690-90bd2d2b718f")
-		(property "Reference" "TP6"
-			(at 312.42 299.7199 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "S2761-46R"
-			(at 312.42 302.2599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 312.42 395.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.fr/ProductDetail/Harwin/S2761-46R?qs=DaxoyN%2FvrebHvZaagZ7Fog%3D%3D"
-			(at 312.42 495.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "Circuit Board Hardware - PCB SMT Mini Test Terminal, Reel"
-			(at 295.91 300.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" "1.15"
-			(at 312.42 695.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Part Number" "855-S2761-46R"
-			(at 312.42 795.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Harwin/S2761-46R?qs=DaxoyN%2FvrebHvZaagZ7Fog%3D%3D"
-			(at 312.42 895.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Name" "Harwin"
-			(at 312.42 995.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Part_Number" "S2761-46R"
-			(at 312.42 1095.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "1"
-			(uuid "87f5b008-8834-4fd6-9906-1246dbee4e6c")
-		)
-		(instances
-			(project "tinyControlBoard_v2"
-				(path "/17b3aa38-6ef4-4dc4-8927-0b68076a78f2"
-					(reference "TP6")
 					(unit 1)
 				)
 			)
@@ -27467,84 +26848,6 @@
 			(project "tinyControlBoard_v2"
 				(path "/17b3aa38-6ef4-4dc4-8927-0b68076a78f2"
 					(reference "SW10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 322.58 252.73 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "51ad3019-a169-4843-8f5c-2a92e958419d")
-		(property "Reference" "#PWR016"
-			(at 322.58 259.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 322.58 257.81 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 322.58 252.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 322.58 252.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 322.58 252.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e4432548-4488-4b1c-b93a-986c99cb1fc0")
-		)
-		(instances
-			(project "tinyControlBoard_v2"
-				(path "/17b3aa38-6ef4-4dc4-8927-0b68076a78f2"
-					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -31673,172 +30976,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED_Small")
-		(at 322.58 243.84 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "82a3d078-79f5-484a-a524-2de95f789036")
-		(property "Reference" "D4"
-			(at 325.12 241.3 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LS_R976"
-			(at 325.12 245.0464 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "samsys:LEDC2012X40N"
-			(at 416.23 231.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.co.uk/datasheet/2/588/asset_pdf_5057921-3418987.pdf"
-			(at 516.23 231.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Description" "Red 0805 CHIPLED LS R976N-R102 Osram Opto LS R976, CHIPLED 0805 Series Red LED, 633 nm, 2012 (0805), Rectangle Lens SMD Package"
-			(at 322.58 243.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" "0.4"
-			(at 716.23 231.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Mouser Part Number" "720-LSR976D5178"
-			(at 816.23 231.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/OSRAM-Opto-Semiconductors/LS-R976?qs=OIr7YF%252B2cWVTfzKl425Fkw%3D%3D"
-			(at 916.23 231.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Manufacturer_Name" "ams OSRAM"
-			(at 1016.23 231.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Manufacturer_Part_Number" "LS R976"
-			(at 1116.23 231.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Mfr" ""
-			(at 322.58 243.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "mouser" ""
-			(at 322.58 243.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "b4caeef4-0320-4567-a3b8-eb86ef7a14c8")
-		)
-		(pin "1"
-			(uuid "abf07c35-9c46-46e8-aa57-ca662d18bf50")
-		)
-		(instances
-			(project "tinyControlBoard_v2"
-				(path "/17b3aa38-6ef4-4dc4-8927-0b68076a78f2"
-					(reference "D4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 127 247.65 0)
 		(unit 1)
@@ -34614,88 +33751,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 322.58 237.49 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a08fb029-b22e-4e01-95fc-dd69c0cc7b20")
-		(property "Reference" "R27"
-			(at 325.12 236.2199 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "R300"
-			(at 325.12 238.7599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 320.802 237.49 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 322.58 237.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 322.58 237.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4432ee9b-6d2d-4982-b910-cea9c1b9f06e")
-		)
-		(pin "2"
-			(uuid "25604a37-1754-42bd-91e1-1030a030edb7")
-		)
-		(instances
-			(project "tinyControlBoard_v2"
-				(path "/17b3aa38-6ef4-4dc4-8927-0b68076a78f2"
-					(reference "R27")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 260.35 236.22 0)
 		(unit 1)
@@ -35190,147 +34245,6 @@
 		)
 	)
 	(symbol
-		(lib_id "NewSamsys:S2761-46R")
-		(at 256.54 307.34 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a9f21a3a-0827-428f-928d-e970ab509019")
-		(property "Reference" "TP5"
-			(at 273.05 306.0699 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "S2761-46R"
-			(at 273.05 308.6099 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 273.05 402.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.fr/ProductDetail/Harwin/S2761-46R?qs=DaxoyN%2FvrebHvZaagZ7Fog%3D%3D"
-			(at 273.05 502.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "Circuit Board Hardware - PCB SMT Mini Test Terminal, Reel"
-			(at 256.54 307.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" "1.15"
-			(at 273.05 702.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Part Number" "855-S2761-46R"
-			(at 273.05 802.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Harwin/S2761-46R?qs=DaxoyN%2FvrebHvZaagZ7Fog%3D%3D"
-			(at 273.05 902.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Name" "Harwin"
-			(at 273.05 1002.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Part_Number" "S2761-46R"
-			(at 273.05 1102.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "1"
-			(uuid "0890dc41-b7e7-4eca-973d-c4948ce3c5a3")
-		)
-		(instances
-			(project "tinyControlBoard_v2"
-				(path "/17b3aa38-6ef4-4dc4-8927-0b68076a78f2"
-					(reference "TP5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:LED_Small")
 		(at 130.81 241.3 90)
 		(unit 1)
@@ -35693,7 +34607,7 @@
 				)
 			)
 		)
-		(property "Footprint" "samsys:ERJH3"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 576.25 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -37706,147 +36620,6 @@
 			(project "tinyControlBoard_v2"
 				(path "/17b3aa38-6ef4-4dc4-8927-0b68076a78f2"
 					(reference "TP2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "NewSamsys:S2761-46R")
-		(at 220.98 306.07 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c64904d1-fcb3-4839-bd85-b7f97aa5a911")
-		(property "Reference" "TP8"
-			(at 237.49 304.7999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "S2761-46R"
-			(at 237.49 307.3399 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 237.49 400.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.fr/ProductDetail/Harwin/S2761-46R?qs=DaxoyN%2FvrebHvZaagZ7Fog%3D%3D"
-			(at 237.49 500.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "Circuit Board Hardware - PCB SMT Mini Test Terminal, Reel"
-			(at 220.98 306.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" "1.15"
-			(at 237.49 700.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Part Number" "855-S2761-46R"
-			(at 237.49 800.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Harwin/S2761-46R?qs=DaxoyN%2FvrebHvZaagZ7Fog%3D%3D"
-			(at 237.49 900.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Name" "Harwin"
-			(at 237.49 1000.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Part_Number" "S2761-46R"
-			(at 237.49 1100.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "1"
-			(uuid "c89c4da3-168c-4596-8d77-49bc6138ece3")
-		)
-		(instances
-			(project "tinyControlBoard_v2"
-				(path "/17b3aa38-6ef4-4dc4-8927-0b68076a78f2"
-					(reference "TP8")
 					(unit 1)
 				)
 			)

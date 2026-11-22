@@ -17,7 +17,7 @@
         "copper_text_upright": false,
         "courtyard_line_width": 0.05,
         "dimension_precision": 4,
-        "dimension_units": 3,
+        "dimension_units": 0,
         "dimensions": {
           "arrow_length": 1270000,
           "extension_offset": 500000,
@@ -65,7 +65,7 @@
           "min_thickness": 0.25,
           "pad_connection": 1,
           "remove_islands": 0,
-          "thermal_relief_gap": 0.5,
+          "thermal_relief_gap": 0.25,
           "thermal_relief_spoke_width": 0.5
         }
       },
@@ -158,7 +158,7 @@
         "min_resolved_spokes": 2,
         "min_silk_clearance": 0.0,
         "min_text_height": 1.0,
-        "min_text_thickness": 1.15,
+        "min_text_thickness": 0.15,
         "min_through_hole_diameter": 0.3,
         "min_track_width": 0.0,
         "min_via_annular_width": 0.1,
@@ -844,7 +844,7 @@
         "uuid": "17b3aa38-6ef4-4dc4-8927-0b68076a78f2"
       }
     ],
-    "used_designators": "IC8,R15,R18,R20-38,#FLG2,#FLG5-7,K1-12,C1,C14-17,D4-10,#PWR12,#PWR14,#PWR16,#PWR19,#PWR54-59,U2,J2,J4-7,J9,SW1-14",
+    "used_designators": "IC8,R15,R18,R20-38,#FLG2,#FLG5-7,K1-12,C1,C14-17,D4-10,#PWR12,#PWR14,#PWR16,#PWR19,#PWR36,#PWR43,#PWR49-50,#PWR54-59,U2,J2,J4-7,J9-10,SW1-14",
     "variants": []
   },
   "sheets": [
