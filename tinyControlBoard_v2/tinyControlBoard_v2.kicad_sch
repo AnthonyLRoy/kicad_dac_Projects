@@ -19045,7 +19045,7 @@
 		)
 		(uuid "2c9ee93c-ec1d-49e0-a36b-bc8837c4ada4")
 	)
-	(label "Gen_1_on"
+	(label "Gen_1_on_ext"
 		(at 379.73 80.01 0)
 		(effects
 			(font
@@ -19225,7 +19225,7 @@
 		)
 		(uuid "402dc947-d675-40d6-a5e2-0a727df89d08")
 	)
-	(label "screen_on"
+	(label "screen_on_ext"
 		(at 383.54 111.76 0)
 		(effects
 			(font
@@ -19345,7 +19345,7 @@
 		)
 		(uuid "48277f5b-f157-4b2a-b6e8-181f6bfd798c")
 	)
-	(label "rpi_power_on"
+	(label "rpi_power_on_ext"
 		(at 392.43 162.56 180)
 		(effects
 			(font
@@ -20015,7 +20015,7 @@
 		)
 		(uuid "932335b2-a31f-452c-a108-0dc3c34846e0")
 	)
-	(label "output_power_on"
+	(label "output_power_on_ext"
 		(at 379.73 190.5 0)
 		(effects
 			(font
@@ -20185,7 +20185,7 @@
 		)
 		(uuid "a2c63030-96d0-4343-8bdf-d4054f51f387")
 	)
-	(label "Gen2_on"
+	(label "Gen2_on_ext"
 		(at 381 213.36 0)
 		(effects
 			(font
@@ -21085,7 +21085,7 @@
 		)
 		(uuid "ff966ddb-8862-4764-8320-c6c3fa298007")
 	)
-	(label "dac_power_on"
+	(label "dac_power_on_ext"
 		(at 381 134.62 0)
 		(effects
 			(font
